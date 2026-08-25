@@ -1,0 +1,380 @@
+- generic [active] [ref=f46e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=f46e2]:
+    - generic [ref=f46e3]:
+      - generic [ref=f46e143]:
+        - link "百度首页" [ref=f46e144] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=f46e145] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=f46e146] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+      - generic [ref=f46e23]:
+        - generic:
+          - link [ref=f46e147] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=f46e148]
+          - generic [ref=f46e151]:
+            - textbox [ref=f46e153]: "!@#$%^&*()"
+            - generic [ref=f46e155]:
+              - generic [ref=f46e156]:
+                - generic [ref=f46e157] [cursor=pointer]
+                - generic [ref=f46e162] [cursor=pointer]
+                - generic [ref=f46e171]:
+                  - generic [ref=f46e172] [cursor=pointer]
+                  - generic [ref=f46e177] [cursor=pointer]
+              - button "百度一下" [ref=f46e184] [cursor=pointer]
+    - generic [ref=f46e188]:
+      - link [ref=f46e189] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%21%40%23%24%25%5E%26%2A%28%29&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2211395410274881069002%22%2C%22ori_lid%22%3A%2211395410274881069002%22%7D
+      - generic [ref=f46e191]: 网页
+      - link "图片" [ref=f46e192] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=9e24a145001f5fca&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%21%40%23%24%25%5E%26%2A%28%29
+      - link "资讯" [ref=f46e193] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%21%40%23%24%25%5E%26%2A%28%29
+      - link "视频" [ref=f46e194] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&%2A%28%29=&tn=vsearch&lid=9e24a145001f5fca&ie=utf-8&wd=%21%40%23%24%25%5E%26%2A%28%29&rsv_spt=7&rsv_bp=1&f=8&oq=%21%40%23%24%25%5E%26%2A%28%29&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg
+      - link "笔记" [ref=f46e195] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%21%40%23%24%25%5E%26%2A%28%29
+      - link "地图" [ref=f46e196] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%21%40%23%24%25%5E%26%2A%28%29
+      - link "贴吧" [ref=f46e197] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%21%40%23%24%25%5E%26%2A%28%29
+      - link "文库" [ref=f46e198] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%21%40%23%24%25%5E%26%2A%28%29
+      - link "更多" [ref=f46e199] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=f46e200] [cursor=pointer]: 搜索工具
+    - generic [ref=f46e201]:
+      - generic [ref=f46e202]:
+        - table [ref=f46e204]:
+          - rowgroup [ref=f46e205]:
+            - row [ref=f46e206]:
+              - cell "   换一换 热搜榜 民生榜 财经榜  习近平同约旦国王阿卜杜拉二世会谈 1 中学施发型令：不合格不让进校门 2 央视曝光后 沈阳等多地接连通报 热 3 中国机器人连刷人类世界纪录 4 厨房纸到底能不能擦吃的 热 5 央媒评湖南扶老人被索赔事件 热 6 婚礼第二天新娘指纹被爸爸删掉 7 中央气象台对台风艾莎尼停止编号 新 8 官方确认帮扶老人遭索赔店主不担责 热 9 韩指日内跌超4% SK海力士跌超6% 10 建议这个年龄前开始控糖 很多人晚了 11 “被蚊子咬可能得艾滋”不实 12 印度去世乞丐家中发现30多麻袋现金 13 美政府宣布对伊朗经济制裁措施 14 人民日报曝光当天 腾冲成立工作组 15 10万内的电车越来越强 你还看油车吗" [ref=f46e207]:
+                - generic [ref=f46e212]:
+                  - generic "百度热搜" [ref=f46e213]:
+                    - link " " [ref=f46e214] [cursor=pointer]:
+                      - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                      - generic [ref=f46e215]: 
+                      - generic [ref=f46e216]: 
+                    - link " 换一换" [ref=f46e218] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f46e219]: 
+                      - text: 换一换
+                  - generic [ref=f46e220]:
+                    - generic [ref=f46e221] [cursor=pointer]: 热搜榜
+                    - generic [ref=f46e222] [cursor=pointer]: 民生榜
+                    - generic [ref=f46e223] [cursor=pointer]: 财经榜
+                  - generic [ref=f46e225]:
+                    - generic [ref=f46e227]:
+                      - generic [ref=f46e228]: 
+                      - link "习近平同约旦国王阿卜杜拉二世会谈" [ref=f46e230] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e232]:
+                      - generic [ref=f46e233]: "1"
+                      - link "中学施发型令：不合格不让进校门" [ref=f46e234] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e236]:
+                      - generic [ref=f46e237]: "2"
+                      - link "央视曝光后 沈阳等多地接连通报" [ref=f46e238] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E%20%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f46e239]: 热
+                    - generic [ref=f46e241]:
+                      - generic [ref=f46e242]: "3"
+                      - link "中国机器人连刷人类世界纪录" [ref=f46e243] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e245]:
+                      - generic [ref=f46e246]: "4"
+                      - link "厨房纸到底能不能擦吃的" [ref=f46e247] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f46e248]: 热
+                    - generic [ref=f46e250]:
+                      - generic [ref=f46e251]: "5"
+                      - link "央媒评湖南扶老人被索赔事件" [ref=f46e252] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f46e253]: 热
+                    - generic [ref=f46e255]:
+                      - generic [ref=f46e256]: "6"
+                      - link "婚礼第二天新娘指纹被爸爸删掉" [ref=f46e257] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e259]:
+                      - generic [ref=f46e260]: "7"
+                      - link "中央气象台对台风艾莎尼停止编号" [ref=f46e261] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f46e262]: 新
+                    - generic [ref=f46e264]:
+                      - generic [ref=f46e265]: "8"
+                      - link "官方确认帮扶老人遭索赔店主不担责" [ref=f46e266] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=900afAP9FLeWqvvymui3JZ0ZwBwATYOiIA8%2FP02pFnp%2F8eNIpy4WyaPT27Y&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f46e267]: 热
+                    - generic [ref=f46e269]:
+                      - generic [ref=f46e270]: "9"
+                      - link "韩指日内跌超4% SK海力士跌超6%" [ref=f46e271] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25%20SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e273]:
+                      - generic [ref=f46e274]: "10"
+                      - link "建议这个年龄前开始控糖 很多人晚了" [ref=f46e275] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%BB%BA%E8%AE%AE%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%E5%89%8D%E5%BC%80%E5%A7%8B%E6%8E%A7%E7%B3%96%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E6%99%9A%E4%BA%86&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e277]:
+                      - generic [ref=f46e278]: "11"
+                      - link "“被蚊子咬可能得艾滋”不实" [ref=f46e279] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e281]:
+                      - generic [ref=f46e282]: "12"
+                      - link "印度去世乞丐家中发现30多麻袋现金" [ref=f46e283] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8D%B0%E5%BA%A6%E5%8E%BB%E4%B8%96%E4%B9%9E%E4%B8%90%E5%AE%B6%E4%B8%AD%E5%8F%91%E7%8E%B030%E5%A4%9A%E9%BA%BB%E8%A2%8B%E7%8E%B0%E9%87%91&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e285]:
+                      - generic [ref=f46e286]: "13"
+                      - link "美政府宣布对伊朗经济制裁措施" [ref=f46e287] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e289]:
+                      - generic [ref=f46e290]: "14"
+                      - link "人民日报曝光当天 腾冲成立工作组" [ref=f46e291] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9%20%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f46e293]:
+                      - generic [ref=f46e294]: "15"
+                      - link "10万内的电车越来越强 你还看油车吗" [ref=f46e295] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=10%E4%B8%87%E5%86%85%E7%9A%84%E7%94%B5%E8%BD%A6%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%BC%BA%20%E4%BD%A0%E8%BF%98%E7%9C%8B%E6%B2%B9%E8%BD%A6%E5%90%97&fenlei=256&ie=utf-8&rsv_pq=9e24a145001f5fca&oq=!%40%23%24%25%5E%26*()&rsv_t=0eed9yeYhyjB%2FWc7%2BopNUzBZ7Bh3QLP1VNwkxlF%2FzpmzwQUNvIppdsBw2ng&rqid=9e24a145001f5fca&rsf=8e09fec6b0c05d5d0796cf70becf3ecc_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+        - generic [ref=f46e296]:
+          - generic [ref=f46e300]:
+            - generic [ref=f46e302]:
+              - heading [level=3] [ref=f46e303]:
+                - link [ref=f46e304] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=qKV-aweXr1-S8cFzUhrOMp6Rahq4NshXtqkjPSWgUag37rWGixkb_DOVdUwGGfsURXH597jgQiGnV682SDl6Oe9LmMEzXzGw4osolb7hDIYAN0dG_NcoFaOD5ZrFR8FZffmCWpkL_5CkksvHK5ADq_
+                  - generic [ref=f46e306]:
+                    - text: "符号打字练习请将以下符号打出,并注意使用正确的按键:"
+                    - emphasis [ref=f46e307]: "!@#$%^&*"
+                    - text: ...
+              - link [ref=f46e308] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=qKV-aweXr1-S8cFzUhrOMp6Rahq4NshXtqkjPSWgUag37rWGixkb_DOVdUwGGfsURXH597jgQiGnV682SDl6Oe9LmMEzXzGw4osolb7hDIYAN0dG_NcoFaOD5ZrFR8FZffmCWpkL_5CkksvHK5ADq_
+            - generic [ref=f46e314] [cursor=pointer]:
+              - text: "符号打字练习请将以下符号打出,并注意使用正确的按键:"
+              - emphasis [ref=f46e315]: "!@#$%^&*()"
+              - emphasis [ref=f46e316]: "!@#$%^&*()"
+              - text: "1. 题目完整性判定:需要输入的符号序列明确且完整,无缺失字符2. 符号对应键盘按键分析: - ! 对应 Shift+1 - @ 对应 Shift+2 - # 对应 Shift+3 - $ 对应 Shift+4 - % 对应 Shift+5 - ^ 对应 Shift+6 - & 对应 ..."
+            - generic [ref=f46e318]:
+              - link "百度教育" [ref=f46e321] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=qKV-aweXr1-S8cFzUhrOMp6Rahq4NshXtqkjPSWgUag37rWGixkb_DOVdUwGGfsURXH597jgQiGnV682SDl6Oe9LmMEzXzGw4osolb7hDIYAN0dG_NcoFaOD5ZrFR8FZffmCWpkL_5CkksvHK5ADq_
+                - generic [ref=f46e323]: 
+              - generic [ref=f46e329] [cursor=pointer]
+          - generic [ref=f46e334]:
+            - generic [ref=f46e336]:
+              - generic [ref=f46e337]: 
+              - heading [level=3] [ref=f46e338]:
+                - link [ref=f46e339] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQQz9BXzr5RreNzRplOOIOa0eROicekxxSXiRB3IEZQM7zMSvbXtA8E0sb09sWq8GtR_rTVlwGoMsTZrz72GuM6noBEon6eZIkDqsMub6qldi
+                  - generic [ref=f46e341]:
+                    - text: "请将以下符号打出,并注意使用正确的按键:"
+                    - emphasis [ref=f46e342]: "!@#$%^&()"
+                    - text: "- 百度文库"
+              - link [ref=f46e343] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQQz9BXzr5RreNzRplOOIOa0eROicekxxSXiRB3IEZQM7zMSvbXtA8E0sb09sWq8GtR_rTVlwGoMsTZrz72GuM6noBEon6eZIkDqsMub6qldi
+            - generic [ref=f46e344] [cursor=pointer]:
+              - generic [ref=f46e346]: 免费下载
+              - generic [ref=f46e347]: "2页发布时间: 2025年12月22日"
+            - generic [ref=f46e353] [cursor=pointer]:
+              - emphasis [ref=f46e354]: "!@#$%^&*()"
+              - text: 答案：本题要求准确输入一组特殊符号，这些符号均位于键盘数字键的上档位。解题关键在于掌握两个要点：1.所有符号都需要配合Shift键输入。Shift键的作用是将按键输出切换为上档字符，例如单独按2键输出数字"2"，而Shift+2输出"@"。2.符号与数字键的对应关系为：3.! - Shift+1 4.@ - Shift+2...
+            - link "百度文库" [ref=f46e359] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQQz9BXzr5RreNzRplOOIOa0eROicekxxSXiRB3IEZQM7zMSvbXtA8E0sb09sWq8GtR_rTVlwGoMsTZrz72GuM6noBEon6eZIkDqsMub6qldi
+              - generic [ref=f46e361]: 
+          - generic [ref=f46e366]:
+            - generic [ref=f46e368]:
+              - heading [level=3] [ref=f46e369]:
+                - link [ref=f46e370] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkYHZJZ4C2zXwf1Udb3V3na3RB_gJTuC3mZ-54l08tR8VHGeKKm4HK-Wh-SeytFwfZ_
+                  - generic [ref=f46e372]:
+                    - emphasis [ref=f46e373]: "!@#$%^&*()"
+                    - text: _+是什么意思 - 百度知道
+              - link [ref=f46e374] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkYHZJZ4C2zXwf1Udb3V3na3RB_gJTuC3mZ-54l08tR8VHGeKKm4HK-Wh-SeytFwfZ_
+            - generic [ref=f46e375]:
+              - link [ref=f46e377] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkYHZJZ4C2zXwf1Udb3V3na3RB_gJTuC3mZ-54l08tR8VHGeKKm4HK-Wh-SeytFwfZ_
+              - generic [ref=f46e382]:
+                - generic [ref=f46e383] [cursor=pointer]:
+                  - generic [ref=f46e384]: "3个回答 - 回答时间: 2020年8月4日"
+                  - generic [ref=f46e390]:
+                    - text: "最佳答案:"
+                    - generic [ref=f46e391]:
+                      - text: "表示由这些字符组成的0到多个字符的字符串：-[]~`"
+                      - emphasis [ref=f46e392]: "!@#$%^&*()"
+                      - text: "_+=|}{:;'/?<>,.\"\\ String ..."
+                - link "更多关于!@#$%^&*()的问题>>" [ref=f46e396] [cursor=pointer]:
+                  - /url: http://zhidao.baidu.com/q?ct=17&pn=0&tn=ikaslist&rn=10&word=%21%40%23%24%25%5E%26%2A%28%29&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+                - link "头像 百度知道" [ref=f46e401] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkYHZJZ4C2zXwf1Udb3V3na3RB_gJTuC3mZ-54l08tR8VHGeKKm4HK-Wh-SeytFwfZ_
+                  - img "头像" [ref=f46e404]
+                  - generic [ref=f46e405]: 百度知道
+                  - generic [ref=f46e406]: 
+          - generic [ref=f46e411]:
+            - generic [ref=f46e413]:
+              - heading [level=3] [ref=f46e414]:
+                - link [ref=f46e415] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0GfmgXvO6XvixAMJBGGO2gTHCRaLwNRnipZOf0ZPjYIjrqSh0ih3v_YOwHOYACEWxq
+                  - generic [ref=f46e417]:
+                    - text: ...对QueryString传参的含~
+                    - emphasis [ref=f46e418]: "!@#$%^&*"
+                    - text: 等特殊字符的处理 - freeliver54...
+              - link [ref=f46e419] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0GfmgXvO6XvixAMJBGGO2gTHCRaLwNRnipZOf0ZPjYIjrqSh0ih3v_YOwHOYACEWxq
+            - generic [ref=f46e424] [cursor=pointer]:
+              - text: 2013年12月13日
+              - generic [ref=f46e425]:
+                - text: DataId=1&DataName=abc 一般在后台通过 string dataName = Request.QueryString["DataName"]的方式 来获取传入的参数 然后var DataModel = getModelByDataName(dataName) 在DataId=1&DataName=abc时,没有特殊字符,参数接收正确,一切处理顺利 但在DataId=1&DataName=abc~
+                - emphasis [ref=f46e426]: "!@#$%^&*"
+                - text: 时,因为包含了&等特殊字符...
+            - link "博客园" [ref=f46e431] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0GfmgXvO6XvixAMJBGGO2gTHCRaLwNRnipZOf0ZPjYIjrqSh0ih3v_YOwHOYACEWxq
+              - generic [ref=f46e433]: 
+          - generic [ref=f46e438]:
+            - generic [ref=f46e440]:
+              - heading [level=3] [ref=f46e441]:
+                - link [ref=f46e442] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkKGJ35yRqxlVwOBECd2p2UswgXmCtwPuNrYfNqS78KAeyvxMdEzv-kydoxFsjBLPzq
+                  - generic [ref=f46e444]:
+                    - text: ...request 时遇到特殊字符
+                    - emphasis [ref=f46e445]: "! @ # $ % ^ & * ( )"
+                    - text: "- 今夕何夕兮 - 博客..."
+              - link [ref=f46e446] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkKGJ35yRqxlVwOBECd2p2UswgXmCtwPuNrYfNqS78KAeyvxMdEzv-kydoxFsjBLPzq
+            - generic [ref=f46e451] [cursor=pointer]:
+              - text: 2019年8月12日
+              - generic [ref=f46e452]:
+                - text: HTTP post get request 时遇到特殊字符
+                - emphasis [ref=f46e453]: "! @ # $ % ^ & * ( )"
+                - text: "使用对应的编码替代 例如: curlftp://username:pass@word@example.com 时会报错 此时将密码中的@换成%40 即可, curlftp://username:pass%40word@example.com !#$%&'()*+,/:;=?@[]..."
+            - link "博客园" [ref=f46e458] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=PBsgS46o9XSRTypFFLStkKGJ35yRqxlVwOBECd2p2UswgXmCtwPuNrYfNqS78KAeyvxMdEzv-kydoxFsjBLPzq
+              - generic [ref=f46e460]: 
+          - generic [ref=f46e465]:
+            - generic [ref=f46e467]:
+              - heading [level=3] [ref=f46e468]:
+                - link [ref=f46e469] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Ol28nI6AHVp0ZhKzjE-Y5N-FJwarFpNZ1o51xyt3hBetE1KS8S4qfLOTTFn-22mh5pLTOmwfLAsOOJwGp9mt3a
+                  - generic [ref=f46e471]:
+                    - text: "...文本中单词以空白符和可打印标点符号(包括~`"
+                    - emphasis [ref=f46e472]: "!@#$%^&*()"
+                    - text: "_-+=[]{..."
+              - link [ref=f46e473] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=Ol28nI6AHVp0ZhKzjE-Y5N-FJwarFpNZ1o51xyt3hBetE1KS8S4qfLOTTFn-22mh5pLTOmwfLAsOOJwGp9mt3a
+            - generic [ref=f46e478] [cursor=pointer]:
+              - text: 2025年6月2日
+              - generic [ref=f46e479]:
+                - emphasis [ref=f46e480]: "@#$%^&*()"
+                - text: 这些。所以分割单词的时候,需要用这些标点作为分隔符。但要注意,这些标点可能出现在单词周围,比如“voice(noise)”中的括号,应该分割成voice和noise两个单词。然后,单词必须以字母开头,单个字母除了i和o不算。比如“a”或者“b”这样的单个字母,除非是i或o,否则不被视为单词。因此,在分割之后,需要...
+            - link "博客" [ref=f46e485] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=Ol28nI6AHVp0ZhKzjE-Y5N-FJwarFpNZ1o51xyt3hBetE1KS8S4qfLOTTFn-22mh5pLTOmwfLAsOOJwGp9mt3a
+              - generic [ref=f46e487]: 
+          - generic [ref=f46e492]:
+            - generic [ref=f46e494]:
+              - heading [level=3] [ref=f46e495]:
+                - link [ref=f46e496] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQWmCZo2SthbnjYXhHTCdME9QhklO6PnDLC4yuBJ8AAy5e7D16sXSA50fKRAE7ynodj4pxG5DULzb_0qFdlpPvO7
+                  - generic [ref=f46e498]:
+                    - text: "@!"
+                    - emphasis [ref=f46e499]: "#$%^&*(!@#$%^"
+                    - text: ^&*这是什么意思? - 知乎
+              - link [ref=f46e500] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQWmCZo2SthbnjYXhHTCdME9QhklO6PnDLC4yuBJ8AAy5e7D16sXSA50fKRAE7ynodj4pxG5DULzb_0qFdlpPvO7
+            - generic [ref=f46e505] [cursor=pointer]:
+              - text: 2021年4月29日
+              - generic [ref=f46e506]:
+                - text: "@!"
+                - emphasis [ref=f46e507]: "#$%^&*(!@#$%^"
+                - text: ^&*这是什么意思?这串字符的意思是：你个木鱼疙瘩，什么都不懂，不想再理你了！兄弟
+            - link "头像 知乎" [ref=f46e512] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=bnRlJcwDapdCvuAECwwwQWmCZo2SthbnjYXhHTCdME9QhklO6PnDLC4yuBJ8AAy5e7D16sXSA50fKRAE7ynodj4pxG5DULzb_0qFdlpPvO7
+              - img "头像" [ref=f46e515]
+              - generic [ref=f46e516]: 知乎
+              - generic [ref=f46e517]: 
+          - generic [ref=f46e522]:
+            - generic [ref=f46e524]:
+              - heading [level=3] [ref=f46e525]:
+                - link "密码校验常见特殊符号_密码校验特殊字符是哪些-CSDN博客" [ref=f46e526] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=wxcgRVV4EsZKXt86KiEqY1w_YzQsLdx56oPAB491o62nrui9GCaeJe4gEzyfKnu7C5hXTBQAHC-GPeOmsgN9QcM-DE9mX3fFaMmJW0t0Utm
+              - link [ref=f46e529] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=wxcgRVV4EsZKXt86KiEqY1w_YzQsLdx56oPAB491o62nrui9GCaeJe4gEzyfKnu7C5hXTBQAHC-GPeOmsgN9QcM-DE9mX3fFaMmJW0t0Utm
+            - generic [ref=f46e534] [cursor=pointer]:
+              - text: 2020年5月25日
+              - generic [ref=f46e535]:
+                - text: 密码校验常见特殊符号 博客提及密码校验时常见的特殊符号,包括 ~
+                - emphasis [ref=f46e536]: "!@#$%^&*"
+                - text: "?_- 等,与信息技术中密码校验相关。 密码校验常见特殊符号: ~"
+                - emphasis [ref=f46e537]: "!@#$%^&*"
+                - text: "?_-"
+            - link "头像 CSDN博客" [ref=f46e542] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=wxcgRVV4EsZKXt86KiEqY1w_YzQsLdx56oPAB491o62nrui9GCaeJe4gEzyfKnu7C5hXTBQAHC-GPeOmsgN9QcM-DE9mX3fFaMmJW0t0Utm
+              - img "头像" [ref=f46e545]
+              - generic [ref=f46e546]: CSDN博客
+              - generic [ref=f46e547]: 
+          - generic [ref=f46e552]:
+            - generic [ref=f46e554]:
+              - heading [level=3] [ref=f46e555]:
+                - link "电脑键盘上特殊符号和标点符号名称怎么输入-太平洋IT百科" [ref=f46e556] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Q5yTt4DYEzMXIenmUy6-A74HgN8V_2bcko4AzwNHIovesX-kYDzg5GP_z2k1OyJKuxgfr-vZPezTB4bEIu_6EVJj1Q0VfOpYhmMCRhgn4z7
+              - link [ref=f46e559] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=Q5yTt4DYEzMXIenmUy6-A74HgN8V_2bcko4AzwNHIovesX-kYDzg5GP_z2k1OyJKuxgfr-vZPezTB4bEIu_6EVJj1Q0VfOpYhmMCRhgn4z7
+            - generic [ref=f46e564] [cursor=pointer]:
+              - text: 2017年3月20日
+              - generic [ref=f46e565]:
+                - emphasis [ref=f46e566]: "@#$%^&* ()"
+                - text: _+| 符号。 4、如输入 $、^、( )、_等符号,在英文状态下按住Shift+4(6、9、0、_)键就可以输入$、^、( )、_符号。 5、中文状态下输入的是:～!@#￥%……&*()——+|; 英文状态下输入的是:～
+                - emphasis [ref=f46e567]: "!@#$%^&*()"
+                - text: _+|; 二者不同的是:键4、键6、键9、键10和键 _ 。
+            - link "太平洋科技" [ref=f46e572] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=Q5yTt4DYEzMXIenmUy6-A74HgN8V_2bcko4AzwNHIovesX-kYDzg5GP_z2k1OyJKuxgfr-vZPezTB4bEIu_6EVJj1Q0VfOpYhmMCRhgn4z7
+              - generic [ref=f46e574]: 
+          - generic [ref=f46e579]:
+            - generic [ref=f46e581]:
+              - heading [level=3] [ref=f46e582]:
+                - link "python特殊符号如何打出来 – PingCode" [ref=f46e583] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0HGnRl5MI8OojFQsWk-JbgZWiShLVhtqE62tmc6yaUU07cRDSj1cVEzstNPt6msbjq
+              - link [ref=f46e586] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0HGnRl5MI8OojFQsWk-JbgZWiShLVhtqE62tmc6yaUU07cRDSj1cVEzstNPt6msbjq
+            - generic [ref=f46e587]:
+              - link [ref=f46e589] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0HGnRl5MI8OojFQsWk-JbgZWiShLVhtqE62tmc6yaUU07cRDSj1cVEzstNPt6msbjq
+              - generic [ref=f46e594]:
+                - generic [ref=f46e601] [cursor=pointer]:
+                  - text: "# 使用键盘组合键直接输入 print(\"Special symbols:"
+                  - emphasis [ref=f46e602]: "@ # $ % ^ & * ( )"
+                  - text: "\")"
+                - link "PingCode" [ref=f46e607] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=8OszCqaaF-vb2uA7edpM0HGnRl5MI8OojFQsWk-JbgZWiShLVhtqE62tmc6yaUU07cRDSj1cVEzstNPt6msbjq
+                  - generic [ref=f46e609]: 
+      - generic [ref=f46e613]:
+        - link:
+          - /url: ""
+        - strong [ref=f46e614]:
+          - generic [ref=f46e615]: "1"
+        - link "2" [ref=f46e616] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=10&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "3" [ref=f46e618] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=20&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "4" [ref=f46e620] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=30&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "5" [ref=f46e622] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=40&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "6" [ref=f46e624] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=50&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "7" [ref=f46e626] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=60&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "8" [ref=f46e628] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=70&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "9" [ref=f46e630] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=80&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link "10" [ref=f46e632] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=90&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=
+        - link [ref=f46e634] [cursor=pointer]:
+          - /url: /s?wd=%21%40%23%24%25%5E%26%2A%28%29&pn=10&oq=%21%40%23%24%25%5E%26%2A%28%29&ie=utf-8&fenlei=256&rsv_idx=1&rsv_pq=9e24a145001f5fca&rsv_t=dc3euynBUZ05LSFkFZQtgP0ZEgfKQiv7OlQB%2BT%2FtFO6%2F69i8LP3vElingYg&topic_pn=&rsv_page=1
+      - generic [ref=f46e639]:
+        - link "帮助" [ref=f46e640] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=f46e641] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=f46e642] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=f46e643] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

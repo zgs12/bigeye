@@ -1,0 +1,671 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e143]:
+        - link "百度首页" [ref=e144] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=e145] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=e146] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+      - generic [ref=e23]:
+        - generic:
+          - link [ref=e147] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=e148]
+          - generic [ref=e151]:
+            - textbox [ref=e153]: 扶老人遭索赔10万牌馆已停业
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - generic [ref=e157] [cursor=pointer]
+                - generic [ref=e162] [cursor=pointer]
+                - generic [ref=e171]:
+                  - generic [ref=e172] [cursor=pointer]
+                  - generic [ref=e177] [cursor=pointer]
+              - button "百度一下" [ref=e184] [cursor=pointer]
+    - generic [ref=e188]:
+      - link [ref=e189] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2212750577069287340244%22%2C%22ori_lid%22%3A%2212750577069287340244%22%7D
+      - generic [ref=e191]: 网页
+      - link "图片" [ref=e192] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=b0f3264a001cf8d4&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "资讯" [ref=e193] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "视频" [ref=e194] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=b0f3264a001cf8d4&ie=utf-8&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_spt=7&rsv_bp=1&f=8&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s
+      - link "笔记" [ref=e195] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "地图" [ref=e196] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "贴吧" [ref=e197] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "文库" [ref=e198] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A
+      - link "更多" [ref=e199] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=e200] [cursor=pointer]: 搜索工具
+    - generic [ref=e201]:
+      - generic [ref=e202]:
+        - table [ref=e204]:
+          - rowgroup [ref=e205]:
+            - row [ref=e206]:
+              - cell " 登录百度帐号 交易更有保障     换一换 热搜榜 民生榜 财经榜  习近平同约旦国王阿卜杜拉二世会谈 1 中学施发型令：不合格不让进校门 2 央视曝光后 沈阳等多地接连通报 热 3 中国机器人连刷人类世界纪录 4 厨房纸到底能不能擦吃的 热 5 央媒评湖南扶老人被索赔事件 热 6 婚礼第二天新娘指纹被爸爸删掉 7 中央气象台对台风艾莎尼停止编号 新 8 官方确认帮扶老人遭索赔店主不担责 热 9 韩指日内跌超4% SK海力士跌超6% 新 10 建议这个年龄前开始控糖 很多人晚了 11 “被蚊子咬可能得艾滋”不实 12 印度去世乞丐家中发现30多麻袋现金 13 美政府宣布对伊朗经济制裁措施 14 硕士被安排打螺丝 300人被迫离职 新 15 人民日报曝光当天 腾冲成立工作组 ▶想在此推广您的产品吗? 咨询热线：400-800-8888 e.baidu.com" [ref=e207]:
+                - list [ref=e210]:
+                  - listitem [ref=e211]:
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: 
+                      - text: 登录百度帐号 交易更有保障
+                      - generic [ref=e216]: 
+                - generic [ref=e221]:
+                  - generic "百度热搜" [ref=e222]:
+                    - link " " [ref=e223] [cursor=pointer]:
+                      - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                      - generic [ref=e224]: 
+                      - generic [ref=e225]: 
+                    - link " 换一换" [ref=e227] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=e228]: 
+                      - text: 换一换
+                  - generic [ref=e229]:
+                    - generic [ref=e230] [cursor=pointer]: 热搜榜
+                    - generic [ref=e231] [cursor=pointer]: 民生榜
+                    - generic [ref=e232] [cursor=pointer]: 财经榜
+                  - generic [ref=e234]:
+                    - generic [ref=e236]:
+                      - generic [ref=e237]: 
+                      - link "习近平同约旦国王阿卜杜拉二世会谈" [ref=e239] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=3852iYj32lK2wUnz3FkRP3%2FCXZ69x1Apw2RVO1Khs5%2BHv2g0hflreSY%2FROo&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e241]:
+                      - generic [ref=e242]: "1"
+                      - link "中学施发型令：不合格不让进校门" [ref=e243] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=3852iYj32lK2wUnz3FkRP3%2FCXZ69x1Apw2RVO1Khs5%2BHv2g0hflreSY%2FROo&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e245]:
+                      - generic [ref=e246]: "2"
+                      - link "央视曝光后 沈阳等多地接连通报" [ref=e247] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E%20%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=3852iYj32lK2wUnz3FkRP3%2FCXZ69x1Apw2RVO1Khs5%2BHv2g0hflreSY%2FROo&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e248]: 热
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: "3"
+                      - link "中国机器人连刷人类世界纪录" [ref=e252] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e254]:
+                      - generic [ref=e255]: "4"
+                      - link "厨房纸到底能不能擦吃的" [ref=e256] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e257]: 热
+                    - generic [ref=e259]:
+                      - generic [ref=e260]: "5"
+                      - link "央媒评湖南扶老人被索赔事件" [ref=e261] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e262]: 热
+                    - generic [ref=e264]:
+                      - generic [ref=e265]: "6"
+                      - link "婚礼第二天新娘指纹被爸爸删掉" [ref=e266] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: "7"
+                      - link "中央气象台对台风艾莎尼停止编号" [ref=e270] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e271]: 新
+                    - generic [ref=e273]:
+                      - generic [ref=e274]: "8"
+                      - link "官方确认帮扶老人遭索赔店主不担责" [ref=e275] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e276]: 热
+                    - generic [ref=e278]:
+                      - generic [ref=e279]: "9"
+                      - link "韩指日内跌超4% SK海力士跌超6%" [ref=e280] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25%20SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e281]: 新
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: "10"
+                      - link "建议这个年龄前开始控糖 很多人晚了" [ref=e285] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%BB%BA%E8%AE%AE%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%E5%89%8D%E5%BC%80%E5%A7%8B%E6%8E%A7%E7%B3%96%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E6%99%9A%E4%BA%86&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: "11"
+                      - link "“被蚊子咬可能得艾滋”不实" [ref=e289] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e291]:
+                      - generic [ref=e292]: "12"
+                      - link "印度去世乞丐家中发现30多麻袋现金" [ref=e293] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8D%B0%E5%BA%A6%E5%8E%BB%E4%B8%96%E4%B9%9E%E4%B8%90%E5%AE%B6%E4%B8%AD%E5%8F%91%E7%8E%B030%E5%A4%9A%E9%BA%BB%E8%A2%8B%E7%8E%B0%E9%87%91&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e295]:
+                      - generic [ref=e296]: "13"
+                      - link "美政府宣布对伊朗经济制裁措施" [ref=e297] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: "14"
+                      - link "硕士被安排打螺丝 300人被迫离职" [ref=e301] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E7%A1%95%E5%A3%AB%E8%A2%AB%E5%AE%89%E6%8E%92%E6%89%93%E8%9E%BA%E4%B8%9D%20300%E4%BA%BA%E8%A2%AB%E8%BF%AB%E7%A6%BB%E8%81%8C&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e302]: 新
+                    - generic [ref=e304]:
+                      - generic [ref=e305]: "15"
+                      - link "人民日报曝光当天 腾冲成立工作组" [ref=e306] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9%20%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=17cb6hjU%2BoMOeJZNS9PRFgh2bfBO0q3W04srAuz%2Bx9OPIBMpeiAc29AcLQs&rqid=b0f3264a001cf8d4&rsf=770c4418a4bcc5e71820885263f4a27f_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=e313]:
+                  - heading [level=2] [ref=e314]:
+                    - link "▶想在此推广您的产品吗?" [ref=e315] [cursor=pointer]:
+                      - /url: https://www.baidu.com/other.php?url=K60000Kk0aiDZtgAXhDs6_OT9dXNfdWTfTQsPfZLe8gc-wLlCR92mVzWCU6oNfq6eSppnAUcVT0qxSKc3mZAcLJRDivqmPKW7uemj-f13vSIetRJamt71iJvhwqcmDskZRgS8TWL65nQj_O6TJHTE_QatVlY1IF_7PJn7W2PaJ-IFqkRf1BmCO7p5FEAsiVS_TllpSwsK2XnIzQkWW1q3Iag2Izo.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHvLq_j5znER3_ELkXcknnLzkTp4LIQw1p5iVfKdTvNzgLw4TARqn0K9u7qYXgK-5HDz0ZIEThfq0ZFWIWYs0ZNzU7qGujYkPHfzPjcYP1mL0Addgv-b5H00UNqGujYs0AdYTAkxpyfqn0KsI-qGujYs0A-bm1dribGH0ZKGujYz0APGujYYnjT0uhkY5HDkPHfs0AN3T7qYpyd-5HnzPH01PWRknW00Tv7xuhk9u1Ys0APzm1YdP10vn6&dt=1787620523&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424767
+                  - link "咨询热线：400-800-8888" [ref=e316] [cursor=pointer]:
+                    - /url: https://www.baidu.com/other.php?url=K60000Kk0aiDZtgAXMuoBNr-3CkIHU7LykrNS0TWOzuctTeO8xV_T0-82Jd2fWGrXxxLHXq0wA0fvQQmks5-fQTNQwvZUrCzSjN4kxwjYAvINkMnJUlvtcZp8JFv761g-wgE3CepA84x-fINfQZTJoKXnHXGsTSYIbiJEglqivBSu9yHzjrxT-RJbNfO5N3-rrcCGdbDlo23-JZ3fWX2j7isslkO.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHvLq_j5znER3_ELkXcknnLzkTp4LIQw1p5iVfKdTvNzgLw4TARqn0K9u7qYXgK-5HDz0ZIEThfq0ZFWIWYs0ZNzU7qGujYkPHfzPjcYP1m30Addgv-b5H00UNqGujYs0AdYTAkxpyfqn0KsI-qGujYs0A-bm1dribGH0ZKGujYz0APGujYYnjT0uhkY5HDkPHfs0AN3T7qYpyd-5HnzPH01PWRknW00Tv7xuhk9u1Ys0APzm1YYrj04Pf&dt=1787620523&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424768
+                  - link "e.baidu.com" [ref=e317] [cursor=pointer]:
+                    - /url: https://www.baidu.com/other.php?url=K60000Kk0aiDZtgAXGTTJca8uJOIyGzfcKGBoYcVeTEhlFo7EJvryRDfp7Bvd-iw4gvJC6D9Vdwg-sMIjUWyO4k6Rz0f2Bzb-4jp2FhgaWfVpBvfAwJiojCbktZNz8oSA3FJ5RpZJe-5EPuhpE-H4nsiAlg6-tySlimK2IVU9fLtxjcWkQBduV8Hz69kim5Tlbunfz-wvZLiytUzc5VVJ5B4qlCy.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHvLq_j5znER3_ELkXcknnLzkTp4LIQw1p5iVfKdTvNzgLw4TARqn0K9u7qYXgK-5HDz0ZIEThfq0ZFWIWYs0ZNzU7qGujYkPHfzPjcYP1m40Addgv-b5H00UNqGujYs0AdYTAkxpyfqn0KsI-qGujYs0A-bm1dribGH0ZKGujYz0APGujYYnjT0uhkY5HDkPHfs0AN3T7qYpyd-5HnzPH01PWRknW00Tv7xuhk9u1Ys0APzm1YkP1f3Pf&dt=1787620523&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424769
+        - generic [ref=e318]:
+          - generic [ref=e323]:
+            - heading [level=3] [ref=e327]:
+              - link "赔偿金律师-律师费怎么算-资深律师为您解答" [ref=e329] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720PGPGTBKrYBbIJkRySl813c9Byp_cvzVUtie1tiXQRgnmPRAc0suSjnabKpQ1HOlJ03AmR71b1QIAO8IS2SNcIh1jB-8nJO_2jcMqzOETCqnb2IQNPj1AhmK1qny4QclzhKHmfRJc0h6oNnVLyXVFyBMUe73O8jWHNDtG8H2LxXafzwY9-Dx_LJtu575tU7j5zgDde4e5f0V.Db_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LgQqDQCVUqHaIZSdsgtxzvxz5SKqLOYgOeHoELOqxKjs33xddtZYxzP5ti9ISOOVNgkx-znOVOllPSWTOO_xVYXvetIvyOFgjSEF445l5zqEwOvP5tHFOwOfSOjOwOfOeAeO_T54qZ4XZ1e53MjSxWOczOkrjSFbOvIZqZqjvqZl3EgKOcYxX5ekxznxtWqHOBSWtxvO1EOCESOwOD3xSkCOBT5tiESWS9qLOoSZOpznOVOllPqxO7CESZeq5LYdygxESEjOwCtZYxtj3ISMO_p2ecI5dsftx4A5SwSGOkxwSEHOVNnOVOllOdlxzOwxOkTZYxqWqjO_IMtH4xNOOm3xSk8OBux3het8yW-OQtEEkOBxCp8ZtEz8YOkrZvt5tWqjeeE3MzS8ESFS9vl53MdvIZtH4p8jqXhE6OQt5SdElltHDget5lO1xEvgxhoOfWOPSLxs1uxY2O1uUrZtvg6lcEv3UVNxzlsdnIMySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5yAGW_lLLTVOwZfmtL_OSaeIYOCyxQ3pJaT8Sz14x21lOYxrpz7dMSd7tP----MO6OvEdS1-ze8AQ1OdtXg1OgvOtaZVBBOgsqElA5_OgqO1t7X5TOOBdvyyyyyyyyyynOSjQPOoOn1SUO_wNkux-slOSkGOeAEqOgZoOeZzohSgzeIxeSM9hOx98BzONMtLHS85dquES0MeqEouYvyyuATeoEqXJzzz1xOoOvIhqMWO3QQQAU5oS9O3AXgNltVZwe2Dg4OosOeyM3XLO6u2Od5qMqTTxQODzxJXElvXZqjOpJO3EuOcOdS1qaUO_T53kxtNdKLdHzOMSEjOVxenLSdzOEYx5O6u5Skf_____zOYxl5qZSWOwOCOYxl5qZSWkO3Z4lSzki_nYQ7XeIke70.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HbsrjPxnH0kPdtznjRkg1czr7tknjD40AVG5HD0TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1Y4nj61g1DsnHIxnW0dnNtznW9xnH0krfKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqPjn3PHD&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+            - generic [ref=e330]:
+              - link [ref=e333] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720PGPGTBKrYBbIJkRySl813c9Byp_cvzVUtie1tiXQRgnmPRAc0suSjnabKpQ1HOlJ03AmR71b1QIAO8IS2SNcIh1jB-8nJO_2jcMqzOETCqnb2IQNPj1AhmK1qny4QclzhKHmfRJc0h6oNnVLyXVFyBMUe73O8jWHNDtG8H2LxXafzwY9-Dx_LJtu575tU7j5zgDde4e5f0V.Db_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LgQqDQCVUqHaIZSdsgtxzvxz5SKqLOYgOeHoELOqxKjs33xddtZYxzP5ti9ISOOVNgkx-znOVOllPSWTOO_xVYXvetIvyOFgjSEF445l5zqEwOvP5tHFOwOfSOjOwOfOeAeO_T54qZ4XZ1e53MjSxWOczOkrjSFbOvIZqZqjvqZl3EgKOcYxX5ekxznxtWqHOBSWtxvO1EOCESOwOD3xSkCOBT5tiESWS9qLOoSZOpznOVOllPqxO7CESZeq5LYdygxESEjOwCtZYxtj3ISMO_p2ecI5dsftx4A5SwSGOkxwSEHOVNnOVOllOdlxzOwxOkTZYxqWqjO_IMtH4xNOOm3xSk8OBux3het8yW-OQtEEkOBxCp8ZtEz8YOkrZvt5tWqjeeE3MzS8ESFS9vl53MdvIZtH4p8jqXhE6OQt5SdElltHDget5lO1xEvgxhoOfWOPSLxs1uxY2O1uUrZtvg6lcEv3UVNxzlsdnIMySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5yAGW_lLLTVOwZfmtL_OSaeIYOCyxQ3pJaT8Sz14x21lOYxrpz7dMSd7tP----MO6OvEdS1-ze8AQ1OdtXg1OgvOtaZVBBOgsqElA5_OgqO1t7X5TOOBdvyyyyyyyyyynOSjQPOoOn1SUO_wNkux-slOSkGOeAEqOgZoOeZzohSgzeIxeSM9hOx98BzONMtLHS85dquES0MeqEouYvyyuATeoEqXJzzz1xOoOvIhqMWO3QQQAU5oS9O3AXgNltVZwe2Dg4OosOeyM3XLO6u2Od5qMqTTxQODzxJXElvXZqjOpJO3EuOcOdS1qaUO_T53kxtNdKLdHzOMSEjOVxenLSdzOEYx5O6u5Skf_____zOYxl5qZSWOwOCOYxl5qZSWkO3Z4lSzki_nYQ7XeIke70.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HbsrjPxnH0kPdtznjRkg1czr7tknjD40AVG5HD0TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1Y4nj61g1DsnHIxnW0dnNtznW9xnH0krfKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqPjn3PHD&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - generic [ref=e339]:
+                - link "赔偿金律师 上海实力律所,专注民事刑事案件19年,免费律师在线咨询省心省力法律问题,专业民事律师团,更快更专业,快速,安全,高效解决您的法律问题." [ref=e342] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720PGPGTBKrYBbIJkRySl813c9Byp_cvzVUtie1tiXQRgnmPRAc0suSjnabKpQ1HOlJ03AmR71b1QIAO8IS2SNcIh1jB-8nJO_2jcMqzOETCqnb2IQNPj1AhmK1qny4QclzhKHmfRJc0h6oNnVLyXVFyBMUe73O8jWHNDtG8H2LxXafzwY9-Dx_LJtu575tU7j5zgDde4e5f0V.Db_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LgQqDQCVUqHaIZSdsgtxzvxz5SKqLOYgOeHoELOqxKjs33xddtZYxzP5ti9ISOOVNgkx-znOVOllPSWTOO_xVYXvetIvyOFgjSEF445l5zqEwOvP5tHFOwOfSOjOwOfOeAeO_T54qZ4XZ1e53MjSxWOczOkrjSFbOvIZqZqjvqZl3EgKOcYxX5ekxznxtWqHOBSWtxvO1EOCESOwOD3xSkCOBT5tiESWS9qLOoSZOpznOVOllPqxO7CESZeq5LYdygxESEjOwCtZYxtj3ISMO_p2ecI5dsftx4A5SwSGOkxwSEHOVNnOVOllOdlxzOwxOkTZYxqWqjO_IMtH4xNOOm3xSk8OBux3het8yW-OQtEEkOBxCp8ZtEz8YOkrZvt5tWqjeeE3MzS8ESFS9vl53MdvIZtH4p8jqXhE6OQt5SdElltHDget5lO1xEvgxhoOfWOPSLxs1uxY2O1uUrZtvg6lcEv3UVNxzlsdnIMySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5yAGW_lLLTVOwZfmtL_OSaeIYOCyxQ3pJaT8Sz14x21lOYxrpz7dMSd7tP----MO6OvEdS1-ze8AQ1OdtXg1OgvOtaZVBBOgsqElA5_OgqO1t7X5TOOBdvyyyyyyyyyynOSjQPOoOn1SUO_wNkux-slOSkGOeAEqOgZoOeZzohSgzeIxeSM9hOx98BzONMtLHS85dquES0MeqEouYvyyuATeoEqXJzzz1xOoOvIhqMWO3QQQAU5oS9O3AXgNltVZwe2Dg4OosOeyM3XLO6u2Od5qMqTTxQODzxJXElvXZqjOpJO3EuOcOdS1qaUO_T53kxtNdKLdHzOMSEjOVxenLSdzOEYx5O6u5Skf_____zOYxl5qZSWOwOCOYxl5qZSWkO3Z4lSzki_nYQ7XeIke70.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HbsrjPxnH0kPdtznjRkg1czr7tknjD40AVG5HD0TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1Y4nj61g1DsnHIxnW0dnNtznW9xnH0krfKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqPjn3PHD&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "本月7156人已咨询相关问题 点击咨询" [ref=e347] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ju8HylC267D5heO7NfgX90rvik3DXaywwRTGQ-N40aHUgiKt6peBq53FLvP9bPdNzvo5k01kyGd2SHs-R_BKn1dj1iBYtg8aS4W9byrc-TxxOBGRKPHL9qxzIHDZuefOtcSWqg_8rHOiq5rcFQM6-rn8uoK8tX5NsppMhhhh3HPUSk7M8UfNgfYwxq1Tw5eGcITm2Q0waBt.7R_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lLLTEYmhcEL3xdOhOx_8OPgS9ZSUq8O9hzOCNOhzvT54_EKYwxVsLpJOZCBOx_WdNtZw7SOuZ7SLjv1umXA2EHklsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mvTT-p6.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5Hczr7tknjDLg1csPH7xnH0krNt4nj610AVG5HD0TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YznW9xnH0kPdtznjRkg1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1TdrjD&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - generic [ref=e348]: 本月7156人已咨询相关问题
+                  - generic [ref=e350]: 点击咨询
+            - generic [ref=e356]:
+              - link "同城律师" [ref=e357] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link "上海陆同律师事务所" [ref=e359] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link "2026-08" [ref=e360] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link "" [ref=e361] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link "广告" [ref=e364] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link [ref=e365] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720cgr_wou3bIVKbCn4fhrBCQVsz-ACUvV3YCieL6ma4euTidf3YVDfsrIpEfxkLJSIErrQFQWxU3kn__1mA2eSkvY-3WKBQHF56buI4qRs7ByKqQTP9nnIdmqOPlaVX6jr0rxH8xRatPq9-DYo1SlqgBfIS7fG1ys-ddF_QwSc_7HrIi73_CVbb-aEeCtAU5kLlsT2IKjR_rw.7b_NR2Ar5Od66u8utovTyKDDUlamrjQs1Fd53mAIimJZISMDkbeQCpOZ__ozplYlShq5WYlS5Zub8de8MxYq-LySe-SWDk7SOjSEtLeq-L4JOYcO1xVLtnvgqaEtvy19OP-3rBQq8AeNg3qDgeqbXJE6lcELec3Ev3XvUQjskNlX5ggBmBOx9OgSUqSzetdxlDx4EveSAUQS9gSUQusOhztZw7SLjIJoSgyAGW_lsdnIMySe-ElcljZhqMOsgU8Mqa14xjNfH-LvyxQ4yxgSW41yf8_OvCE9_____OtZSdSEvT8gIskXxSEWzSxlSLO6fq_RglSZVOfkqMlOESx6okeMOty8zzzzzzzzzzkMOsuuEqx4hx1xqB28QQt8ZgOvP5OmdOEl3qxOmSNTLzSgUoOxYtnLetPYygl_OhlxdkSEoPOsDOxVqUrhzz1c1MIIOodyyyyUOqxS1_L_txOKuum1uqxY5O01zlEg-Cl5ufBO5qXZOpYOjvOtjFgSGO_OoWW4x3hHqHdOy1sOCxeNgO7e54ZSEvxCHxqW9OAQOB8CrSJXgtOd3xqoOuhOv8gqSW4OtjFOv27----hgSWOwOCOYxl5qZSWOwOCOYX5O0O5gvy2N9h9mlXzExER.U1Yk0ZDqVOU01tWQdrQQqtgBnHjPt_gA8ILiYTvWYoR0TA-W5HD0IjL73or-ExjazTJh0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqn6KWpyfqPj0L0AdY5HDsnHIxnW0dnNtznW9xnH0krNt4nj610AVG5H00TMfqrjb40AFG5HDdr7tznjwxrj01PsKVm1YknjDLg1csPH7xnWc3g1DsnH-xrH03nsKkTA-b5H00TyPGujYs0ZFMIA7M5H00Uh7GujYs0A49IZ0qn0KWIyfqPjc4njmsn1Rk0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0dn6KYIgnqPjf1nWfvrjRvP1ndn10kPHmYr0Kzug7Y5HDLrjTvnW0dnWnzn1T0pynqn0K1pyfqmWKhn1cvPADsnj7WuW9bP0KWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5H00mMub5Hc0uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujYkPWbsrjnsnfK-IA-b5HmY0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYznj0vnHT0mhwGujdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6KBIjY10Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1nenH6en10WnH0snan1Pjf3nHT1rHfzc1R3rj63c1R3rj63QW0snj0snansc1nePj_vc10WP1RWna3sn1bdPHDWni3snj0snj0WPBnkc1DYrHnsna3snj0snj0Wnansc10Wnansc1bzc10Wna3sn0KBmy4omyPW5HcdrinznHmWnWR4c1DLrfK3TLwd5HnLnW6dP1bk0Z7xIWYsQWmYg108njKxna3sn7tsQWn1g108nj7xna3snNtsQWDYg108nHwxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1Y10Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0ZuGujYkn1mzn1ndrHc0TyILujYs0AqsnHYkP6KsTjfqn6KWThnqn1cznHb&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDzP1RsPHTLnjm4nW6Ln1fsnWfYg1czPNts0gTqkX21GULss_M2G67k5UxvsnOczqHBzOx73WDs1xQ7koMIYVZPCq2d0gRqn1TzrjRLrHDKIjYkP16LPWcsPHc10ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKTMfqn0DznWmYPjcLP1b3&cegduid=n1TzrjRLrHD&solutionId=14785708&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - link "上升热点" [ref=e376] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=L_ln80L_PMGWgTPgBS59IirpK5qlJGImkNK2bEeyk15uCXhBYwfOgt1aWf48V--EtsnXt31dxflhKvVxkUCvalJUtH09D1vnmVz1Bcq6lYi
+              - generic [ref=e381]:
+                - text: 
+                - generic [ref=e382]: 
+            - generic [ref=e383]:
+              - paragraph [ref=e390]:
+                - text: 8月17日，湖南衡阳一老人身体不适在店门口休息时晕倒，店家帮扶送医后老人离世。家属以老人在店内出事且有帮扶行为为由索赔10万元，并曾声称要将遗体放在店门口。经调解，店主最终赔付1.9万元，店主称妻子因做好事反遭索赔感到寒心。‌‌
+                - button "参考文档，单指双击即可执行" [ref=e391]:
+                  - generic [ref=e392]: "1"
+              - link " 头像  潮新闻客户端 00:27" [ref=e400] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=t0j4z9lpkecJcbeXYDeQzKVqIX015SH0XjfSaA_napTP1Leohzb90B0ujJUgTD_NBYMpQbhAc7hkBHfUNGswZix8I5qTtBjzpXGNESZmuHxoztZKhA49eTcMWJyQciH-
+                - generic [ref=e402]:
+                  - generic [ref=e405]:
+                    - generic [ref=e406]: 
+                    - generic [ref=e408]:
+                      - generic [ref=e411]:
+                        - generic [ref=e412]:
+                          - img "头像" [ref=e414]
+                          - generic [ref=e415]: 
+                        - generic [ref=e417]: 潮新闻客户端
+                      - generic [ref=e418]: 00:27
+                  - text: 
+          - generic [ref=e422]:
+            - generic [ref=e424]:
+              - heading [level=3] [ref=e425]:
+                - link [ref=e426] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZNqdm_fqpNbBrLpIIrxx7D-1yrUpTx-6b3XE2GedvjsBa
+                  - generic [ref=e428]:
+                    - text: 司法部门介入“
+                    - emphasis [ref=e429]: 牌馆扶老人遭索赔10万
+                    - text: ”,店主儿子已删除视频|大象...
+              - link [ref=e430] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZNqdm_fqpNbBrLpIIrxx7D-1yrUpTx-6b3XE2GedvjsBa
+            - generic [ref=e431]:
+              - link [ref=e433] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZNqdm_fqpNbBrLpIIrxx7D-1yrUpTx-6b3XE2GedvjsBa
+              - generic [ref=e438]:
+                - generic [ref=e444] [cursor=pointer]:
+                  - generic [ref=e445]: 视频
+                  - text: 15小时前
+                  - generic [ref=e447]:
+                    - text: 8月24日，一则“店家
+                    - emphasis [ref=e448]: 扶老人被索赔10万
+                    - text: ”的消息，引发关注。据新京报报道，8月17日，湖南衡阳祁东县，一位老人因不适走入路边一家牌馆休息，随后发生晕厥。店主夫妇发现后好心搀扶老人，并立即打电话呼叫急救，但老人最终不幸离世。老人家属事后向店主索赔10万元。据九派新闻报道，店主儿子李先生称，当日老人主动进入店内，不到一
+                - link "baijiahao.baidu.com/s?id..." [ref=e453] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZNqdm_fqpNbBrLpIIrxx7D-1yrUpTx-6b3XE2GedvjsBa
+                  - generic [ref=e455]: 
+          - generic [ref=e460]:
+            - generic [ref=e462]:
+              - heading [level=3] [ref=e463]:
+                - link [ref=e464] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkOTEl7WwUAIkTNzapgTG6Hr7TcfNBdf5lol3-WcKJxQ6
+                  - generic [ref=e466]:
+                    - text: "#"
+                    - emphasis [ref=e467]: 扶老人遭索赔10万牌馆已停业
+                    - text: "# #派出所... 来自杭州网 - 微博"
+              - link [ref=e468] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkOTEl7WwUAIkTNzapgTG6Hr7TcfNBdf5lol3-WcKJxQ6
+            - generic [ref=e469]:
+              - link [ref=e471] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkOTEl7WwUAIkTNzapgTG6Hr7TcfNBdf5lol3-WcKJxQ6
+              - generic [ref=e476]:
+                - generic [ref=e482] [cursor=pointer]:
+                  - text: 22小时前
+                  - generic [ref=e483]:
+                    - text: 【#
+                    - emphasis [ref=e484]: 扶老人遭索赔10万牌馆已停业
+                    - text: "#】#派出所回应扶老人被索赔10万事件##官方提出补贴帮扶老人遭索赔店家#8月23日,湖南一老人身体不适进牌馆休息晕倒,店主帮扶送医后老人离世遭索赔引关注。店主儿子称,当时老人在店外不舒服,就进棋牌店休息,一分多钟就晕倒了,他妈妈帮扶送医后,老人还是不幸离世,随后老人家属向他们..."
+                - link "微博" [ref=e489] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkOTEl7WwUAIkTNzapgTG6Hr7TcfNBdf5lol3-WcKJxQ6
+                  - generic [ref=e491]: 
+          - generic [ref=e497]:
+            - heading [level=3] [ref=e498]:
+              - link [ref=e499] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=mOaXgPgpb5N9IBra-VAEKUdmC7Y1c7EVl7DpE8MQO7Jk3B2JSCN7hrPFcZsdo9oz3QW_K7PifTKOROx2TpkI6KwLt5HB6NJtnKOgglxi0RsXYp47vQPr85qaFXEV6PTJyh5ZrzoM1mROZtFxAIIu-ecxHvx5xqsVrb93HFVq7qtQV2v7RTTIbjCrjpCJ8GzdaC12J6balXRQJH9v-JnoKZbMzFTvGobA4hngTbezcau
+                - generic [ref=e500]:
+                  - emphasis [ref=e501]: 扶老人遭索赔10万牌馆已停业
+                  - text: 的最新相关信息
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - link [ref=e505] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0doUvRZV6SBcHK9uED0GGnqyxX5nho-W8bWWSupDyj9SO
+                - generic [ref=e509]:
+                  - heading [level=3] [ref=e510]:
+                    - link [ref=e513] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0doUvRZV6SBcHK9uED0GGnqyxX5nho-W8bWWSupDyj9SO
+                      - emphasis [ref=e514]: 扶老人
+                      - text: 反
+                      - emphasis [ref=e515]: 赔
+                      - text: 1.9万元?社区补贴,补不上道德人心的损失
+                  - paragraph [ref=e516]:
+                    - text: 据报道，老人家属索赔的理由是，老人是在
+                    - emphasis [ref=e517]: 牌馆
+                    - text: 出的事，且店主有帮扶行为，应该要为老人的离世负责。如果情节属实，这样的逻辑真是匪夷所思，难道不帮扶反倒没有责任？更令人不解的是，当地警方、司法所已经判定店家无责，但店家终究耗不住无休止的纠缠与消耗，被迫妥协赔付，落得行善赔钱、身心重创、门店停业的委屈结局。图据新
+                  - link "头像  京报网 昨天17:15" [ref=e520] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0doUvRZV6SBcHK9uED0GGnqyxX5nho-W8bWWSupDyj9SO
+                    - generic [ref=e523]:
+                      - generic [ref=e524]:
+                        - generic [ref=e525]:
+                          - img "头像" [ref=e527]
+                          - generic [ref=e528]: 
+                        - generic [ref=e530]: 京报网
+                      - generic [ref=e531]: 昨天17:15
+              - generic [ref=e532]:
+                - link [ref=e534] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d_hFXIFNRANWCX9dnVzfLgQ1rEV2qoGPRcvOr6Gxikr7
+                - generic [ref=e538]:
+                  - heading [level=3] [ref=e539]:
+                    - link [ref=e542] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d_hFXIFNRANWCX9dnVzfLgQ1rEV2qoGPRcvOr6Gxikr7
+                      - text: 湖南“
+                      - emphasis [ref=e543]: 老人
+                      - text: 进店休息离世,店家帮扶
+                      - emphasis [ref=e544]: 遭索赔10万
+                      - text: ",协商后赔1.9万”最新..."
+                  - paragraph [ref=e545]:
+                    - text: 湖南“老人进店休息离世，店家帮扶遭索赔10万，协商后赔1.9万”最新进展：店主称已经处理好了，其子已删除视频，“这件事到此为止”近日，湖南衡阳，一位老人因不适走入路边一家
+                    - emphasis [ref=e546]: 牌馆
+                    - text: 休息，随后发生晕厥。店主夫妇发现后好心搀扶老人，并立即打电话呼叫急救，但老人最终因自身疾病不幸离世。让人没想到的是，老人家属...
+                  - link "头像  大象新闻 昨天14:51" [ref=e549] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d_hFXIFNRANWCX9dnVzfLgQ1rEV2qoGPRcvOr6Gxikr7
+                    - generic [ref=e552]:
+                      - generic [ref=e553]:
+                        - generic [ref=e554]:
+                          - img "头像" [ref=e556]
+                          - generic [ref=e557]: 
+                        - generic [ref=e559]: 大象新闻
+                      - generic [ref=e560]: 昨天14:51
+              - generic [ref=e561]:
+                - link [ref=e563] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=mOaXgPgpb5N9IBra-VAEKLNosFpOICgloXgpRTd6mVYjmtM_3KFaHkSrSBnKSuhugUwBZ4IxYkwUhbtWHNLlqMvfVVRJfTI2xHf8w4y2NsC
+                - generic [ref=e567]:
+                  - heading [level=3] [ref=e568]:
+                    - link [ref=e571] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=mOaXgPgpb5N9IBra-VAEKLNosFpOICgloXgpRTd6mVYjmtM_3KFaHkSrSBnKSuhugUwBZ4IxYkwUhbtWHNLlqMvfVVRJfTI2xHf8w4y2NsC
+                      - text: 媒体评店家
+                      - emphasis [ref=e572]: 扶老人
+                      - text: 反
+                      - emphasis [ref=e573]: 被索赔10万
+                      - text: 善意帮扶变索赔官司
+                  - paragraph [ref=e574]: 媒体评店家扶老人反被索赔10万 善意帮扶变索赔官司。8月17日,湖南衡阳祁东县一家棋牌馆里发生了一起意外事件。一位78岁的老人因身体不适走进棋牌馆休息,不到一分钟便出现不适。老板娘见状立即上前扶住老人,但老人失去意识后将她带倒在地。随后,夫妻俩赶紧把老人放平,并拨打120急救电话。救护车到达后,老人被送...
+                  - link "中华网 昨天13:50" [ref=e577] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=mOaXgPgpb5N9IBra-VAEKLNosFpOICgloXgpRTd6mVYjmtM_3KFaHkSrSBnKSuhugUwBZ4IxYkwUhbtWHNLlqMvfVVRJfTI2xHf8w4y2NsC
+                    - generic [ref=e580]:
+                      - generic [ref=e581]: 中华网
+                      - generic [ref=e583]: 昨天13:50
+            - link "查看更多 " [ref=e585] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=mOaXgPgpb5N9IBra-VAEKUdmC7Y1c7EVl7DpE8MQO7Jk3B2JSCN7hrPFcZsdo9oz3QW_K7PifTKOROx2TpkI6KwLt5HB6NJtnKOgglxi0RsXYp47vQPr85qaFXEV6PTJyh5ZrzoM1mROZtFxAIIu-ecxHvx5xqsVrb93HFVq7qtQV2v7RTTIbjCrjpCJ8GzdaC12J6balXRQJH9v-JnoKZbMzFTvGobA4hngTbezcau
+              - generic [ref=e586]:
+                - generic [ref=e587]: 查看更多
+                - generic [ref=e588]: 
+          - generic [ref=e590]:
+            - heading [level=3] [ref=e591]:
+              - link [ref=e592] [cursor=pointer]:
+                - /url: /sf/vsearch?pd=video&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&tn=vsearch&lid=b0f3264a001cf8d4&ie=utf-8&rsv_pq=b0f3264a001cf8d4&rsv_spt=5&rsv_bp=1&f=8&atn=index
+                - emphasis [ref=e593]: 扶老人遭索赔10万牌馆已停业
+                - text: "- 视频大全 - 高清在线观看"
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - generic [ref=e598]:
+                  - link "00:46" [ref=e599] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=khlWwMsZR8q5y-LIB2RZhYU-nbjsBfcPFJhjZ5VmktxDh9QXkUsSLAkWk3Dkc1YoKbmreznPEOACuslAnN0bna
+                  - link [ref=e608] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=khlWwMsZR8q5y-LIB2RZhYU-nbjsBfcPFJhjZ5VmktxDh9QXkUsSLAkWk3Dkc1YoKbmreznPEOACuslAnN0bna
+                    - generic [ref=e609]:
+                      - text: 陌生
+                      - emphasis [ref=e610]: 老人
+                      - text: 进店休息离世，店家帮忙搀
+                      - emphasis [ref=e611]: 扶
+                      - text: 竟
+                      - emphasis [ref=e612]: 遭索赔
+                      - text: ...
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: 哔哩哔哩
+                    - generic [ref=e615]: 昨天09:39
+                - generic [ref=e617]:
+                  - link "00:42" [ref=e618] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=khlWwMsZR8q5y-LIB2RZhZFn7m3AOlrAJIjB9knIhvMNwDd2neHu3BW8PPrwfEmmeTPFr3NQcX1aD28aweMRVq
+                  - link [ref=e627] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=khlWwMsZR8q5y-LIB2RZhZFn7m3AOlrAJIjB9knIhvMNwDd2neHu3BW8PPrwfEmmeTPFr3NQcX1aD28aweMRVq
+                    - generic [ref=e628]:
+                      - text: 家属回应
+                      - emphasis [ref=e629]: 老人
+                      - text: 进店休息离世被
+                      - emphasis [ref=e630]: 索赔10万
+                      - text: ：死者...
+                - generic [ref=e632]:
+                  - link "00:38" [ref=e633] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5dSB9xF4L5Drms47slErZSCI5yeEj7QtDVmlGwumfs1Zq
+                  - link [ref=e642] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5dSB9xF4L5Drms47slErZSCI5yeEj7QtDVmlGwumfs1Zq
+                    - generic [ref=e643]:
+                      - emphasis [ref=e644]: 老人
+                      - text: 身体不适进店休息离世，店家搀
+                      - emphasis [ref=e645]: 扶遭索赔10
+                      - text: ...
+                  - generic [ref=e646]:
+                    - generic [ref=e647]: 百家号
+                    - generic [ref=e648]: 昨天17:19
+                - generic [ref=e650]:
+                  - link "00:41" [ref=e651] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+                  - link [ref=e660] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+                    - emphasis [ref=e662]: 扶老人遭索赔10万牌馆已停业
+                  - generic [ref=e663]:
+                    - generic [ref=e664]: 爱奇艺
+                    - generic [ref=e665]: 昨天12:05
+              - generic [ref=e666]:
+                - generic [ref=e668]:
+                  - link "01:52" [ref=e669] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5ccdcL29kp2H8LLPYIjhfoAeLffhNANwmsQcRXQHMdqjq
+                  - link [ref=e678] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5ccdcL29kp2H8LLPYIjhfoAeLffhNANwmsQcRXQHMdqjq
+                    - generic [ref=e679]:
+                      - emphasis [ref=e680]: 老人
+                      - text: 进店休息突发疾病离世 店家帮
+                      - emphasis [ref=e681]: 扶
+                      - text: 反遭家属...
+                  - generic [ref=e682]:
+                    - generic [ref=e683]: 百家号
+                    - generic [ref=e684]: 昨天07:05
+                - generic [ref=e686]:
+                  - link "00:18" [ref=e687] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5SGVzq2qgWHIi3zS3IxwJjNjZHB95Qqvq76RddpVYgAzCfEgJw0rW-LXMpYeseYexq
+                  - link [ref=e696] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5SGVzq2qgWHIi3zS3IxwJjNjZHB95Qqvq76RddpVYgAzCfEgJw0rW-LXMpYeseYexq
+                    - generic [ref=e697]:
+                      - emphasis [ref=e698]: 牌馆
+                      - text: 店主
+                      - emphasis [ref=e699]: 扶老人遭索赔10万
+                      - text: ，家属：不赔就把遗...
+                  - generic [ref=e700]:
+                    - generic [ref=e701]: 微博
+                    - generic [ref=e702]: 昨天16:50
+                - generic [ref=e704]:
+                  - link "02:24" [ref=e705] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5clnlt51JIT2NOjJdjBUBXiHIa1XUTveo1cgVPTZuaSTa
+                  - link [ref=e714] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5clnlt51JIT2NOjJdjBUBXiHIa1XUTveo1cgVPTZuaSTa
+                    - generic [ref=e715]:
+                      - text: "#媒体原创帮"
+                      - emphasis [ref=e716]: 扶老人
+                      - text: 反
+                      - emphasis [ref=e717]: 遭索赔10万
+                      - text: ？九派时评：...
+                  - generic [ref=e718]:
+                    - generic [ref=e719]: 百家号
+                    - generic [ref=e720]: 昨天21:16
+                - generic [ref=e722]:
+                  - link "03:08" [ref=e723] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5cY2MxyQZ2Kl3tf90-Io-d-D34DLwn4fmO5kG1zG5_nyK
+                  - link [ref=e732] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjN9PyBfnBUz_hfNsnzs1XGotTySr-UajTG4J1DK7G-D4I3RgdzSIl9InkCyKwMdWH_8YbAscxMoPuIjPAwThK5cY2MxyQZ2Kl3tf90-Io-d-D34DLwn4fmO5kG1zG5_nyK
+                    - generic [ref=e733]:
+                      - text: 店主
+                      - emphasis [ref=e734]: 扶老人
+                      - text: 离世被
+                      - emphasis [ref=e735]: 索赔10万
+                      - text: ，官方确认无过错却...
+                  - generic [ref=e736]:
+                    - generic [ref=e737]: 百家号
+                    - generic [ref=e738]: 56分钟前
+            - link "查看更多 " [ref=e739] [cursor=pointer]:
+              - /url: /sf/vsearch?pd=video&wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&tn=vsearch&lid=b0f3264a001cf8d4&ie=utf-8&rsv_pq=b0f3264a001cf8d4&rsv_spt=5&rsv_bp=1&f=8&atn=index
+              - generic [ref=e740]:
+                - generic [ref=e741]: 查看更多
+                - generic [ref=e742]: 
+          - generic [ref=e746]:
+            - generic [ref=e748]:
+              - heading [level=3] [ref=e749]:
+                - link [ref=e750] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+                  - generic [ref=e752]:
+                    - emphasis [ref=e753]: 扶老人遭索赔10万牌馆已停业
+                    - text: "-热点资讯"
+              - link [ref=e754] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+            - generic [ref=e755]:
+              - link [ref=e757] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+              - generic [ref=e762]:
+                - generic [ref=e763] [cursor=pointer]:
+                  - generic [ref=e764]:
+                    - generic [ref=e765]: 视频
+                    - generic [ref=e766]: 时长 00:41
+                  - generic [ref=e771]:
+                    - text: 22小时前
+                    - generic [ref=e772]:
+                      - text: "1.6万 作品数: 5702 ip属地: 山东 常见问题 《"
+                      - emphasis [ref=e773]: 扶老人遭索赔10万牌馆已停业
+                      - text: 》这个视频讲的是什么? 扶老人遭索赔10万牌馆已停业是爱奇艺资讯播放页,适合快速了解视频内容,创作者信息,站内观看入口和相关推荐.创作者为点时新闻. 《扶老人遭索赔10万牌馆已停业》在哪里看? 《扶老人遭索赔10万牌馆已停业》可在...
+                - link "www.iqiyi.com/v_1qtemxbn..." [ref=e778] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=9gZbg2nJTmuwF_rH1W8HjU_5J32ffe19h07zSoinuOYbD1b5jerW_F8aq3eJZMNNxe4Jd0L9WPl7_SXHwFDfXa
+                  - generic [ref=e780]: 
+          - generic [ref=e785]:
+            - generic [ref=e787]:
+              - heading [level=3] [ref=e788]:
+                - link [ref=e789] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZN3GallY_wRQavNoquVKSk6QlN-qGtjbBuLVHB_Gp6Ug_
+                  - generic [ref=e791]:
+                    - text: 救
+                    - emphasis [ref=e792]: 老人
+                    - text: 反
+                    - emphasis [ref=e793]: 遭索赔10万
+                    - text: 事件后续:家属威胁赔偿不到位就抬尸体到门口...
+              - link [ref=e794] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZN3GallY_wRQavNoquVKSk6QlN-qGtjbBuLVHB_Gp6Ug_
+            - generic [ref=e795]:
+              - link [ref=e797] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZN3GallY_wRQavNoquVKSk6QlN-qGtjbBuLVHB_Gp6Ug_
+              - generic [ref=e802]:
+                - generic [ref=e808] [cursor=pointer]:
+                  - text: 14小时前
+                  - generic [ref=e809]:
+                    - text: 经过数轮磋商，最终以1.9万元达成协议。在转账过程中，店家特别注明该款项为“人道主义安抚金”，并多次强调，此笔款项并非事故
+                    - emphasis [ref=e810]: 赔偿
+                    - text: 。最终，这笔钱款由
+                    - emphasis [ref=e811]: 老人
+                    - text: 的儿子亲自前来领取，至此，此事得以暂时告一段落。事情终了之后，老板娘一直情绪低落，健康状况亦每况愈下，店铺无奈闭门谢客，实乃双面受挫。本是施善济危，...
+                - link "头像 才高艺高人胆大" [ref=e816] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW_hyY-wH82gE59z1_YDgmZN3GallY_wRQavNoquVKSk6QlN-qGtjbBuLVHB_Gp6Ug_
+                  - img "头像" [ref=e819]
+                  - generic [ref=e820]: 才高艺高人胆大
+                  - generic [ref=e821]: 
+          - generic [ref=e824]:
+            - generic [ref=e825]: 大家还在搜
+            - generic [ref=e826]:
+              - link "开牌馆需要注意什么" [ref=e827] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E5%BC%80%E7%89%8C%E9%A6%86%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E4%B9%88&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=d551IQEVq8ntk8Uwg1fyQWiSOTh4u1GRw1UZyyHvqdzGXwZ6XuvxcDegbhM&rsf=101631202&rsv_dl=0_prs_28608_1
+              - link "当地回应老人倒地牌馆主被索赔 新" [ref=e830] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94%E8%80%81%E4%BA%BA%E5%80%92%E5%9C%B0%E7%89%8C%E9%A6%86%E4%B8%BB%E8%A2%AB%E7%B4%A2%E8%B5%94&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=d551IQEVq8ntk8Uwg1fyQWiSOTh4u1GRw1UZyyHvqdzGXwZ6XuvxcDegbhM&rsf=101632809&rsv_dl=0_prs_28608_2
+                - generic [ref=e832]: 当地回应老人倒地牌馆主被索赔
+                - generic [ref=e833]: 新
+              - link "10万包牌" [ref=e834] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=10%E4%B8%87%E5%8C%85%E7%89%8C&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=d551IQEVq8ntk8Uwg1fyQWiSOTh4u1GRw1UZyyHvqdzGXwZ6XuvxcDegbhM&rsf=101631202&rsv_dl=0_prs_28608_3
+              - link "对于牌馆处理不了怎么办" [ref=e837] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E5%AF%B9%E4%BA%8E%E7%89%8C%E9%A6%86%E5%A4%84%E7%90%86%E4%B8%8D%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=0f72o9f7h1hL4fVZZngOR3JJXLUzh6edXmienRa%2BgP8KablNycuSz7Jo66k&rsf=101631202&rsv_dl=0_prs_28608_4
+              - link "牌馆怎么盈利" [ref=e840] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E7%89%8C%E9%A6%86%E6%80%8E%E4%B9%88%E7%9B%88%E5%88%A9&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=0f72o9f7h1hL4fVZZngOR3JJXLUzh6edXmienRa%2BgP8KablNycuSz7Jo66k&rsf=101631202&rsv_dl=0_prs_28608_5
+              - link "牌馆什么意思" [ref=e843] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E7%89%8C%E9%A6%86%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&fenlei=256&usm=3&ie=utf-8&rsv_pq=b0f3264a001cf8d4&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&rsv_t=0f72o9f7h1hL4fVZZngOR3JJXLUzh6edXmienRa%2BgP8KablNycuSz7Jo66k&rsf=101631202&rsv_dl=0_prs_28608_6
+          - generic [ref=e849]:
+            - generic [ref=e851]:
+              - heading [level=3] [ref=e852]:
+                - link [ref=e853] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5NIi5iOzrUBR3svEav2LJECuX4chNAmpXjNmHYM0U_P0DAd-ky32hDzFi-l44cRQXHACmtdp2CThiYXyRkyMZAy
+                  - generic [ref=e855]:
+                    - emphasis [ref=e856]: 扶老人遭索赔10万牌馆已停业
+                    - text: 好人难做引发热议_新闻频道_中华网
+              - link [ref=e857] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5NIi5iOzrUBR3svEav2LJECuX4chNAmpXjNmHYM0U_P0DAd-ky32hDzFi-l44cRQXHACmtdp2CThiYXyRkyMZAy
+            - generic [ref=e858]:
+              - link [ref=e860] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5NIi5iOzrUBR3svEav2LJECuX4chNAmpXjNmHYM0U_P0DAd-ky32hDzFi-l44cRQXHACmtdp2CThiYXyRkyMZAy
+              - generic [ref=e865]:
+                - generic [ref=e871] [cursor=pointer]:
+                  - text: 23小时前
+                  - generic [ref=e872]:
+                    - emphasis [ref=e873]: 扶老人遭索赔10万牌馆已停业
+                    - text: 好人难做引发热议。在湖南衡阳发生了一起引起广泛关注的事件。一位牌馆老板好心扶了一位进店休息的老人,但老人不幸离世后,家属却要求赔偿10万元。这起事件再次引发了公众对做好事反被讹诈现象的关注。 2026年8月17日,一位身体不适的老人走进路边一家牌馆休息。店主发现老人似乎晕倒了...
+                - link "中华网·新闻" [ref=e878] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=-tGMK_ZQDb3U0XRGFGHM5NIi5iOzrUBR3svEav2LJECuX4chNAmpXjNmHYM0U_P0DAd-ky32hDzFi-l44cRQXHACmtdp2CThiYXyRkyMZAy
+                  - generic [ref=e880]: 
+          - generic [ref=e885]:
+            - generic [ref=e887]:
+              - heading [level=3] [ref=e888]:
+                - link [ref=e889] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0ddf85ue7dgCapVXJhZ5Vk3AtWbw20iGKCvymWS_k-1BO
+                  - generic [ref=e891]:
+                    - text: 好心
+                    - emphasis [ref=e892]: 扶老人
+                    - text: 反
+                    - emphasis [ref=e893]: 被索赔10万
+                    - text: :棋牌店老板娘赔出1.9万后,谁来保护善意
+              - link [ref=e894] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0ddf85ue7dgCapVXJhZ5Vk3AtWbw20iGKCvymWS_k-1BO
+            - generic [ref=e895]:
+              - link [ref=e897] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0ddf85ue7dgCapVXJhZ5Vk3AtWbw20iGKCvymWS_k-1BO
+              - generic [ref=e902]:
+                - generic [ref=e908] [cursor=pointer]:
+                  - text: 22小时前
+                  - generic [ref=e909]:
+                    - text: 湖南衡阳一家棋牌店近日陷入舆论风波。店主夫妻原本只是帮助一名突然晕倒的
+                    - emphasis [ref=e910]: 老人
+                    - text: ，却没想到事情最终演变成家属
+                    - emphasis [ref=e911]: 索赔10
+                    - text: 万元的纠纷。经过多次协商，双方最终以1.9万元“人道主义补偿款”达成一致。事情经过并不复杂。8月17日，一名患有基础疾病的老人因身体不适进入棋牌店休息，不久后突然晕倒。店主妻子发现情况后立即上前...
+                - link "头像 小寒看世间繁华落尽" [ref=e916] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0ddf85ue7dgCapVXJhZ5Vk3AtWbw20iGKCvymWS_k-1BO
+                  - img "头像" [ref=e919]
+                  - generic [ref=e920]: 小寒看世间繁华落尽
+                  - generic [ref=e921]: 
+          - generic [ref=e926]:
+            - generic [ref=e928]:
+              - heading [level=3] [ref=e929]:
+                - link [ref=e930] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d1nTufIDDn8kdMxHoCC0pj28cK6mn_LiMzAwhWdH1Od7
+                  - generic [ref=e932]:
+                    - emphasis [ref=e933]: 扶老人被索赔10万
+                    - text: 后续!店主失眠身心俱疲,
+                    - emphasis [ref=e934]: 牌馆
+                    - text: 关闭,派出所回应
+              - link [ref=e935] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d1nTufIDDn8kdMxHoCC0pj28cK6mn_LiMzAwhWdH1Od7
+            - generic [ref=e936]:
+              - link [ref=e938] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d1nTufIDDn8kdMxHoCC0pj28cK6mn_LiMzAwhWdH1Od7
+              - generic [ref=e943]:
+                - generic [ref=e949] [cursor=pointer]:
+                  - text: 21小时前
+                  - generic [ref=e950]:
+                    - text: 家属给出的
+                    - emphasis [ref=e951]: 索赔
+                    - text: 理由十分牵强，仅仅因为
+                    - emphasis [ref=e952]: 老人
+                    - text: 在店铺门口出事，且店家出手帮扶过，就认定店家需要全权负责。他们直接开口索要
+                    - emphasis [ref=e953]: 十万元赔偿
+                    - text: ，态度强硬，丝毫没有商量的余地。不仅如此，家属还放出狠话，若是店家不肯赔钱，就把老人的遗体摆放在店铺门口，让门店彻底无法经营。突如其来的巨额索赔和恶意威胁，瞬间压垮了这户普通...
+                - link "头像 天上地下的小王" [ref=e958] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7I1Af81p_slbxyZXvDfJkV8cKJ9flaZ_UQeF66c9iW0kOuZP70YuYwEvHS--HR0d1nTufIDDn8kdMxHoCC0pj28cK6mn_LiMzAwhWdH1Od7
+                  - img "头像" [ref=e961]
+                  - generic [ref=e962]: 天上地下的小王
+                  - generic [ref=e963]: 
+        - generic [ref=e967]:
+          - generic [ref=e968]: 相关搜索
+          - table [ref=e969]:
+            - rowgroup [ref=e970]:
+              - row [ref=e971]:
+                - cell [ref=e972]:
+                  - link "开牌馆需要注意什么" [ref=e973] [cursor=pointer]:
+                    - /url: /s?wd=%E5%BC%80%E7%89%8C%E9%A6%86%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E4%B9%88&tn=baidu&rsf=101631202&rsp=0&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_1
+                - cell [ref=e976]:
+                  - link "10万包牌" [ref=e977] [cursor=pointer]:
+                    - /url: /s?wd=10%E4%B8%87%E5%8C%85%E7%89%8C&tn=baidu&rsf=101631202&rsp=1&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_2
+              - row [ref=e980]:
+                - cell [ref=e981]:
+                  - link "当地回应老人倒地牌馆主被索赔 新" [ref=e982] [cursor=pointer]:
+                    - /url: /s?wd=%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94%E8%80%81%E4%BA%BA%E5%80%92%E5%9C%B0%E7%89%8C%E9%A6%86%E4%B8%BB%E8%A2%AB%E7%B4%A2%E8%B5%94&tn=baidu&rsf=101632809&rsp=2&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_3
+                    - generic [ref=e984]: 当地回应老人倒地牌馆主被索赔
+                    - generic [ref=e985]: 新
+                - cell [ref=e986]:
+                  - link "对于牌馆处理不了怎么办" [ref=e987] [cursor=pointer]:
+                    - /url: /s?wd=%E5%AF%B9%E4%BA%8E%E7%89%8C%E9%A6%86%E5%A4%84%E7%90%86%E4%B8%8D%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E&tn=baidu&rsf=101631202&rsp=3&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_4
+              - row [ref=e990]:
+                - cell [ref=e991]:
+                  - link "牌馆什么意思" [ref=e992] [cursor=pointer]:
+                    - /url: /s?wd=%E7%89%8C%E9%A6%86%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&tn=baidu&rsf=101631202&rsp=4&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_5
+                - cell [ref=e995]:
+                  - link "牌馆怎么盈利" [ref=e996] [cursor=pointer]:
+                    - /url: /s?wd=%E7%89%8C%E9%A6%86%E6%80%8E%E4%B9%88%E7%9B%88%E5%88%A9&tn=baidu&rsf=101631202&rsp=5&f=1&rs_src=0&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&rsv_dl=brs_28338_6
+      - generic [ref=e1001]:
+        - link:
+          - /url: ""
+        - strong [ref=e1002]:
+          - generic [ref=e1003]: "1"
+        - link "2" [ref=e1004] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=10&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "3" [ref=e1006] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=20&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "4" [ref=e1008] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=30&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "5" [ref=e1010] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=40&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "6" [ref=e1012] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=50&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "7" [ref=e1014] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=60&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "8" [ref=e1016] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=70&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "9" [ref=e1018] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=80&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link "10" [ref=e1020] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=90&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=
+        - link [ref=e1022] [cursor=pointer]:
+          - /url: /s?wd=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&pn=10&oq=%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%9410%E4%B8%87%E7%89%8C%E9%A6%86%E5%B7%B2%E5%81%9C%E4%B8%9A&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=b0f3264a001cf8d4&rsv_t=1b340NYTw8y%2FB0kHgxz6YYPbHovFyP55MmTnk%2FS9DxcdnjA6sUOJNTMkz7s&topic_pn=&rsv_page=1
+      - generic [ref=e1027]:
+        - link "帮助" [ref=e1028] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=e1029] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=e1030] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=e1031] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

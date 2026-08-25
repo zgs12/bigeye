@@ -1,0 +1,12 @@
+{
+  "name": "bigeye-mcp",
+  "private": true,
+  "description": "大眼X 本地 MCP 依赖：装一次后启动不再走 npx 下载",
+  "scripts": {
+    "mcp:install": "node ./node_modules/playwright/cli.js install chromium"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-filesystem": "^2026.7.10",
+    "@playwright/mcp": "^0.0.79"
+  }
+}

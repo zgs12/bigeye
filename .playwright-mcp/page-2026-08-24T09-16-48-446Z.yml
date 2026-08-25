@@ -1,0 +1,1072 @@
+- generic [active] [ref=f1e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=f1e2]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - generic:
+          - link [ref=f1e6] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=f1e7]
+          - generic [ref=f1e10]:
+            - textbox [ref=f1e12]: 天气
+            - generic [ref=f1e14]:
+              - generic [ref=f1e15]:
+                - generic [ref=f1e16] [cursor=pointer]
+                - generic [ref=f1e21] [cursor=pointer]
+                - generic [ref=f1e30]:
+                  - generic [ref=f1e31] [cursor=pointer]
+                  - generic [ref=f1e36] [cursor=pointer]
+              - button "百度一下" [ref=f1e43] [cursor=pointer]
+      - generic [ref=f1e45]:
+        - link "百度首页" [ref=f1e46] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=f1e47] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=f1e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=f1e51]:
+      - link [ref=f1e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%E5%A4%A9%E6%B0%94&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2210509654466436197854%22%2C%22ori_lid%22%3A%2210509654466436197854%22%7D
+      - generic [ref=f1e54]: 网页
+      - link "图片" [ref=f1e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=91d9cb0e0006edde&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%A4%A9%E6%B0%94
+      - link "资讯" [ref=f1e56] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E5%A4%A9%E6%B0%94
+      - link "视频" [ref=f1e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=91d9cb0e0006edde&ie=utf-8&wd=%E5%A4%A9%E6%B0%94&rsv_spt=7&rsv_bp=1&f=8&oq=%E5%A4%A9%E6%B0%94&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84
+      - link "笔记" [ref=f1e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%A4%A9%E6%B0%94
+      - link "地图" [ref=f1e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%E5%A4%A9%E6%B0%94
+      - link "贴吧" [ref=f1e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%E5%A4%A9%E6%B0%94
+      - link "文库" [ref=f1e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%A4%A9%E6%B0%94
+      - link "更多" [ref=f1e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=f1e63] [cursor=pointer]: 搜索工具
+    - generic [ref=f1e64]:
+      - generic [ref=f1e65]:
+        - table [ref=f1e67]:
+          - rowgroup [ref=f1e68]:
+            - row [ref=f1e69]:
+              - cell "   换一换 热搜榜 民生榜 财经榜  营造风清气正的政治生态 1 敌敌畏涉事消杀公司已人去楼空 热 2 央视曝光隔空猥亵 热 3 中国机器人跑出“中国制造”加速度 4 6天4个台风 像流水线赶工 热 5 北京大学原副校长任羽中被判8年 新 6 超市散装零食何以失守 7 初中生4个账号养“恋人” 新 8 12306回应无座票二等座同价 热 9 吴宜泽爆冷不敌齐津斯 新 10 团伙玩“仙人跳”专坑大学生被判刑 11 发苦的丝瓜能降火？不要信 12 为照顾植物人丈夫 女子睡了9年沙发 13 王以太吹笛子疑被工作人员吐槽难听 新 14 女厕蹲便器圆孔疑有摄像头 官方回应 15 罗建彬被查 新" [ref=f1e70]:
+                - generic [ref=f1e75]:
+                  - generic "百度热搜" [ref=f1e76]:
+                    - link " " [ref=f1e77] [cursor=pointer]:
+                      - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                      - generic [ref=f1e78]: 
+                      - generic [ref=f1e79]: 
+                    - link " 换一换" [ref=f1e81] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f1e82]: 
+                      - text: 换一换
+                  - generic [ref=f1e83]:
+                    - generic [ref=f1e84] [cursor=pointer]: 热搜榜
+                    - generic [ref=f1e85] [cursor=pointer]: 民生榜
+                    - generic [ref=f1e86] [cursor=pointer]: 财经榜
+                  - generic [ref=f1e88]:
+                    - generic [ref=f1e90]:
+                      - generic [ref=f1e91]: 
+                      - link "营造风清气正的政治生态" [ref=f1e93] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E8%90%A5%E9%80%A0%E9%A3%8E%E6%B8%85%E6%B0%94%E6%AD%A3%E7%9A%84%E6%94%BF%E6%B2%BB%E7%94%9F%E6%80%81&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e95]:
+                      - generic [ref=f1e96]: "1"
+                      - link "敌敌畏涉事消杀公司已人去楼空" [ref=f1e97] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%89%E4%BA%8B%E6%B6%88%E6%9D%80%E5%85%AC%E5%8F%B8%E5%B7%B2%E4%BA%BA%E5%8E%BB%E6%A5%BC%E7%A9%BA&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e98]: 热
+                    - generic [ref=f1e100]:
+                      - generic [ref=f1e101]: "2"
+                      - link "央视曝光隔空猥亵" [ref=f1e102] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E9%9A%94%E7%A9%BA%E7%8C%A5%E4%BA%B5&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e103]: 热
+                    - generic [ref=f1e105]:
+                      - generic [ref=f1e106]: "3"
+                      - link "中国机器人跑出“中国制造”加速度" [ref=f1e107] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B7%91%E5%87%BA%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E2%80%9D%E5%8A%A0%E9%80%9F%E5%BA%A6&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e109]:
+                      - generic [ref=f1e110]: "4"
+                      - link "6天4个台风 像流水线赶工" [ref=f1e111] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=6%E5%A4%A94%E4%B8%AA%E5%8F%B0%E9%A3%8E%20%E5%83%8F%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B5%B6%E5%B7%A5&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e112]: 热
+                    - generic [ref=f1e114]:
+                      - generic [ref=f1e115]: "5"
+                      - link "北京大学原副校长任羽中被判8年" [ref=f1e116] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8E%9F%E5%89%AF%E6%A0%A1%E9%95%BF%E4%BB%BB%E7%BE%BD%E4%B8%AD%E8%A2%AB%E5%88%A48%E5%B9%B4&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e117]: 新
+                    - generic [ref=f1e119]:
+                      - generic [ref=f1e120]: "6"
+                      - link "超市散装零食何以失守" [ref=f1e121] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E8%B6%85%E5%B8%82%E6%95%A3%E8%A3%85%E9%9B%B6%E9%A3%9F%E4%BD%95%E4%BB%A5%E5%A4%B1%E5%AE%88&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=754cFhODy0HKjHcABbmweq8GMhgfN6%2BPAEYohDK4TSpGOyIWTtEWtztgAwI&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e123]:
+                      - generic [ref=f1e124]: "7"
+                      - link "初中生4个账号养“恋人”" [ref=f1e125] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%88%9D%E4%B8%AD%E7%94%9F4%E4%B8%AA%E8%B4%A6%E5%8F%B7%E5%85%BB%E2%80%9C%E6%81%8B%E4%BA%BA%E2%80%9D&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e126]: 新
+                    - generic [ref=f1e128]:
+                      - generic [ref=f1e129]: "8"
+                      - link "12306回应无座票二等座同价" [ref=f1e130] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=12306%E5%9B%9E%E5%BA%94%E6%97%A0%E5%BA%A7%E7%A5%A8%E4%BA%8C%E7%AD%89%E5%BA%A7%E5%90%8C%E4%BB%B7&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e131]: 热
+                    - generic [ref=f1e133]:
+                      - generic [ref=f1e134]: "9"
+                      - link "吴宜泽爆冷不敌齐津斯" [ref=f1e135] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%90%B4%E5%AE%9C%E6%B3%BD%E7%88%86%E5%86%B7%E4%B8%8D%E6%95%8C%E9%BD%90%E6%B4%A5%E6%96%AF&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e136]: 新
+                    - generic [ref=f1e138]:
+                      - generic [ref=f1e139]: "10"
+                      - link "团伙玩“仙人跳”专坑大学生被判刑" [ref=f1e140] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%9B%A2%E4%BC%99%E7%8E%A9%E2%80%9C%E4%BB%99%E4%BA%BA%E8%B7%B3%E2%80%9D%E4%B8%93%E5%9D%91%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%A2%AB%E5%88%A4%E5%88%91&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e142]:
+                      - generic [ref=f1e143]: "11"
+                      - link "发苦的丝瓜能降火？不要信" [ref=f1e144] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%8F%91%E8%8B%A6%E7%9A%84%E4%B8%9D%E7%93%9C%E8%83%BD%E9%99%8D%E7%81%AB%EF%BC%9F%E4%B8%8D%E8%A6%81%E4%BF%A1&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e146]:
+                      - generic [ref=f1e147]: "12"
+                      - link "为照顾植物人丈夫 女子睡了9年沙发" [ref=f1e148] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E4%B8%BA%E7%85%A7%E9%A1%BE%E6%A4%8D%E7%89%A9%E4%BA%BA%E4%B8%88%E5%A4%AB%20%E5%A5%B3%E5%AD%90%E7%9D%A1%E4%BA%869%E5%B9%B4%E6%B2%99%E5%8F%91&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e150]:
+                      - generic [ref=f1e151]: "13"
+                      - link "王以太吹笛子疑被工作人员吐槽难听" [ref=f1e152] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E7%8E%8B%E4%BB%A5%E5%A4%AA%E5%90%B9%E7%AC%9B%E5%AD%90%E7%96%91%E8%A2%AB%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E5%90%90%E6%A7%BD%E9%9A%BE%E5%90%AC&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e153]: 新
+                    - generic [ref=f1e155]:
+                      - generic [ref=f1e156]: "14"
+                      - link "女厕蹲便器圆孔疑有摄像头 官方回应" [ref=f1e157] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%A5%B3%E5%8E%95%E8%B9%B2%E4%BE%BF%E5%99%A8%E5%9C%86%E5%AD%94%E7%96%91%E6%9C%89%E6%91%84%E5%83%8F%E5%A4%B4%20%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                    - generic [ref=f1e159]:
+                      - generic [ref=f1e160]: "15"
+                      - link "罗建彬被查" [ref=f1e161] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E7%BD%97%E5%BB%BA%E5%BD%AC%E8%A2%AB%E6%9F%A5&fenlei=256&usm=2&ie=utf-8&rsv_pq=91d9cb0e0006edde&oq=%E5%A4%A9%E6%B0%94&rsv_t=4c83SeMVgOTUZ%2BJXbNmO0cRpnewUTo27pW3ymtqclk%2BJXgsNzIIbj1hrDTY&rqid=91d9cb0e0006edde&rsf=43a9b626b9e8f7eded2bf1c9a868930f_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f1e162]: 新
+        - generic [ref=f1e165]:
+          - generic [ref=f1e166]:
+            - generic [ref=f1e167] [cursor=pointer]: 时间不限
+            - generic [ref=f1e170] [cursor=pointer]: 所有网页和文件
+            - generic [ref=f1e172] [cursor=pointer]: 站点内检索
+          - generic [ref=f1e175]:
+            - generic [ref=f1e176]: 已优先为您展示 “上海” 结果，
+            - generic [ref=f1e177] [cursor=pointer]: 取消
+        - generic [ref=f1e178]:
+          - generic [ref=f1e183]:
+            - generic [ref=f1e184]:
+              - generic [ref=f1e189] [cursor=pointer]
+              - generic [ref=f1e192]:
+                - generic [ref=f1e193]:
+                  - generic [ref=f1e195] [cursor=pointer]:
+                    - text: 上海
+                    - generic [ref=f1e196]: 
+                  - generic [ref=f1e197]: 17:15更新
+                - generic [ref=f1e198]:
+                  - generic [ref=f1e199]: 32°
+                  - generic [ref=f1e200]:
+                    - generic [ref=f1e201]:
+                      - generic [ref=f1e202]: 27~33°C
+                      - generic [ref=f1e203]: 晴
+                      - generic [ref=f1e204]: 15 优
+                    - generic [ref=f1e205]:
+                      - generic [ref=f1e206]: 体感36°
+                      - generic [ref=f1e209]: 东风4级
+                - generic [ref=f1e210]:
+                  - generic [ref=f1e211]:
+                    - generic [ref=f1e212]: 气温
+                    - generic [ref=f1e214]: 风力
+                    - generic [ref=f1e216]: 降水量
+                    - generic [ref=f1e218]: 紫外线
+                  - generic [ref=f1e221]:
+                    - generic [ref=f1e225]:
+                      - generic [ref=f1e226]:
+                        - generic [ref=f1e227]: 现在
+                        - generic [ref=f1e229]: 18:00
+                        - generic [ref=f1e231]: 19:00
+                        - generic [ref=f1e233]: 20:00
+                        - generic [ref=f1e235]: 21:00
+                        - generic [ref=f1e237]: 22:00
+                        - generic [ref=f1e239]: 23:00
+                        - generic [ref=f1e241]: 08/25
+                        - generic [ref=f1e243]: 01:00
+                        - generic [ref=f1e245]: 02:00
+                        - generic [ref=f1e247]: 03:00
+                        - generic [ref=f1e249]: 04:00
+                        - generic [ref=f1e251]: 05:00
+                        - generic [ref=f1e253]: 06:00
+                        - generic [ref=f1e255]: 07:00
+                        - generic [ref=f1e257]: 08:00
+                        - generic [ref=f1e259]: 09:00
+                        - generic [ref=f1e261]: 10:00
+                        - generic [ref=f1e263]: 11:00
+                        - generic [ref=f1e265]: 12:00
+                        - generic [ref=f1e267]: 13:00
+                        - generic [ref=f1e269]: 14:00
+                        - generic [ref=f1e271]: 15:00
+                        - generic [ref=f1e273]: 16:00
+                        - generic [ref=f1e275]: 17:00
+                        - generic [ref=f1e277]: 18:00
+                        - generic [ref=f1e279]: 19:00
+                        - generic [ref=f1e281]: 20:00
+                        - generic [ref=f1e283]: 21:00
+                        - generic [ref=f1e285]: 22:00
+                        - generic [ref=f1e287]: 23:00
+                        - generic [ref=f1e289]: 08/26
+                        - generic [ref=f1e291]: 01:00
+                        - generic [ref=f1e293]: 02:00
+                        - generic [ref=f1e295]: 03:00
+                        - generic [ref=f1e297]: 04:00
+                        - generic [ref=f1e299]: 05:00
+                        - generic [ref=f1e301]: 06:00
+                        - generic [ref=f1e303]: 07:00
+                        - generic [ref=f1e305]: 08:00
+                        - generic [ref=f1e307]: 09:00
+                        - generic [ref=f1e309]: 10:00
+                        - generic [ref=f1e311]: 11:00
+                        - generic [ref=f1e313]: 12:00
+                        - generic [ref=f1e315]: 13:00
+                        - generic [ref=f1e317]: 14:00
+                        - generic [ref=f1e319]: 15:00
+                        - generic [ref=f1e321]: 16:00
+                      - generic [ref=f1e325]:
+                        - generic [ref=f1e326]:
+                          - generic [ref=f1e329]: 优
+                          - generic [ref=f1e332]:
+                            - generic [ref=f1e333]: °
+                            - generic [ref=f1e334]: 32°
+                        - generic [ref=f1e335]:
+                          - generic [ref=f1e338]: 优
+                          - generic [ref=f1e341]:
+                            - generic [ref=f1e342]: °
+                            - generic [ref=f1e343]: 31°
+                        - generic [ref=f1e344]:
+                          - generic [ref=f1e347]: 优
+                          - generic [ref=f1e350]:
+                            - generic [ref=f1e351]: °
+                            - generic [ref=f1e352]: 29°
+                        - generic [ref=f1e353]:
+                          - generic [ref=f1e356]: 优
+                          - generic [ref=f1e359]:
+                            - generic [ref=f1e360]: °
+                            - generic [ref=f1e361]: 29°
+                        - generic [ref=f1e362]:
+                          - generic [ref=f1e365]: 优
+                          - generic [ref=f1e368]:
+                            - generic [ref=f1e369]: °
+                            - generic [ref=f1e370]: 28°
+                        - generic [ref=f1e371]:
+                          - generic [ref=f1e374]: 优
+                          - generic [ref=f1e377]:
+                            - generic [ref=f1e378]: °
+                            - generic [ref=f1e379]: 28°
+                        - generic [ref=f1e380]:
+                          - generic [ref=f1e383]: 优
+                          - generic [ref=f1e386]:
+                            - generic [ref=f1e387]: °
+                            - generic [ref=f1e388]: 28°
+                        - generic [ref=f1e389]:
+                          - generic [ref=f1e392]: 优
+                          - generic [ref=f1e395]:
+                            - generic [ref=f1e396]: °
+                            - generic [ref=f1e397]: 28°
+                        - generic [ref=f1e398]:
+                          - generic [ref=f1e401]: 优
+                          - generic [ref=f1e404]:
+                            - generic [ref=f1e405]: °
+                            - generic [ref=f1e406]: 27°
+                        - generic [ref=f1e407]:
+                          - generic [ref=f1e410]: 优
+                          - generic [ref=f1e413]:
+                            - generic [ref=f1e414]: °
+                            - generic [ref=f1e415]: 27°
+                        - generic [ref=f1e416]:
+                          - generic [ref=f1e419]: 优
+                          - generic [ref=f1e422]:
+                            - generic [ref=f1e423]: °
+                            - generic [ref=f1e424]: 27°
+                        - generic [ref=f1e425]:
+                          - generic [ref=f1e428]: 优
+                          - generic [ref=f1e431]:
+                            - generic [ref=f1e432]: °
+                            - generic [ref=f1e433]: 27°
+                        - generic [ref=f1e434]:
+                          - generic [ref=f1e437]: 优
+                          - generic [ref=f1e440]:
+                            - generic [ref=f1e441]: °
+                            - generic [ref=f1e442]: 27°
+                        - generic [ref=f1e443]:
+                          - generic [ref=f1e446]: 优
+                          - generic [ref=f1e449]:
+                            - generic [ref=f1e450]: °
+                            - generic [ref=f1e451]: 27°
+                        - generic [ref=f1e452]:
+                          - generic [ref=f1e455]: 优
+                          - generic [ref=f1e458]:
+                            - generic [ref=f1e459]: °
+                            - generic [ref=f1e460]: 28°
+                        - generic [ref=f1e461]:
+                          - generic [ref=f1e464]: 优
+                          - generic [ref=f1e467]:
+                            - generic [ref=f1e468]: °
+                            - generic [ref=f1e469]: 29°
+                        - generic [ref=f1e470]:
+                          - generic [ref=f1e473]: 优
+                          - generic [ref=f1e476]:
+                            - generic [ref=f1e477]: °
+                            - generic [ref=f1e478]: 30°
+                        - generic [ref=f1e479]:
+                          - generic [ref=f1e482]: 优
+                          - generic [ref=f1e485]:
+                            - generic [ref=f1e486]: °
+                            - generic [ref=f1e487]: 31°
+                        - generic [ref=f1e488]:
+                          - generic [ref=f1e491]: 优
+                          - generic [ref=f1e494]:
+                            - generic [ref=f1e495]: °
+                            - generic [ref=f1e496]: 31°
+                        - generic [ref=f1e497]:
+                          - generic [ref=f1e500]: 优
+                          - generic [ref=f1e503]:
+                            - generic [ref=f1e504]: °
+                            - generic [ref=f1e505]: 32°
+                        - generic [ref=f1e506]:
+                          - generic [ref=f1e509]: 优
+                          - generic [ref=f1e512]:
+                            - generic [ref=f1e513]: °
+                            - generic [ref=f1e514]: 32°
+                        - generic [ref=f1e515]:
+                          - generic [ref=f1e518]: 优
+                          - generic [ref=f1e521]:
+                            - generic [ref=f1e522]: °
+                            - generic [ref=f1e523]: 32°
+                        - generic [ref=f1e524]:
+                          - generic [ref=f1e527]: 优
+                          - generic [ref=f1e530]:
+                            - generic [ref=f1e531]: °
+                            - generic [ref=f1e532]: 32°
+                        - generic [ref=f1e533]:
+                          - generic [ref=f1e536]: 优
+                          - generic [ref=f1e539]:
+                            - generic [ref=f1e540]: °
+                            - generic [ref=f1e541]: 32°
+                        - generic [ref=f1e542]:
+                          - generic [ref=f1e545]: 优
+                          - generic [ref=f1e548]:
+                            - generic [ref=f1e549]: °
+                            - generic [ref=f1e550]: 32°
+                        - generic [ref=f1e551]:
+                          - generic [ref=f1e554]: 优
+                          - generic [ref=f1e557]:
+                            - generic [ref=f1e558]: °
+                            - generic [ref=f1e559]: 32°
+                        - generic [ref=f1e560]:
+                          - generic [ref=f1e563]: 优
+                          - generic [ref=f1e566]:
+                            - generic [ref=f1e567]: °
+                            - generic [ref=f1e568]: 30°
+                        - generic [ref=f1e569]:
+                          - generic [ref=f1e572]: 优
+                          - generic [ref=f1e575]:
+                            - generic [ref=f1e576]: °
+                            - generic [ref=f1e577]: 29°
+                        - generic [ref=f1e578]:
+                          - generic [ref=f1e581]: 优
+                          - generic [ref=f1e584]:
+                            - generic [ref=f1e585]: °
+                            - generic [ref=f1e586]: 29°
+                        - generic [ref=f1e587]:
+                          - generic [ref=f1e590]: 优
+                          - generic [ref=f1e593]:
+                            - generic [ref=f1e594]: °
+                            - generic [ref=f1e595]: 29°
+                        - generic [ref=f1e596]:
+                          - generic [ref=f1e599]: 优
+                          - generic [ref=f1e602]:
+                            - generic [ref=f1e603]: °
+                            - generic [ref=f1e604]: 28°
+                        - generic [ref=f1e605]:
+                          - generic [ref=f1e608]: 优
+                          - generic [ref=f1e611]:
+                            - generic [ref=f1e612]: °
+                            - generic [ref=f1e613]: 28°
+                        - generic [ref=f1e614]:
+                          - generic [ref=f1e617]: 优
+                          - generic [ref=f1e620]:
+                            - generic [ref=f1e621]: °
+                            - generic [ref=f1e622]: 28°
+                        - generic [ref=f1e623]:
+                          - generic [ref=f1e626]: 优
+                          - generic [ref=f1e629]:
+                            - generic [ref=f1e630]: °
+                            - generic [ref=f1e631]: 28°
+                        - generic [ref=f1e632]:
+                          - generic [ref=f1e635]: 优
+                          - generic [ref=f1e638]:
+                            - generic [ref=f1e639]: °
+                            - generic [ref=f1e640]: 28°
+                        - generic [ref=f1e641]:
+                          - generic [ref=f1e644]: 优
+                          - generic [ref=f1e647]:
+                            - generic [ref=f1e648]: °
+                            - generic [ref=f1e649]: 27°
+                        - generic [ref=f1e650]:
+                          - generic [ref=f1e653]: 优
+                          - generic [ref=f1e656]:
+                            - generic [ref=f1e657]: °
+                            - generic [ref=f1e658]: 27°
+                        - generic [ref=f1e659]:
+                          - generic [ref=f1e662]: 优
+                          - generic [ref=f1e665]:
+                            - generic [ref=f1e666]: °
+                            - generic [ref=f1e667]: 27°
+                        - generic [ref=f1e668]:
+                          - generic [ref=f1e671]: 优
+                          - generic [ref=f1e674]:
+                            - generic [ref=f1e675]: °
+                            - generic [ref=f1e676]: 28°
+                        - generic [ref=f1e677]:
+                          - generic [ref=f1e680]: 优
+                          - generic [ref=f1e683]:
+                            - generic [ref=f1e684]: °
+                            - generic [ref=f1e685]: 29°
+                        - generic [ref=f1e686]:
+                          - generic [ref=f1e689]: 优
+                          - generic [ref=f1e692]:
+                            - generic [ref=f1e693]: °
+                            - generic [ref=f1e694]: 30°
+                        - generic [ref=f1e695]:
+                          - generic [ref=f1e698]: 优
+                          - generic [ref=f1e701]:
+                            - generic [ref=f1e702]: °
+                            - generic [ref=f1e703]: 31°
+                        - generic [ref=f1e704]:
+                          - generic [ref=f1e707]: 优
+                          - generic [ref=f1e710]:
+                            - generic [ref=f1e711]: °
+                            - generic [ref=f1e712]: 32°
+                        - generic [ref=f1e713]:
+                          - generic [ref=f1e716]: 优
+                          - generic [ref=f1e719]:
+                            - generic [ref=f1e720]: °
+                            - generic [ref=f1e721]: 32°
+                        - generic [ref=f1e722]:
+                          - generic [ref=f1e725]: 优
+                          - generic [ref=f1e728]:
+                            - generic [ref=f1e729]: °
+                            - generic [ref=f1e730]: 32°
+                        - generic [ref=f1e731]:
+                          - generic [ref=f1e734]: 优
+                          - generic [ref=f1e737]:
+                            - generic [ref=f1e738]: °
+                            - generic [ref=f1e739]: 33°
+                        - generic [ref=f1e740]:
+                          - generic [ref=f1e743]: 优
+                          - generic [ref=f1e746]:
+                            - generic [ref=f1e747]: °
+                            - generic [ref=f1e748]: 32°
+                        - generic [ref=f1e749]:
+                          - generic [ref=f1e752]: 优
+                          - generic [ref=f1e755]:
+                            - generic [ref=f1e756]: °
+                            - generic [ref=f1e757]: 31°
+                    - generic: 
+            - generic [ref=f1e816]:
+              - generic [ref=f1e817]:
+                - generic [ref=f1e818]: 15天预报
+                - generic [ref=f1e820]:
+                  - generic [ref=f1e821] [cursor=pointer]: 趋势
+                  - generic [ref=f1e822] [cursor=pointer]: 列表
+              - generic [ref=f1e824]:
+                - generic [ref=f1e825]:
+                  - generic [ref=f1e829]:
+                    - generic [ref=f1e832] [cursor=pointer]:
+                      - generic [ref=f1e834]: 昨天
+                      - generic [ref=f1e836]: 08/23
+                      - generic [ref=f1e841]:
+                        - paragraph
+                      - generic [ref=f1e843]:
+                        - generic [ref=f1e844]: 东南风
+                        - generic [ref=f1e846]: 4级
+                      - generic [ref=f1e848]: 优
+                    - generic [ref=f1e853] [cursor=pointer]:
+                      - generic [ref=f1e858]: 今天
+                      - generic [ref=f1e860]: 08/24
+                      - generic [ref=f1e865]:
+                        - paragraph
+                      - generic [ref=f1e867]:
+                        - generic [ref=f1e868]: 东南风
+                        - generic [ref=f1e870]: 4级
+                      - generic [ref=f1e872]: 优
+                    - generic [ref=f1e877] [cursor=pointer]:
+                      - generic [ref=f1e879]: 明天
+                      - generic [ref=f1e881]: 08/25
+                      - generic [ref=f1e886]:
+                        - paragraph
+                      - generic [ref=f1e888]:
+                        - generic [ref=f1e889]: 东南风
+                        - generic [ref=f1e891]: 3级
+                      - generic [ref=f1e893]: 优
+                    - generic [ref=f1e898] [cursor=pointer]:
+                      - generic [ref=f1e900]: 周三
+                      - generic [ref=f1e902]: 08/26
+                      - generic [ref=f1e907]:
+                        - paragraph
+                      - generic [ref=f1e909]:
+                        - generic [ref=f1e910]: 东北风
+                        - generic [ref=f1e912]: 3级
+                      - generic [ref=f1e914]: 优
+                    - generic [ref=f1e919] [cursor=pointer]:
+                      - generic [ref=f1e921]: 周四
+                      - generic [ref=f1e923]: 08/27
+                      - generic [ref=f1e928]:
+                        - paragraph
+                      - generic [ref=f1e930]:
+                        - generic [ref=f1e931]: 东北风
+                        - generic [ref=f1e933]: 4级
+                      - generic [ref=f1e935]: 优
+                    - generic [ref=f1e940] [cursor=pointer]:
+                      - generic [ref=f1e942]: 周五
+                      - generic [ref=f1e944]: 08/28
+                      - generic [ref=f1e949]:
+                        - paragraph
+                      - generic [ref=f1e951]:
+                        - generic [ref=f1e952]: 东北风
+                        - generic [ref=f1e954]: 4级
+                      - generic [ref=f1e956]: 优
+                    - generic [ref=f1e961] [cursor=pointer]:
+                      - generic [ref=f1e963]: 周六
+                      - generic [ref=f1e965]: 08/29
+                      - generic [ref=f1e970]:
+                        - paragraph
+                      - generic [ref=f1e972]:
+                        - generic [ref=f1e973]: 东南风
+                        - generic [ref=f1e975]: 3级
+                      - generic [ref=f1e977]: 良
+                    - generic [ref=f1e982] [cursor=pointer]:
+                      - generic [ref=f1e984]: 周日
+                      - generic [ref=f1e986]: 08/30
+                      - paragraph [ref=f1e990]: 90%
+                      - paragraph [ref=f1e994]: 90%
+                      - generic [ref=f1e995]:
+                        - generic [ref=f1e996]: 东北风
+                        - generic [ref=f1e998]: 3级
+                      - generic [ref=f1e1000]: 优
+                    - generic [ref=f1e1005] [cursor=pointer]:
+                      - generic [ref=f1e1007]: 周一
+                      - generic [ref=f1e1009]: 08/31
+                      - paragraph [ref=f1e1013]: 70%
+                      - paragraph [ref=f1e1017]: 80%
+                      - generic [ref=f1e1018]:
+                        - generic [ref=f1e1019]: 东北风
+                        - generic [ref=f1e1021]: 3级
+                    - generic [ref=f1e1025] [cursor=pointer]:
+                      - generic [ref=f1e1027]: 周二
+                      - generic [ref=f1e1029]: 09/01
+                      - paragraph [ref=f1e1033]: 80%
+                      - generic [ref=f1e1035]:
+                        - paragraph
+                      - generic [ref=f1e1037]:
+                        - generic [ref=f1e1038]: 东北风
+                        - generic [ref=f1e1040]: 3级
+                    - generic [ref=f1e1044] [cursor=pointer]:
+                      - generic [ref=f1e1046]: 周三
+                      - generic [ref=f1e1048]: 09/02
+                      - paragraph [ref=f1e1052]: 80%
+                      - paragraph [ref=f1e1056]: 70%
+                      - generic [ref=f1e1057]:
+                        - generic [ref=f1e1058]: 东北风
+                        - generic [ref=f1e1060]: 3级
+                    - generic [ref=f1e1064] [cursor=pointer]:
+                      - generic [ref=f1e1066]: 周四
+                      - generic [ref=f1e1068]: 09/03
+                      - paragraph [ref=f1e1072]: 90%
+                      - paragraph [ref=f1e1076]: 70%
+                      - generic [ref=f1e1077]:
+                        - generic [ref=f1e1078]: 东北风
+                        - generic [ref=f1e1080]: 3级
+                    - generic [ref=f1e1084] [cursor=pointer]:
+                      - generic [ref=f1e1086]: 周五
+                      - generic [ref=f1e1088]: 09/04
+                      - paragraph [ref=f1e1095]: 90%
+                      - generic [ref=f1e1096]:
+                        - generic [ref=f1e1097]: 东北风
+                        - generic [ref=f1e1099]: 4级
+                    - generic [ref=f1e1103] [cursor=pointer]:
+                      - generic [ref=f1e1105]: 周六
+                      - generic [ref=f1e1107]: 09/05
+                      - paragraph [ref=f1e1111]: 80%
+                      - paragraph [ref=f1e1115]: 60%
+                      - generic [ref=f1e1116]:
+                        - generic [ref=f1e1117]: 东北风
+                        - generic [ref=f1e1119]: 4级
+                    - generic [ref=f1e1123] [cursor=pointer]:
+                      - generic [ref=f1e1125]: 周日
+                      - generic [ref=f1e1127]: 09/06
+                      - paragraph [ref=f1e1131]: 90%
+                      - paragraph [ref=f1e1135]: 80%
+                      - generic [ref=f1e1136]:
+                        - generic [ref=f1e1137]: 东北风
+                        - generic [ref=f1e1139]: 3级
+                    - generic [ref=f1e1143] [cursor=pointer]:
+                      - generic [ref=f1e1145]: 周一
+                      - generic [ref=f1e1147]: 09/07
+                      - paragraph [ref=f1e1151]: 70%
+                      - paragraph [ref=f1e1155]: 90%
+                      - generic [ref=f1e1156]:
+                        - generic [ref=f1e1157]: 东北风
+                        - generic [ref=f1e1159]: 3级
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 32°
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 33°
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 32°
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 33°
+                          - generic:
+                            - generic: °
+                            - generic: 28°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 33°
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 32°
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 34°
+                          - generic:
+                            - generic: °
+                            - generic: 28°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 32°
+                          - generic:
+                            - generic: °
+                            - generic: 26°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 32°
+                          - generic:
+                            - generic: °
+                            - generic: 25°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 30°
+                          - generic:
+                            - generic: °
+                            - generic: 25°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 30°
+                          - generic:
+                            - generic: °
+                            - generic: 24°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 30°
+                          - generic:
+                            - generic: °
+                            - generic: 24°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 30°
+                          - generic:
+                            - generic: °
+                            - generic: 25°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                          - generic:
+                            - generic: °
+                            - generic: 20°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 28°
+                          - generic:
+                            - generic: °
+                            - generic: 22°
+                        - generic:
+                          - generic:
+                            - generic: °
+                            - generic: 27°
+                          - generic:
+                            - generic: °
+                            - generic: 22°
+                  - generic: 
+                - generic [ref=f1e1166]:
+                  - generic [ref=f1e1167]: 多云
+                  - generic [ref=f1e1168]: 多云27~33°C
+                  - generic [ref=f1e1172]:
+                    - generic [ref=f1e1174]:
+                      - generic [ref=f1e1175]:
+                        - generic [ref=f1e1176]: 湿度
+                        - generic [ref=f1e1178]: 63%
+                      - generic [ref=f1e1180]:
+                        - generic [ref=f1e1181]: 紫外线
+                        - generic [ref=f1e1183]: 弱
+                      - generic [ref=f1e1185]:
+                        - generic [ref=f1e1186]: 日出
+                        - generic [ref=f1e1188]: 05:25
+                      - generic [ref=f1e1190]:
+                        - generic [ref=f1e1191]: 日落
+                        - generic [ref=f1e1193]: 18:28
+                      - generic [ref=f1e1195]:
+                        - generic [ref=f1e1196]: 气压
+                        - generic [ref=f1e1198]: 1008hPa
+                      - generic [ref=f1e1200]:
+                        - generic [ref=f1e1201]: 风力风向
+                        - generic [ref=f1e1203]: 东南风4级
+                    - generic: 
+                - link "查看40天预报" [ref=f1e1208] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7rk4yIUDwGx7soEnzMi_MLM6gLfd2IvFwBpkGSoV9d8nJYewfaxVI8_hZUWlYXvOoeVpprQAn1gUo-KpJuRqnvdW7yTP4xaM6aSq-MZ7IF9YDTeC41N-tuDaKhIdTOrxkCDjZCXA8KilAfWL5d4D95NezWj2ksJ2vxZo4gUUgID87KbzweIndQo9bL9_tVZN
+                  - text: 查看40天预报
+                  - generic [ref=f1e1209]: 
+            - generic [ref=f1e1214]:
+              - heading "生活服务" [level=3] [ref=f1e1215]
+              - generic [ref=f1e1218]:
+                - generic [ref=f1e1219]:
+                  - generic [ref=f1e1222] [cursor=pointer]:
+                    - generic [ref=f1e1225]: 短袖类
+                    - generic [ref=f1e1227]: 穿衣
+                  - generic [ref=f1e1231] [cursor=pointer]:
+                    - generic [ref=f1e1234]: 不适宜
+                    - generic [ref=f1e1236]: 运动
+                  - generic [ref=f1e1240] [cursor=pointer]:
+                    - generic [ref=f1e1243]: 强
+                    - generic [ref=f1e1245]: 紫外线
+                  - generic [ref=f1e1249] [cursor=pointer]:
+                    - generic [ref=f1e1252]: 一般
+                    - generic [ref=f1e1254]: 旅游
+                  - generic [ref=f1e1258] [cursor=pointer]:
+                    - generic [ref=f1e1261]: 控油
+                    - generic [ref=f1e1263]: 化妆
+                - generic [ref=f1e1265]:
+                  - generic [ref=f1e1268] [cursor=pointer]:
+                    - generic [ref=f1e1271]: 不太适宜
+                    - generic [ref=f1e1273]: 钓鱼
+                  - generic [ref=f1e1277] [cursor=pointer]:
+                    - generic [ref=f1e1280]: 较易发
+                    - generic [ref=f1e1282]: 感冒
+                  - generic [ref=f1e1286] [cursor=pointer]:
+                    - generic [ref=f1e1289]: 较不适宜
+                    - generic [ref=f1e1291]: 洗车
+                  - generic [ref=f1e1295] [cursor=pointer]:
+                    - generic [ref=f1e1298]: 今日宜忌
+                    - generic [ref=f1e1300]: 万年历
+                  - generic [ref=f1e1304] [cursor=pointer]:
+                    - generic [ref=f1e1307]: 今日运势
+                    - generic [ref=f1e1309]: 星座
+                - generic [ref=f1e1314] [cursor=pointer]:
+                  - generic [ref=f1e1317]: 年运信息
+                  - generic [ref=f1e1319]: 生肖
+          - generic [ref=f1e1322]:
+            - heading [level=3] [ref=f1e1323]:
+              - link [ref=f1e1324] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=MIvEfseuXHeED_0lt1vrcMkF-HFI6EDWdkwAzpbxDbIQqh5M7Hs4h-TIIcboo5dBrQHjqOJex8eTqB8yZLEs140CQOsyXd6p-I7C4sCs3pgfeG_eCBlZ0Hdqd5TTDWDp1YLEkqULAfV4pUy30tDS1K
+                - emphasis [ref=f1e1325]: 天气
+                - text: 吧 - 百度贴吧
+            - generic [ref=f1e1326]:
+              - link [ref=f1e1328] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=MIvEfseuXHeED_0lt1vrcMkF-HFI6EDWdkwAzpbxDbIQqh5M7Hs4h-TIIcboo5dBrQHjqOJex8eTqB8yZLEs140CQOsyXd6p-I7C4sCs3pgfeG_eCBlZ0Hdqd5TTDWDp1YLEkqULAfV4pUy30tDS1K
+              - generic [ref=f1e1334]:
+                - paragraph [ref=f1e1335]: 看气象万千，天气吧欢迎您！
+                - paragraph [ref=f1e1336]:
+                  - generic [ref=f1e1337]: 关注用户：2万人
+                - paragraph [ref=f1e1338]:
+                  - generic [ref=f1e1339]: 累计发贴：8万
+                - paragraph [ref=f1e1340]:
+                  - link "实况记录" [ref=f1e1341] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfYiyHPs_q1n01w0wg5n0c4Q6Bicmpuvs006MHqj_MXnETZwyMGS3gTZEakWgynZmjKBMGpSXGfzhtA3fm_UMTHG
+                  - link "气象知识" [ref=f1e1342] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfYiyHPs_q1n01w0wg5n0c4Q6Bicmpuvs006MHqj_MXnETZwyMGS3gTZEakWgynZmjV9FOp2L9oB1DJF0L7xRFUu
+                  - link "美丽图片" [ref=f1e1343] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfYiyHPs_q1n01w0wg5n0c4Q6Bicmpuvs006MHqj_MXnETZwyMGS3gTZEakWgynZmjLM8C16A6RGhfWCWwZVugcq
+                  - link "闲谈娱乐" [ref=f1e1344] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfYiyHPs_q1n01w0wg5n0c4Q6Bicmpuvs006MHqj_MXnETZwyMGS3gTZEakWgynZmjVNtAy5bHF1DqMJ0A6DMWOG
+                  - link "气象万千" [ref=f1e1345] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfYiyHPs_q1n01w0wg5n0c4Q6Bicmpuvs006MHqj_MXnETZwyMGS3gTZEakWgynZmjWuezaDZX5Uvl-dAvNFt8se
+            - generic [ref=f1e1346]:
+              - generic [ref=f1e1348]:
+                - link [ref=f1e1350] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=7rk4yIUDwGx7soEnzMi_MOVpDAIvRejX3VmJgvQxww0raLmIwuEcqDR4wB_3dvwI_bpbwDwYRif_ahAoyGbZinCzd7Vk539f434M3J88pvCa87SNm-2KJxzFh0JM7rzB
+                  - text: 北京现在完全用不上
+                  - emphasis [ref=f1e1351]: 天气
+                  - text: 预报
+                - generic [ref=f1e1352]:
+                  - generic [ref=f1e1353]:
+                    - text: 回复：
+                    - generic [ref=f1e1354]: "3"
+                  - generic [ref=f1e1355]:
+                    - text: 点击：
+                    - generic [ref=f1e1356]: "2640"
+              - generic [ref=f1e1358]:
+                - link "今年第19号台风及72小时降雨预报" [ref=f1e1360] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhOxhuk0GtNpjpa01XvDoWql8eVmy0pjF_fXKPSI8Wqc8p2MXipcXgVCtkArK0T7RzsB9dheM8yEokC50NgRyC6a
+                - generic [ref=f1e1361]:
+                  - generic [ref=f1e1362]:
+                    - text: 回复：
+                    - generic [ref=f1e1363]: "2"
+                  - generic [ref=f1e1364]:
+                    - text: 点击：
+                    - generic [ref=f1e1365]: "197"
+              - generic [ref=f1e1367]:
+                - link "2026年入夏追踪统计贴" [ref=f1e1369] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhOxhuk0GtNpjpa01XvDoWqlmE3CPUjBZZVz5EnS4qG_FMTMH7DiPmVZfE-6aFqz4ujGXDZ6fM3zuuWjY0RpwxfB
+                - generic [ref=f1e1370]:
+                  - generic [ref=f1e1371]:
+                    - text: 回复：
+                    - generic [ref=f1e1372]: "109"
+                  - generic [ref=f1e1373]:
+                    - text: 点击：
+                    - generic [ref=f1e1374]: "5408"
+            - link [ref=f1e1376] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=MIvEfseuXHeED_0lt1vrcMkF-HFI6EDWdkwAzpbxDbIQqh5M7Hs4h-TIIcboo5dBrQHjqOJex8eTqB8yZLEs140CQOsyXd6p-I7C4sCs3pgfeG_eCBlZ0Hdqd5TTDWDp1YLEkqULAfV4pUy30tDS1K
+              - text: 查看更多
+              - emphasis [ref=f1e1377]: 天气
+              - text: 吧的内容 >
+            - generic [ref=f1e1378]:
+              - generic [ref=f1e1379]: tieba.baidu.com/
+              - generic [ref=f1e1380] [cursor=pointer]: 
+          - generic [ref=f1e1385]:
+            - generic [ref=f1e1387]:
+              - heading [level=3] [ref=f1e1388]:
+                - link [ref=f1e1389] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+                  - generic [ref=f1e1391]:
+                    - text: 上海市
+                    - emphasis [ref=f1e1392]: 天气
+                    - text: 的微博_微博
+              - link [ref=f1e1393] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+            - generic [ref=f1e1399] [cursor=pointer]:
+              - text: "#来自上海"
+              - emphasis [ref=f1e1400]: 天气
+              - text: 的问候#今天上海是多云到阴
+              - emphasis [ref=f1e1401]: 天气
+              - text: "为主,有分散性短时阵雨。东南风4~5级阵风6级,沿江沿海地区5级阵风6~7级。气温在27~33℃之间。相对湿度90%~65%,体感潮湿闷热。大家出门最好带把伞,遮阳挡雨两不误。 上海市天气: 【市预警发布中心】上海市气象台2026年08月24日06时00分解除中心城区大风蓝色预警信号:据最新气象"
+            - generic [ref=f1e1402]:
+              - link [ref=f1e1403] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+              - link [ref=f1e1407] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+              - link [ref=f1e1411] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+              - link [ref=f1e1415] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+              - link "16" [ref=f1e1419] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+                - generic [ref=f1e1424]:
+                  - generic [ref=f1e1425]: 
+                  - text: "16"
+            - link "微博" [ref=f1e1430] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVYveDCU4deILk_k7srs6OjlKApd-a18jIzdHoYZl-NtM
+              - generic [ref=f1e1432]: 
+          - generic [ref=f1e1437]:
+            - generic [ref=f1e1439]:
+              - heading [level=3] [ref=f1e1440]:
+                - link [ref=f1e1441] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfWNZ8pExig1joTiPezLQoHlLRRXwnThvPwUAgSZ7q4NRK6cf21i7xYKPYORphIfWVa
+                  - generic [ref=f1e1443]:
+                    - text: 【上海
+                    - emphasis [ref=f1e1444]: 天气
+                    - text: 预报】上海天气预报一周_上海天气预报7天、15天、40...
+              - link [ref=f1e1445] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfWNZ8pExig1joTiPezLQoHlLRRXwnThvPwUAgSZ7q4NRK6cf21i7xYKPYORphIfWVa
+            - generic [ref=f1e1446]:
+              - link [ref=f1e1448] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfWNZ8pExig1joTiPezLQoHlLRRXwnThvPwUAgSZ7q4NRK6cf21i7xYKPYORphIfWVa
+              - generic [ref=f1e1453]:
+                - generic [ref=f1e1460] [cursor=pointer]:
+                  - text: 上海
+                  - emphasis [ref=f1e1461]: 天气
+                  - text: 预报,及时准确发布中央气象台天气信息,便捷查询上海今日天气,上海周末天气,上海一周...
+                - link "中国天气网" [ref=f1e1466] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=HMDA3BRDmlO6qcAPLMdsfWNZ8pExig1joTiPezLQoHlLRRXwnThvPwUAgSZ7q4NRK6cf21i7xYKPYORphIfWVa
+                  - generic [ref=f1e1468]: 
+          - generic [ref=f1e1473]:
+            - generic [ref=f1e1475]:
+              - heading [level=3] [ref=f1e1476]:
+                - link [ref=f1e1477] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=hBh6cSi94KoZul6YP98XeSPE22r-qHUnTV3V-9Z73j58doN4kYRyFG1MRioDbOUF
+                  - generic [ref=f1e1479]:
+                    - text: 上海
+                    - emphasis [ref=f1e1480]: 天气
+              - link [ref=f1e1481] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=hBh6cSi94KoZul6YP98XeSPE22r-qHUnTV3V-9Z73j58doN4kYRyFG1MRioDbOUF
+            - generic [ref=f1e1482]:
+              - link [ref=f1e1484] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=hBh6cSi94KoZul6YP98XeSPE22r-qHUnTV3V-9Z73j58doN4kYRyFG1MRioDbOUF
+              - generic [ref=f1e1489]:
+                - generic [ref=f1e1496] [cursor=pointer]:
+                  - text: 上海
+                  - emphasis [ref=f1e1497]: 天气
+                  - text: 预报,上海天气预报还提供上海各区县的生活指数、健康指数、交通指数、旅游指数,及时...
+                - link "中国天气网" [ref=f1e1502] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=hBh6cSi94KoZul6YP98XeSPE22r-qHUnTV3V-9Z73j58doN4kYRyFG1MRioDbOUF
+                  - generic [ref=f1e1504]: 
+          - generic [ref=f1e1509]:
+            - generic [ref=f1e1511]:
+              - heading [level=3] [ref=f1e1512]:
+                - link [ref=f1e1513] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhOWtjk3fP7J9tVrAUXcXok4Ylf_GodfMHXXTZIXFrGPiMNibTKE2D0jNfkIPERXNSS
+                  - generic [ref=f1e1515]:
+                    - text: 【上海市
+                    - emphasis [ref=f1e1516]: 天气
+                    - text: 】_上海市天气预报_天气查询 - 墨迹天气
+              - link [ref=f1e1517] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhOWtjk3fP7J9tVrAUXcXok4Ylf_GodfMHXXTZIXFrGPiMNibTKE2D0jNfkIPERXNSS
+            - generic [ref=f1e1522] [cursor=pointer]:
+              - text: 7天前
+              - generic [ref=f1e1523]:
+                - text: 上海市今天实况:32度 晴,湿度:60%,东南风:3级。白天:33度,多云。 夜间:多云,27度,潮湿闷热,墨迹
+                - emphasis [ref=f1e1524]: 天气
+                - text: 建议您穿着吸湿排汗的夏装,棉麻质地的短打扮是不错的选择。
+            - link "墨迹天气" [ref=f1e1529] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhOWtjk3fP7J9tVrAUXcXok4Ylf_GodfMHXXTZIXFrGPiMNibTKE2D0jNfkIPERXNSS
+              - generic [ref=f1e1531]: 
+          - generic [ref=f1e1536]:
+            - generic [ref=f1e1538]:
+              - heading [level=3] [ref=f1e1539]:
+                - link [ref=f1e1540] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=dlrHV5rbP-SBklCSjOxO1MR4RqjX3aH_e7LxUi1B2d_bMKa6YQ0Vquw3tf-UVymUt9aXqhen3cXYKmUGPBkub_
+                  - generic [ref=f1e1542]:
+                    - text: 灾害
+                    - emphasis [ref=f1e1543]: 天气
+                    - text: 预警-上海市气象局
+              - link [ref=f1e1544] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=dlrHV5rbP-SBklCSjOxO1MR4RqjX3aH_e7LxUi1B2d_bMKa6YQ0Vquw3tf-UVymUt9aXqhen3cXYKmUGPBkub_
+            - generic [ref=f1e1549] [cursor=pointer]:
+              - text: 2026年8月15日
+              - generic [ref=f1e1550]:
+                - text: 灾害
+                - emphasis [ref=f1e1551]: 天气
+                - text: 预警 今日天气 灾害天气预警 空气质量预报 五日天气预报 天气实况 卫星云图 雷达回波图 生活气象指数 高温情况
+            - link "头像 上海市气象局" [ref=f1e1556] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=dlrHV5rbP-SBklCSjOxO1MR4RqjX3aH_e7LxUi1B2d_bMKa6YQ0Vquw3tf-UVymUt9aXqhen3cXYKmUGPBkub_
+              - img "头像" [ref=f1e1559]
+              - generic [ref=f1e1560]: 上海市气象局
+              - generic [ref=f1e1561]: 
+          - generic [ref=f1e1566]:
+            - generic [ref=f1e1568]:
+              - heading [level=3] [ref=f1e1569]:
+                - link [ref=f1e1570] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhPyuDh41Co1WRv8vbFi3HC3PrAZcM2-Hrl_QnDU_Pqq7XUa54sDg4RrqH4RpVOtdlq
+                  - generic [ref=f1e1572]:
+                    - text: 上海
+                    - emphasis [ref=f1e1573]: 天气
+                    - text: 预报30天_上海天气预报30天查询_114天气网
+              - link [ref=f1e1574] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhPyuDh41Co1WRv8vbFi3HC3PrAZcM2-Hrl_QnDU_Pqq7XUa54sDg4RrqH4RpVOtdlq
+            - generic [ref=f1e1580] [cursor=pointer]:
+              - text: 上海未来30天
+              - emphasis [ref=f1e1581]: 天气
+              - text: 预报 今天 08/24 明天 08/25 后天 08/26 星期四 (08/27) ℃~℃ 星期五 (08/28) ℃~℃ 星期六 (08/29) ℃~℃ 星期日 (08/30) ℃~℃ 星期一 (08/31) ℃~℃ 星期二 (09/01) ℃~℃ 星期三 (09/02) ℃~℃ 星期四 (09/03) ℃~℃ 星期五 (09/04) ℃~℃ 星期六 ...
+            - link "114天气网" [ref=f1e1586] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=a27OxVH5nRvbzCOf5kaPVMMen4c0G0VreoeNbCLBzhPyuDh41Co1WRv8vbFi3HC3PrAZcM2-Hrl_QnDU_Pqq7XUa54sDg4RrqH4RpVOtdlq
+              - generic [ref=f1e1588]: 
+          - generic [ref=f1e1593]:
+            - generic [ref=f1e1595]:
+              - heading [level=3] [ref=f1e1596]:
+                - link [ref=f1e1597] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=hOg1CcAHhjnYrkT-pQXtGlGXmRECH6w5uOyJMjJ8eZUcSQ2FQUwYo58yUtJyAHDLFIH6PY_f3er6INLmvlJ0q_
+                  - generic [ref=f1e1599]:
+                    - text: 上海奉贤区
+                    - emphasis [ref=f1e1600]: 天气
+                    - text: ",奉贤天气预报一周以及24小时实况查询 - 围观天气"
+              - link [ref=f1e1601] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=hOg1CcAHhjnYrkT-pQXtGlGXmRECH6w5uOyJMjJ8eZUcSQ2FQUwYo58yUtJyAHDLFIH6PY_f3er6INLmvlJ0q_
+            - generic [ref=f1e1606] [cursor=pointer]:
+              - text: 2026年8月14日
+              - generic [ref=f1e1607]:
+                - text: 上海奉贤区 奉贤24小时
+                - emphasis [ref=f1e1608]: 天气
+                - text: 预报 16点阴28℃优 17点小雨28℃优 18点多云27℃优 19点小雨27℃优 20点中雨27℃优 21点小雨27℃优 22点大雨27℃优 23点小雨27℃优 00点阴27℃优 01点多云26℃优 02点阴26℃优 03点阴26℃优 04点多云26℃优
+            - link "围观天气" [ref=f1e1613] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=hOg1CcAHhjnYrkT-pQXtGlGXmRECH6w5uOyJMjJ8eZUcSQ2FQUwYo58yUtJyAHDLFIH6PY_f3er6INLmvlJ0q_
+              - generic [ref=f1e1615]: 
+          - generic [ref=f1e1620]:
+            - generic [ref=f1e1622]:
+              - heading [level=3] [ref=f1e1623]:
+                - link [ref=f1e1624] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=t5X0fGhYvfAzZdlPyiu1_606Dsi3V2EN_nI9K0eJz0c8lmg4OUZBOqYhMGVZJ0a7Wib_T4sgjO2P3bwXCtHk8q
+                  - generic [ref=f1e1626]:
+                    - text: 徐汇24小时
+                    - emphasis [ref=f1e1627]: 天气
+                    - text: 查询_徐汇今日天气预报查询_2345天气王
+              - link [ref=f1e1628] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=t5X0fGhYvfAzZdlPyiu1_606Dsi3V2EN_nI9K0eJz0c8lmg4OUZBOqYhMGVZJ0a7Wib_T4sgjO2P3bwXCtHk8q
+            - generic [ref=f1e1634] [cursor=pointer]:
+              - text: "2345"
+              - emphasis [ref=f1e1635]: 天气
+              - text: 预报为你及时提供最新的上海徐汇今天天气,今天24小时天气情况等信息,同时还提供当日上海徐汇气象指数等信息
+            - link "2345天气王" [ref=f1e1640] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=t5X0fGhYvfAzZdlPyiu1_606Dsi3V2EN_nI9K0eJz0c8lmg4OUZBOqYhMGVZJ0a7Wib_T4sgjO2P3bwXCtHk8q
+              - generic [ref=f1e1642]: 
+      - generic [ref=f1e1646]:
+        - link:
+          - /url: ""
+        - strong [ref=f1e1647]:
+          - generic [ref=f1e1648]: "1"
+        - link "2" [ref=f1e1649] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=10&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "3" [ref=f1e1651] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=20&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "4" [ref=f1e1653] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=30&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "5" [ref=f1e1655] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=40&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "6" [ref=f1e1657] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=50&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "7" [ref=f1e1659] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=60&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "8" [ref=f1e1661] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=70&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "9" [ref=f1e1663] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=80&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link "10" [ref=f1e1665] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=90&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=
+        - link [ref=f1e1667] [cursor=pointer]:
+          - /url: /s?wd=%E5%A4%A9%E6%B0%94&pn=10&oq=%E5%A4%A9%E6%B0%94&ie=utf-8&usm=2&fenlei=256&rsv_idx=1&rsv_pq=91d9cb0e0006edde&rsv_t=ca01vwGA8U2Ub52450ZErZqOD5dmxPYTkskZre%2F8phMZFKHuYqnHd55CQ84&topic_pn=&rsv_page=1
+      - generic [ref=f1e1672]:
+        - link "帮助" [ref=f1e1673] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=f1e1674] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=f1e1675] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=f1e1676] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

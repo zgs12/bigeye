@@ -1,0 +1,139 @@
+- generic [ref=e3]:
+  - generic:
+    - generic [ref=e6]:
+      - link "新闻" [ref=e7] [cursor=pointer]:
+        - /url: http://news.baidu.com
+      - link "hao123" [ref=e8] [cursor=pointer]:
+        - /url: https://www.hao123.com?src=from_pc
+      - link "地图" [ref=e9] [cursor=pointer]:
+        - /url: http://map.baidu.com
+      - link "贴吧" [ref=e10] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/
+      - link "视频" [ref=e11] [cursor=pointer]:
+        - /url: https://haokan.baidu.com/?sfrom=baidu-top
+      - link "图片" [ref=e12] [cursor=pointer]:
+        - /url: http://image.baidu.com/
+      - link "网盘" [ref=e13] [cursor=pointer]:
+        - /url: https://pan.baidu.com?from=1026962h
+      - link "文库" [ref=e14] [cursor=pointer]:
+        - /url: https://wenku.baidu.com/?fr=bdpcindex
+      - link "文心" [ref=e15] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?isShowHello=1&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22home_tab%22%7D
+      - link "百度搭子" [ref=e16] [cursor=pointer]:
+        - /url: https://dumate.cn?track=bdsy
+      - link "更多" [ref=e18] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+    - generic [ref=e19]:
+      - generic [ref=e20] [cursor=pointer]: 设置
+      - link "登录" [ref=e21] [cursor=pointer]:
+        - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic:
+        - link "点击一下，了解更多":
+          - /url: //www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pcs
+    - generic [ref=e31]:
+      - generic [ref=e34]:
+        - textbox "四六级查成绩" [active] [ref=e36]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e41] [cursor=pointer]
+            - generic [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]
+              - generic [ref=e56] [cursor=pointer]
+          - button "百度一下" [ref=e63] [cursor=pointer]
+      - link "复杂问题就找文心助手，深入思考回答更优 " [ref=e67] [cursor=pointer]:
+        - /url: https://wenxin.baidu.com/?extParams=%7B%22enter_type%22%3A%22home_operate%22%7D
+        - generic [ref=e69]:
+          - generic [ref=e70]: 复杂问题就找文心助手，深入思考回答更优
+          - generic [ref=e71]: 
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - link "百度热搜":
+          - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_entry
+          - generic "百度热搜" [ref=e76] [cursor=pointer]: 
+        - generic [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: 
+          - text: 换一换
+      - list:
+        - listitem [ref=e79]:
+          - link " 习近平同约旦国王阿卜杜拉二世会谈" [ref=e80] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e81]: 
+            - text: 习近平同约旦国王阿卜杜拉二世会谈
+        - listitem [ref=e83]:
+          - link "5 央媒评湖南扶老人被索赔事件" [ref=e84] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e85]: "5"
+            - text: 央媒评湖南扶老人被索赔事件
+          - generic [ref=e86]: 热
+        - listitem [ref=e87]:
+          - link "1 央视曝光后 沈阳等多地接连通报" [ref=e88] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e89]: "1"
+            - text: 央视曝光后 沈阳等多地接连通报
+          - generic [ref=e90]: 热
+        - listitem [ref=e91]:
+          - link "6 10省部分地区有大暴雨 局地特大暴雨" [ref=e92] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=10%E7%9C%81%E9%83%A8%E5%88%86%E5%9C%B0%E5%8C%BA%E6%9C%89%E5%A4%A7%E6%9A%B4%E9%9B%A8+%E5%B1%80%E5%9C%B0%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e93]: "6"
+            - text: 10省部分地区有大暴雨 局地特大暴雨
+          - generic [ref=e94]: 新
+        - listitem [ref=e95]:
+          - link "2 中学施发型令：不合格不让进校门" [ref=e96] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e97]: "2"
+            - text: 中学施发型令：不合格不让进校门
+          - generic [ref=e98]: 新
+        - listitem [ref=e99]:
+          - link "7 婚礼第二天新娘指纹被爸爸删掉" [ref=e100] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e101]: "7"
+            - text: 婚礼第二天新娘指纹被爸爸删掉
+        - listitem [ref=e103]:
+          - link "3 中国机器人连刷人类世界纪录" [ref=e104] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e105]: "3"
+            - text: 中国机器人连刷人类世界纪录
+        - listitem [ref=e107]:
+          - link "8 官方确认帮扶老人遭索赔店主不担责" [ref=e108] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e109]: "8"
+            - text: 官方确认帮扶老人遭索赔店主不担责
+          - generic [ref=e110]: 热
+        - listitem [ref=e111]:
+          - link "4 覃伟中辞去深圳市市长职务" [ref=e112] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E8%A6%83%E4%BC%9F%E4%B8%AD%E8%BE%9E%E5%8E%BB%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%B8%82%E9%95%BF%E8%81%8C%E5%8A%A1&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e113]: "4"
+            - text: 覃伟中辞去深圳市市长职务
+        - listitem [ref=e115]:
+          - link "9 硕士被安排打螺丝 300人被迫离职" [ref=e116] [cursor=pointer]:
+            - /url: https://www.baidu.com/s?wd=%E7%A1%95%E5%A3%AB%E8%A2%AB%E5%AE%89%E6%8E%92%E6%89%93%E8%9E%BA%E4%B8%9D+300%E4%BA%BA%E8%A2%AB%E8%BF%AB%E7%A6%BB%E8%81%8C&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+            - generic [ref=e117]: "9"
+            - text: 硕士被安排打螺丝 300人被迫离职
+          - generic [ref=e118]: 新
+  - generic [ref=e120]:
+    - paragraph [ref=e121]:
+      - link "关于百度" [ref=e122] [cursor=pointer]:
+        - /url: //home.baidu.com
+    - paragraph [ref=e123]:
+      - link "About Baidu" [ref=e124] [cursor=pointer]:
+        - /url: http://ir.baidu.com
+    - paragraph [ref=e125]:
+      - link "使用百度前必读" [ref=e126] [cursor=pointer]:
+        - /url: //www.baidu.com/duty
+    - paragraph [ref=e127]:
+      - link "帮助中心" [ref=e128] [cursor=pointer]:
+        - /url: https://help.baidu.com/question?prod_id=1
+    - paragraph [ref=e129]:
+      - link "企业推广" [ref=e130] [cursor=pointer]:
+        - /url: https://e.baidu.com/?refer=1271
+    - paragraph [ref=e131]:
+      - link "京公网安备11000002000001号" [ref=e132] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001
+    - paragraph [ref=e133]:
+      - link "京ICP证030173号" [ref=e134] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+    - paragraph [ref=e135]: 互联网新闻信息服务许可证11220180008
+    - generic [ref=e136]: 
+    - generic [ref=e137]: 

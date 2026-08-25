@@ -1,0 +1,22 @@
+[
+  {
+    "topic_id": "de07ed7eaa42",
+    "rule_id": "dag_missing"
+  },
+  {
+    "topic_id": "d5fbee4efa04",
+    "rule_id": "topic_unnamed"
+  },
+  {
+    "topic_id": "d5fbee4efa04",
+    "rule_id": "dag_missing"
+  },
+  {
+    "topic_id": "f0f2b449e698",
+    "rule_id": "dag_missing"
+  },
+  {
+    "topic_id": "54c7be34936f",
+    "rule_id": "topic_unnamed"
+  }
+]

@@ -1,0 +1,375 @@
+- generic [active] [ref=f34e1]:
+  - link "欢迎进入 百度资讯搜索_人工智能,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=f34e2] [cursor=pointer]
+  - generic [ref=f34e3]:
+    - generic [ref=f34e5]:
+      - generic [ref=f34e6]:
+        - link [ref=f34e7] [cursor=pointer]:
+          - /url: /
+          - img "到百度首页" [ref=f34e8]
+        - generic [ref=f34e12]:
+          - textbox [ref=f34e15]: 人工智能
+          - generic [ref=f34e17]:
+            - generic [ref=f34e18]:
+              - generic [ref=f34e19] [cursor=pointer]
+              - generic [ref=f34e23]:
+                - generic [ref=f34e25] [cursor=pointer]
+                - generic [ref=f34e33] [cursor=pointer]
+                - generic [ref=f34e38] [cursor=pointer]
+            - button "百度一下" [ref=f34e45] [cursor=pointer]
+      - generic [ref=f34e46]:
+        - link "百度首页" [ref=f34e47] [cursor=pointer]:
+          - /url: /
+        - link "登录" [ref=f34e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=f34e51]:
+      - link [ref=f34e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2213869995758811248252%22%2C%22ori_lid%22%3A%2213869995758811248252%22%7D
+      - link "网页" [ref=f34e54] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "图片" [ref=f34e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=c07c1fa8001e767c&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - generic [ref=f34e56]: 资讯
+      - link "视频" [ref=f34e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=c07c1fa8001e767c&ie=utf-8&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_spt=7&rsv_bp=1&f=8&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_pq=c07c1fa8001e767c
+      - link "笔记" [ref=f34e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "地图" [ref=f34e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "贴吧" [ref=f34e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "文库" [ref=f34e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "更多" [ref=f34e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+    - generic [ref=f34e63]:
+      - generic [ref=f34e64]:
+        - generic [ref=f34e65]:
+          - generic [ref=f34e66]: 百度为您找到相关资讯154个
+          - generic [ref=f34e69] [cursor=pointer]:
+            - text: 全部资讯
+            - generic [ref=f34e70]: 
+          - generic [ref=f34e71] [cursor=pointer]:
+            - text: 按焦点排序
+            - generic [ref=f34e72]: 
+          - text: .
+        - generic [ref=f34e73]:
+          - generic [ref=f34e77]:
+            - generic "百度热搜" [ref=f34e78]:
+              - link " " [ref=f34e79] [cursor=pointer]:
+                - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                - generic [ref=f34e80]: 
+                - generic [ref=f34e81]: 
+              - link " 换一换" [ref=f34e83] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f34e84]: 
+                - text: 换一换
+            - generic [ref=f34e85]:
+              - generic [ref=f34e86] [cursor=pointer]: 热搜榜
+              - generic [ref=f34e87] [cursor=pointer]: 民生榜
+              - generic [ref=f34e88] [cursor=pointer]: 财经榜
+            - generic [ref=f34e90]:
+              - generic [ref=f34e92]:
+                - generic [ref=f34e93]: 
+                - link "习近平同约旦国王阿卜杜拉二世会谈" [ref=f34e95] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=c53dK440G6HaF21dPxHt415ZwExQvMauKv0OcL5tQh0e4IDYB35Tpj0TQg&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_1&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e97]:
+                - generic [ref=f34e98]: "1"
+                - link "中学施发型令：不合格不让进校门" [ref=f34e99] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_2&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e101]:
+                - generic [ref=f34e102]: "2"
+                - link "央视曝光后 沈阳等多地接连通报" [ref=f34e103] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E%20%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_3&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f34e104]: 热
+              - generic [ref=f34e106]:
+                - generic [ref=f34e107]: "3"
+                - link "中国机器人连刷人类世界纪录" [ref=f34e108] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_4&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e110]:
+                - generic [ref=f34e111]: "4"
+                - link "厨房纸到底能不能擦吃的" [ref=f34e112] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_5&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f34e113]: 热
+              - generic [ref=f34e115]:
+                - generic [ref=f34e116]: "5"
+                - link "央媒评湖南扶老人被索赔事件" [ref=f34e117] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_6&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f34e118]: 热
+              - generic [ref=f34e120]:
+                - generic [ref=f34e121]: "6"
+                - link "婚礼第二天新娘指纹被爸爸删掉" [ref=f34e122] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_7&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e124]:
+                - generic [ref=f34e125]: "7"
+                - link "中央气象台对台风艾莎尼停止编号" [ref=f34e126] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_8&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f34e127]: 新
+              - generic [ref=f34e129]:
+                - generic [ref=f34e130]: "8"
+                - link "官方确认帮扶老人遭索赔店主不担责" [ref=f34e131] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_9&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f34e132]: 热
+              - generic [ref=f34e134]:
+                - generic [ref=f34e135]: "9"
+                - link "韩指日内跌超4% SK海力士跌超6%" [ref=f34e136] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25%20SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_10&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e138]:
+                - generic [ref=f34e139]: "10"
+                - link "建议这个年龄前开始控糖 很多人晚了" [ref=f34e140] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%BB%BA%E8%AE%AE%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%E5%89%8D%E5%BC%80%E5%A7%8B%E6%8E%A7%E7%B3%96%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E6%99%9A%E4%BA%86&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_11&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e142]:
+                - generic [ref=f34e143]: "11"
+                - link "“被蚊子咬可能得艾滋”不实" [ref=f34e144] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_12&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e146]:
+                - generic [ref=f34e147]: "12"
+                - link "印度去世乞丐家中发现30多麻袋现金" [ref=f34e148] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E5%8D%B0%E5%BA%A6%E5%8E%BB%E4%B8%96%E4%B9%9E%E4%B8%90%E5%AE%B6%E4%B8%AD%E5%8F%91%E7%8E%B030%E5%A4%9A%E9%BA%BB%E8%A2%8B%E7%8E%B0%E9%87%91&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_13&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e150]:
+                - generic [ref=f34e151]: "13"
+                - link "美政府宣布对伊朗经济制裁措施" [ref=f34e152] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=a7f7E0pbIzZV765CCQfa3epmz4H7BFdNokoRqjHN4nmo80AWx1iAoJAp2Q&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_14&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e154]:
+                - generic [ref=f34e155]: "14"
+                - link "人民日报曝光当天 腾冲成立工作组" [ref=f34e156] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9%20%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=59d8uioLcsXJe9R47AXjynlj1CW9ezxcJX5%2BjzVl55KJg1tF9GpgIx6McA&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_1_15_15&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+              - generic [ref=f34e158]:
+                - generic [ref=f34e159]: "15"
+                - link "中国女子泰国遭绑：本以为是导游来接" [ref=f34e160] [cursor=pointer]:
+                  - /url: //www.baidu.com/s?cl=2&tn=SE_hldp03880_xzs5iv7i&wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E6%B3%B0%E5%9B%BD%E9%81%AD%E7%BB%91%EF%BC%9A%E6%9C%AC%E4%BB%A5%E4%B8%BA%E6%98%AF%E5%AF%BC%E6%B8%B8%E6%9D%A5%E6%8E%A5&ie=utf-8&rsv_pq=c07c1fa8001e767c&oq=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_t=59d8uioLcsXJe9R47AXjynlj1CW9ezxcJX5%2BjzVl55KJg1tF9GpgIx6McA&rqid=c07c1fa8001e767c&rsf=24ab6e52c35a91ba7d1f96644ead7db9_16_30_16&rsv_dl=fyb_right_zixun_20811&sa=0_right_fyb_pchot_20811
+          - generic [ref=f34e162] [cursor=pointer]
+        - generic [ref=f34e164]:
+          - generic [ref=f34e166]:
+            - heading [level=3] [ref=f34e167]:
+              - link "标题：林剑:“人工智能与人类发展”对话会在西安举行" [ref=f34e168] [cursor=pointer]:
+                - /url: https://www.thepaper.cn/newsDetail_forward_33842985
+                - text: 林剑:“
+                - emphasis [ref=f34e169]: 人工智能
+                - text: 与人类发展”对话会在西安举行
+            - generic [ref=f34e171]:
+              - text: 昨天20:38
+              - generic "摘要 林剑:“人工智能与人类发展”对话会在西安举行 Q “外交部发言人办公室”消息,在8月24日外交部例行记者会上,中新社记者提问:我们注意到,继联合国秘书长古特雷斯来华出席2026世界人工智能大会暨人工智能全球治理高级别会议后,联合国常务副秘书长日前在西安出席“人工智 摘要结束，点击查看详情" [ref=f34e172]:
+                - text: 林剑:“
+                - emphasis [ref=f34e173]: 人工智能
+                - text: 与人类发展”对话会在西安举行 Q “外交部发言人办公室”消息,在8月24日外交部例行记者会上,中新社记者提问:我们注意到,继联合国秘书长古特雷斯来华出席2026世界人工智能大会暨人工智能全球治理高级别会议后,联合国常务副秘书长日前在西安出席“人工智...
+              - link "新闻来源：澎湃新闻" [ref=f34e175] [cursor=pointer]:
+                - /url: https://www.thepaper.cn/newsDetail_forward_33842985
+                - text: 澎湃新闻
+          - generic [ref=f34e177]:
+            - heading [level=3] [ref=f34e178]:
+              - link "标题：首批41个典型场景启动建设 “人工智能+交通运输”加速落地" [ref=f34e179] [cursor=pointer]:
+                - /url: https://www.cnr.cn/2013qcpd/2015xc/20260825/t20260825_527790394.shtml
+                - text: 首批41个典型场景启动建设 “
+                - emphasis [ref=f34e180]: 人工智能
+                - text: +交通运输”加速落地
+            - generic [ref=f34e182]:
+              - text: 36分钟前
+              - generic "摘要 “‘一网四化’是当前及今后一个时期,综合交通运输高质量发展的主题主线。‘人工智能+交通运输’典型应用场景创新行动,是支撑‘一网四化’落地的核心技术引擎。”徐文强表示,未来将以数据融通促进一体化融合;以模式变革赋能安全化提升,以人工智能推动安全治理从“事后 摘要结束，点击查看详情" [ref=f34e183]:
+                - text: “‘一网四化’是当前及今后一个时期,综合交通运输高质量发展的主题主线。‘
+                - emphasis [ref=f34e184]: 人工智能
+                - text: +交通运输’典型应用场景创新行动,是支撑‘一网四化’落地的核心技术引擎。”徐文强表示,未来将以数据融通促进一体化融合;以模式变革赋能安全化提升,以人工智能推动安全治理从“事后...
+              - link [ref=f34e186] [cursor=pointer]:
+                - /url: https://www.cnr.cn/2013qcpd/2015xc/20260825/t20260825_527790394.shtml
+                - text: 央广网
+          - generic [ref=f34e191]:
+            - heading [level=3] [ref=f34e192]:
+              - link "标题：美国人工智能大模型接连降价,价格战担忧抬头" [ref=f34e193] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874453802122137528&wfr=spider&for=pc
+                - text: 美国
+                - emphasis [ref=f34e194]: 人工智能
+                - text: 大模型接连降价,价格战担忧抬头
+            - generic [ref=f34e196]:
+              - text: 1小时前
+              - generic "摘要 美国头部人工智能（AI）初创公司OpenAI日前宣布，其旗下面向开发者的前沿人工智能大模型GPT-5.6 Sol的价格将下调20%以上，输出价格降至每百万Token（词元）20美元。这已经是该系列模型不到一个月内的第二次降价。早在上月底，OpenAI就下调了旗下其他模型的价格，中端 摘要结束，点击查看详情" [ref=f34e197]:
+                - text: 美国头部
+                - emphasis [ref=f34e198]: 人工智能
+                - text: （AI）初创公司OpenAI日前宣布，其旗下面向开发者的前沿人工智能大模型GPT-5.6 Sol的价格将下调20%以上，输出价格降至每百万Token（词元）20美元。这已经是该系列模型不到一个月内的第二次降价。早在上月底，OpenAI就下调了旗下其他模型的价格，中端...
+              - link [ref=f34e200] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874453802122137528&wfr=spider&for=pc
+                - text: 京报网
+          - generic [ref=f34e206]:
+            - heading [level=3] [ref=f34e207]:
+              - link "标题：河南省“人工智能+”赋能产业数字化转型推进会" [ref=f34e208] [cursor=pointer]:
+                - /url: https://www.henan.gov.cn/2026/08-25/3406960.html
+                - text: 河南省“
+                - emphasis [ref=f34e209]: 人工智能
+                - text: +”赋能产业数字化转型推进会
+            - generic [ref=f34e211]:
+              - text: 1小时前
+              - generic "摘要 会议围绕人工智能赋能产业数字化转型,交流前沿技术,分享实践案例,解读行动方案,进一步凝聚产业智能化发展共识,推动人工智能与实体经济深度融合。会上,陈志伟介绍了河南投资集团人工智能产业布局及实践情况。 近年来,河南投资集团将人工智能作为重点战略赛道,围绕算力 摘要结束，点击查看详情" [ref=f34e212]:
+                - text: 会议围绕
+                - emphasis [ref=f34e213]: 人工智能
+                - text: 赋能产业数字化转型,交流前沿技术,分享实践案例,解读行动方案,进一步凝聚产业智能化发展共识,推动人工智能与实体经济深度融合。会上,陈志伟介绍了河南投资集团人工智能产业布局及实践情况。 近年来,河南投资集团将人工智能作为重点战略赛道,围绕算力...
+              - link [ref=f34e215] [cursor=pointer]:
+                - /url: https://www.henan.gov.cn/2026/08-25/3406960.html
+                - text: 河南省人民政府门户网站
+          - generic [ref=f34e220]:
+            - heading [level=3] [ref=f34e221]:
+              - link "标题：马斯克在对Cursor员工的讲话中承认:Grok在人工智能竞赛中落后" [ref=f34e222] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874453833985671943&wfr=spider&for=pc
+                - text: 马斯克在对Cursor员工的讲话中承认:Grok在
+                - emphasis [ref=f34e223]: 人工智能
+                - text: 竞赛中落后
+            - generic [ref=f34e224]:
+              - link [ref=f34e226] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874453833985671943&wfr=spider&for=pc
+              - generic [ref=f34e230]:
+                - text: 53分钟前
+                - generic "摘要 一位知情人士表示，马斯克称赞 Anthropic 领跑人工智能竞赛，称其是实力强劲的竞争对手。另有两名知情人士称，马斯克还提到，SpaceX会继续囤积算力，力争成为人工智能赛道上算力储备最 摘要结束，点击查看详情" [ref=f34e231]:
+                  - text: 一位知情人士表示，马斯克称赞 Anthropic 领跑
+                  - emphasis [ref=f34e232]: 人工智能
+                  - text: 竞赛，称其是实力强劲的竞争对手。另有两名知情人士称，马斯克还提到，SpaceX会继续囤积算力，力争成为人工智能赛道上算力储备最...
+                - link [ref=f34e234] [cursor=pointer]:
+                  - /url: https://baijiahao.baidu.com/s?id=1874453833985671943&wfr=spider&for=pc
+                  - text: 金融界
+          - generic [ref=f34e240]:
+            - heading [level=3] [ref=f34e241]:
+              - link "标题：破解“人工智能+制造”融合痛点" [ref=f34e242] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874444646327955611&wfr=spider&for=pc
+                - text: 破解“
+                - emphasis [ref=f34e243]: 人工智能
+                - text: +制造”融合痛点
+            - generic [ref=f34e245]:
+              - text: 3小时前
+              - generic "摘要 破解当前发展痛点，要从产业统筹、企业实践、市场需求等维度精准施策，稳步推动人工智能全面助力制造业高端化、智能化、绿色化转型。统筹布局产业政策，夯实数智融合发展根基。相关部门应摒弃粗放式扶持思路，在顶层设计上加快统一工业数据规范与行业应用标准，统筹推 摘要结束，点击查看详情" [ref=f34e246]:
+                - text: 破解当前发展痛点，要从产业统筹、企业实践、市场需求等维度精准施策，稳步推动
+                - emphasis [ref=f34e247]: 人工智能
+                - text: 全面助力制造业高端化、智能化、绿色化转型。统筹布局产业政策，夯实数智融合发展根基。相关部门应摒弃粗放式扶持思路，在顶层设计上加快统一工业数据规范与行业应用标准，统筹推...
+              - link [ref=f34e249] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874444646327955611&wfr=spider&for=pc
+                - text: 经济日报
+          - generic [ref=f34e255]:
+            - heading [level=3] [ref=f34e256]:
+              - link "标题：人工智能生态深度重构家电产业" [ref=f34e257] [cursor=pointer]:
+                - /url: http://www.ce.cn/cysc/zgjd/kx/202608/t20260825_3168058.shtml
+                - emphasis [ref=f34e258]: 人工智能
+                - text: 生态深度重构家电产业
+            - generic [ref=f34e260]:
+              - text: 1小时前
+              - generic "摘要 人工智能生态深度重构家电产业 □ 本报记者 何晓曦 AI技术全面渗透家电家居产业,正在改写行业增长逻辑与竞争格局。近日,以“AI智融·场景共生”为主题的奥维云网2026数字AI生态大会在南京溧水举行。会上,资本、产业、科技多方嘉宾共同研判,行业已告别浅层的“+AI”工 摘要结束，点击查看详情" [ref=f34e261]:
+                - emphasis [ref=f34e262]: 人工智能
+                - text: 生态深度重构家电产业 □ 本报记者 何晓曦 AI技术全面渗透家电家居产业,正在改写行业增长逻辑与竞争格局。近日,以“AI智融·场景共生”为主题的奥维云网2026数字AI生态大会在南京溧水举行。会上,资本、产业、科技多方嘉宾共同研判,行业已告别浅层的“+AI”工...
+              - link [ref=f34e264] [cursor=pointer]:
+                - /url: http://www.ce.cn/cysc/zgjd/kx/202608/t20260825_3168058.shtml
+                - text: 中国经济网
+          - generic [ref=f34e269]:
+            - heading [level=3] [ref=f34e270]:
+              - link "标题：破解“人工智能+制造”融合痛点" [ref=f34e271] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874447383130480765&wfr=spider&for=pc
+                - text: 破解“
+                - emphasis [ref=f34e272]: 人工智能
+                - text: +制造”融合痛点
+            - generic [ref=f34e274]:
+              - text: 今天
+              - generic "摘要 破解当前发展痛点，要从产业统筹、企业实践、市场需求等维度精准施策，稳步推动人工智能全面助力制造业高端化、智能化、绿色化转型。统筹布局产业政策，夯实数智融合发展根基。相关部门应摒弃粗放式扶持思路，在顶层设计上加快统一工业数据规范与行业应用标准，统筹推 摘要结束，点击查看详情" [ref=f34e275]:
+                - text: 破解当前发展痛点，要从产业统筹、企业实践、市场需求等维度精准施策，稳步推动
+                - emphasis [ref=f34e276]: 人工智能
+                - text: 全面助力制造业高端化、智能化、绿色化转型。统筹布局产业政策，夯实数智融合发展根基。相关部门应摒弃粗放式扶持思路，在顶层设计上加快统一工业数据规范与行业应用标准，统筹推...
+              - link [ref=f34e278] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874447383130480765&wfr=spider&for=pc
+                - text: 中国经济网
+          - generic [ref=f34e284]:
+            - heading [level=3] [ref=f34e285]:
+              - link "标题：抢抓人工智能发展历史机遇" [ref=f34e286] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874454400041461515&wfr=spider&for=pc
+                - text: 抢抓
+                - emphasis [ref=f34e287]: 人工智能
+                - text: 发展历史机遇
+            - generic [ref=f34e289]:
+              - text: 59分钟前
+              - generic "摘要 党的十八大以来，以习近平同志为核心的党中央敏锐洞察全球科技发展大势，高度重视人工智能的战略价值。当前及今后一段时期，抢抓人工智能发展的历史机遇，是实现中国式现代化的重要内容。高度重视人工智能的战略价值 新科技革命的重要代表。相比传统工业技术和信息技 摘要结束，点击查看详情" [ref=f34e290]:
+                - text: 党的十八大以来，以习近平同志为核心的党中央敏锐洞察全球科技发展大势，高度重视
+                - emphasis [ref=f34e291]: 人工智能
+                - text: 的战略价值。当前及今后一段时期，抢抓人工智能发展的历史机遇，是实现中国式现代化的重要内容。高度重视人工智能的战略价值 新科技革命的重要代表。相比传统工业技术和信息技...
+              - link [ref=f34e293] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874454400041461515&wfr=spider&for=pc
+                - text: 金台资讯
+          - generic [ref=f34e299]:
+            - heading [level=3] [ref=f34e300]:
+              - link "标题：第五届全球数字贸易博览会倒计时30天:人工智能底色突出 供采对接..." [ref=f34e301] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874448327747684018&wfr=spider&for=pc
+                - text: "第五届全球数字贸易博览会倒计时30天:"
+                - emphasis [ref=f34e302]: 人工智能
+                - text: 底色突出 供采对接...
+            - generic [ref=f34e304]:
+              - text: 2小时前
+              - generic "摘要 潮新闻客户端 记者 拜喆喆 24日，第五届全球数字贸易博览会迎来倒计时30天。记者从省商务厅获悉，本届数贸会强调“人工智能赋能数字贸易”，围绕数字贸易国际合作、产业对接、供采对接、项目招引等不同赛道，设置了主题活动、产业活动、贸易投资促进活动，同期配套举 摘要结束，点击查看详情" [ref=f34e305]:
+                - text: 潮新闻客户端 记者 拜喆喆 24日，第五届全球数字贸易博览会迎来倒计时30天。记者从省商务厅获悉，本届数贸会强调“
+                - emphasis [ref=f34e306]: 人工智能
+                - text: 赋能数字贸易”，围绕数字贸易国际合作、产业对接、供采对接、项目招引等不同赛道，设置了主题活动、产业活动、贸易投资促进活动，同期配套举...
+              - link [ref=f34e308] [cursor=pointer]:
+                - /url: https://baijiahao.baidu.com/s?id=1874448327747684018&wfr=spider&for=pc
+                - text: 潮新闻客户端
+        - link "去网页搜：人工智能" [ref=f34e314] [cursor=pointer]:
+          - /url: http://www.baidu.com/s?rsv_xinwen=1&wd=%C8%CB%B9%A4%D6%C7%C4%DC
+        - generic [ref=f34e318]:
+          - generic [ref=f34e319]: 相关搜索
+          - table [ref=f34e320]:
+            - rowgroup [ref=f34e321]:
+              - row [ref=f34e322]:
+                - cell [ref=f34e323]:
+                  - link "deepseek人工智能" [ref=f34e324] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=deepseek%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&rsv_dl=news_b_rs
+                - cell [ref=f34e327]:
+                  - link "ai人工智能在线" [ref=f34e328] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9C%A8%E7%BA%BF&rsv_dl=news_b_rs
+              - row [ref=f34e331]:
+                - cell [ref=f34e332]:
+                  - link "2026世界人工智能大会将..." [ref=f34e333] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E5%BC%80%E5%B9%95&rsv_dl=news_b_rs
+                - cell [ref=f34e336]:
+                  - link "人工智能是属于哪个大类" [ref=f34e337] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%98%AF%E5%B1%9E%E4%BA%8E%E5%93%AA%E4%B8%AA%E5%A4%A7%E7%B1%BB&rsv_dl=news_b_rs
+              - row [ref=f34e340]:
+                - cell [ref=f34e341]:
+                  - link "百度ai人工智能入口" [ref=f34e342] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E7%99%BE%E5%BA%A6ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%85%A5%E5%8F%A3&rsv_dl=news_b_rs
+                - cell [ref=f34e345]:
+                  - link "怎么用ai炒股" [ref=f34e346] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E6%80%8E%E4%B9%88%E7%94%A8ai%E7%82%92%E8%82%A1&rsv_dl=news_b_rs
+              - row [ref=f34e349]:
+                - cell [ref=f34e350]:
+                  - link "人工智能工程师" [ref=f34e351] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A5%E7%A8%8B%E5%B8%88&rsv_dl=news_b_rs
+                - cell [ref=f34e354]:
+                  - link "人工智能app排名前十名" [ref=f34e355] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BDapp%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81%E5%90%8D&rsv_dl=news_b_rs
+              - row [ref=f34e358]:
+                - cell [ref=f34e359]:
+                  - link "人工智能企业" [ref=f34e360] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BC%81%E4%B8%9A&rsv_dl=news_b_rs
+                - cell [ref=f34e363]:
+                  - link "ai下一页" [ref=f34e364] [cursor=pointer]:
+                    - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&wd=ai%E4%B8%8B%E4%B8%80%E9%A1%B5&rsv_dl=news_b_rs
+      - generic [ref=f34e368]:
+        - strong [ref=f34e369]:
+          - generic [ref=f34e370]: "1"
+        - link "2" [ref=f34e371] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=10
+        - link "3" [ref=f34e373] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=20
+        - link "4" [ref=f34e375] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=30
+        - link "5" [ref=f34e377] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=40
+        - link "6" [ref=f34e379] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=50
+        - link "7" [ref=f34e381] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=60
+        - link "8" [ref=f34e383] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=70
+        - link "9" [ref=f34e385] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=80
+        - link "10" [ref=f34e387] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=90
+        - link "下一页 >" [ref=f34e389] [cursor=pointer]:
+          - /url: /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&x_bfe_rqs=03E80&x_bfe_tjscore=0.100000&tngroupname=organic_news&newVideo=12&goods_entry_switch=1&rsv_dl=news_b_pn&pn=10
+      - generic [ref=f34e392]:
+        - link "帮助" [ref=f34e393] [cursor=pointer]:
+          - /url: http://www.baidu.com/search/news_help.html
+        - link "举报" [ref=f34e394] [cursor=pointer]:
+          - /url: //www.baidu.com/search/jubao.html
+        - link "企业推广" [ref=f34e395] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1302

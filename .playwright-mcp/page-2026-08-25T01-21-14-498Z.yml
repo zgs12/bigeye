@@ -1,0 +1,546 @@
+- generic [ref=f9e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=f9e2]:
+    - generic [ref=f9e3]:
+      - generic [ref=f9e143]:
+        - link "百度首页" [ref=f9e144] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=f9e145] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=f9e146] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+      - generic [ref=f9e23]:
+        - generic:
+          - link [ref=f9e147] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=f9e148]
+          - generic [ref=f9e151]:
+            - textbox [ref=f9e153]: 四六级查成绩
+            - generic [ref=f9e155]:
+              - generic [ref=f9e156]:
+                - generic [ref=f9e157] [cursor=pointer]
+                - generic [ref=f9e162] [cursor=pointer]
+                - generic [ref=f9e171]:
+                  - generic [ref=f9e172] [cursor=pointer]
+                  - generic [ref=f9e177] [cursor=pointer]
+              - button "百度一下" [ref=f9e184] [cursor=pointer]
+          - generic [ref=f9e186]:
+            - generic [ref=f9e187]:
+              - textbox [ref=f9e188]: 四六级查成绩
+              - generic "清空" [ref=f9e189] [cursor=pointer]: 
+            - button "百度一下" [active] [ref=f9e192] [cursor=pointer]
+    - generic [ref=f9e195]:
+      - link [ref=f9e196] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2213057350124926005839%22%2C%22ori_lid%22%3A%2213057350124926005839%22%7D
+      - generic [ref=f9e198]: 网页
+      - link "图片" [ref=f9e199] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=b53506c2001df24f&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "资讯" [ref=f9e200] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "视频" [ref=f9e201] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=b53506c2001df24f&ie=utf-8&wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_spt=7&rsv_bp=1&f=8&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE
+      - link "笔记" [ref=f9e202] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "地图" [ref=f9e203] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "贴吧" [ref=f9e204] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "文库" [ref=f9e205] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9
+      - link "更多" [ref=f9e206] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=f9e207] [cursor=pointer]: 搜索工具
+    - generic [ref=f9e208]:
+      - generic [ref=f9e209]:
+        - table [ref=f9e211]:
+          - rowgroup [ref=f9e212]:
+            - row [ref=f9e213]:
+              - cell "相关搜索  雅思6.5一般人要学多久  CET-4成绩查询入口  四六级查询成绩入口  雅思7.0相当于六级多少分  雅思6.5和六级哪个难  2026上半年英语四六级成绩公布    换一换 热搜榜 民生榜 财经榜  习近平同约旦国王阿卜杜拉二世会谈 1 中学施发型令：不合格不让进校门 2 央视曝光后 沈阳等多地接连通报 热 3 中国机器人连刷人类世界纪录 4 厨房纸到底能不能擦吃的 热 5 央媒评湖南扶老人被索赔事件 热 6 婚礼第二天新娘指纹被爸爸删掉 7 中央气象台对台风艾莎尼停止编号 新 8 官方确认帮扶老人遭索赔店主不担责 热 9 韩指日内跌超4% SK海力士跌超6% 10 建议这个年龄前开始控糖 很多人晚了 11 “被蚊子咬可能得艾滋”不实 12 印度去世乞丐家中发现30多麻袋现金 13 美政府宣布对伊朗经济制裁措施 14 硕士被安排打螺丝 300人被迫离职 新 15 人民日报曝光当天 腾冲成立工作组" [ref=f9e214]:
+                - generic [ref=f9e215]:
+                  - generic [ref=f9e221]:
+                    - generic [ref=f9e222]: 相关搜索
+                    - generic [ref=f9e224]:
+                      - link " 雅思6.5一般人要学多久" [ref=f9e227] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D6.5%E4%B8%80%E8%88%AC%E4%BA%BA%E8%A6%81%E5%AD%A6%E5%A4%9A%E4%B9%85&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_1&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101633803
+                        - generic [ref=f9e228]:
+                          - generic [ref=f9e229]: 
+                          - generic [ref=f9e230]: 雅思6.5一般人要学多久
+                      - link " CET-4成绩查询入口" [ref=f9e233] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=CET-4%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2%E5%85%A5%E5%8F%A3&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_2&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101634000
+                        - generic [ref=f9e234]:
+                          - generic [ref=f9e235]: 
+                          - generic [ref=f9e236]: CET-4成绩查询入口
+                      - link " 四六级查询成绩入口" [ref=f9e239] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E8%AF%A2%E6%88%90%E7%BB%A9%E5%85%A5%E5%8F%A3&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_3&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101634000
+                        - generic [ref=f9e240]:
+                          - generic [ref=f9e241]: 
+                          - generic [ref=f9e242]: 四六级查询成绩入口
+                      - link " 雅思7.0相当于六级多少分" [ref=f9e245] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D7.0%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%85%AD%E7%BA%A7%E5%A4%9A%E5%B0%91%E5%88%86&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_4&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101633803
+                        - generic [ref=f9e246]:
+                          - generic [ref=f9e247]: 
+                          - generic [ref=f9e248]: 雅思7.0相当于六级多少分
+                      - link " 雅思6.5和六级哪个难" [ref=f9e251] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D6.5%E5%92%8C%E5%85%AD%E7%BA%A7%E5%93%AA%E4%B8%AA%E9%9A%BE&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_5&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101631101
+                        - generic [ref=f9e252]:
+                          - generic [ref=f9e253]: 
+                          - generic [ref=f9e254]: 雅思6.5和六级哪个难
+                      - link " 2026上半年英语四六级成绩公布" [ref=f9e257] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=2026%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%8B%B1%E8%AF%AD%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%88%90%E7%BB%A9%E5%85%AC%E5%B8%83&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=c4c5MzL7HOTXk4U507HT9OBaP01iGvp%2FINBBFTdaqO9c9WdnYbG8E%2BKjXQk&rfqid=b53506c2001df24f&rsv_dl=0_prs_28616_6&rq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsf=101632809
+                        - generic [ref=f9e258]:
+                          - generic [ref=f9e259]: 
+                          - generic [ref=f9e260]: 2026上半年英语四六级成绩公布
+                  - generic [ref=f9e264]:
+                    - generic "百度热搜" [ref=f9e265]:
+                      - link " " [ref=f9e266] [cursor=pointer]:
+                        - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                        - generic [ref=f9e267]: 
+                        - generic [ref=f9e268]: 
+                      - link " 换一换" [ref=f9e270] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f9e271]: 
+                        - text: 换一换
+                    - generic [ref=f9e272]:
+                      - generic [ref=f9e273] [cursor=pointer]: 热搜榜
+                      - generic [ref=f9e274] [cursor=pointer]: 民生榜
+                      - generic [ref=f9e275] [cursor=pointer]: 财经榜
+                    - generic [ref=f9e277]:
+                      - generic [ref=f9e279]:
+                        - generic [ref=f9e280]: 
+                        - link "习近平同约旦国王阿卜杜拉二世会谈" [ref=f9e282] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=6e76hm9WV40BSxEXyxRH%2B1NSO5Etx1DGgM3Poz2FGDVFaOU96%2FNANRvFIpE&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e284]:
+                        - generic [ref=f9e285]: "1"
+                        - link "中学施发型令：不合格不让进校门" [ref=f9e286] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=6e76hm9WV40BSxEXyxRH%2B1NSO5Etx1DGgM3Poz2FGDVFaOU96%2FNANRvFIpE&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e288]:
+                        - generic [ref=f9e289]: "2"
+                        - link "央视曝光后 沈阳等多地接连通报" [ref=f9e290] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E%20%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=6e76hm9WV40BSxEXyxRH%2B1NSO5Etx1DGgM3Poz2FGDVFaOU96%2FNANRvFIpE&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e291]: 热
+                      - generic [ref=f9e293]:
+                        - generic [ref=f9e294]: "3"
+                        - link "中国机器人连刷人类世界纪录" [ref=f9e295] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=6e76hm9WV40BSxEXyxRH%2B1NSO5Etx1DGgM3Poz2FGDVFaOU96%2FNANRvFIpE&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e297]:
+                        - generic [ref=f9e298]: "4"
+                        - link "厨房纸到底能不能擦吃的" [ref=f9e299] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e300]: 热
+                      - generic [ref=f9e302]:
+                        - generic [ref=f9e303]: "5"
+                        - link "央媒评湖南扶老人被索赔事件" [ref=f9e304] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e305]: 热
+                      - generic [ref=f9e307]:
+                        - generic [ref=f9e308]: "6"
+                        - link "婚礼第二天新娘指纹被爸爸删掉" [ref=f9e309] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e311]:
+                        - generic [ref=f9e312]: "7"
+                        - link "中央气象台对台风艾莎尼停止编号" [ref=f9e313] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e314]: 新
+                      - generic [ref=f9e316]:
+                        - generic [ref=f9e317]: "8"
+                        - link "官方确认帮扶老人遭索赔店主不担责" [ref=f9e318] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e319]: 热
+                      - generic [ref=f9e321]:
+                        - generic [ref=f9e322]: "9"
+                        - link "韩指日内跌超4% SK海力士跌超6%" [ref=f9e323] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25%20SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e325]:
+                        - generic [ref=f9e326]: "10"
+                        - link "建议这个年龄前开始控糖 很多人晚了" [ref=f9e327] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%BB%BA%E8%AE%AE%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%E5%89%8D%E5%BC%80%E5%A7%8B%E6%8E%A7%E7%B3%96%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E6%99%9A%E4%BA%86&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e329]:
+                        - generic [ref=f9e330]: "11"
+                        - link "“被蚊子咬可能得艾滋”不实" [ref=f9e331] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e333]:
+                        - generic [ref=f9e334]: "12"
+                        - link "印度去世乞丐家中发现30多麻袋现金" [ref=f9e335] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%8D%B0%E5%BA%A6%E5%8E%BB%E4%B8%96%E4%B9%9E%E4%B8%90%E5%AE%B6%E4%B8%AD%E5%8F%91%E7%8E%B030%E5%A4%9A%E9%BA%BB%E8%A2%8B%E7%8E%B0%E9%87%91&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e337]:
+                        - generic [ref=f9e338]: "13"
+                        - link "美政府宣布对伊朗经济制裁措施" [ref=f9e339] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f9e341]:
+                        - generic [ref=f9e342]: "14"
+                        - link "硕士被安排打螺丝 300人被迫离职" [ref=f9e343] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E7%A1%95%E5%A3%AB%E8%A2%AB%E5%AE%89%E6%8E%92%E6%89%93%E8%9E%BA%E4%B8%9D%20300%E4%BA%BA%E8%A2%AB%E8%BF%AB%E7%A6%BB%E8%81%8C&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f9e344]: 新
+                      - generic [ref=f9e346]:
+                        - generic [ref=f9e347]: "15"
+                        - link "人民日报曝光当天 腾冲成立工作组" [ref=f9e348] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9%20%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=e881oauS4Wfx7EuO%2F6fknsAdmCd4pT0BSglZDHWcTQU3V9EnW%2FXa6Li%2B3yQ&rqid=b53506c2001df24f&rsf=a2050c76cfd6734e84b654c3d68f1dac_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+        - generic [ref=f9e349]:
+          - generic [ref=f9e353]:
+            - generic [ref=f9e355]:
+              - heading [level=3] [ref=f9e356]:
+                - link [ref=f9e357] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=w5B2XUpei53wYnHFH772vbe1h3io1TcwutyKV-NC-ItEk9ovIt8TstSZsTkA7mVMF7JSLYk5iXnFV47qoHDiCK
+                  - generic [ref=f9e359]:
+                    - text: 全国大学英语四、
+                    - emphasis [ref=f9e360]: 六级
+                    - text: 考试(CET)历史查询 - 中国教育考试网
+              - link "官方" [ref=f9e362] [cursor=pointer]:
+                - /url: https://aiqicha.baidu.com/feedback/official?from=baidu&type=gw
+              - link [ref=f9e364] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=w5B2XUpei53wYnHFH772vbe1h3io1TcwutyKV-NC-ItEk9ovIt8TstSZsTkA7mVMF7JSLYk5iXnFV47qoHDiCK
+            - generic [ref=f9e370] [cursor=pointer]:
+              - text: 全国大学英语四,
+              - emphasis [ref=f9e371]: 六级
+              - text: 考试(含口试)
+              - emphasis [ref=f9e372]: 成绩查询
+              - text: 注册中国教育考试网账号,查询2005年6月及以后考试成绩,下载2021年6月及以后考试电子成绩报告单(证书). 查询 主办单位:教育部教育考试院 京icp备05064772号-1 京公网安备 11040202430017号建议您使用edge、chrome、firefox、360等主流浏览器浏览本网站友情
+            - link "头像 中国教育考试网" [ref=f9e377] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=w5B2XUpei53wYnHFH772vbe1h3io1TcwutyKV-NC-ItEk9ovIt8TstSZsTkA7mVMF7JSLYk5iXnFV47qoHDiCK
+              - img "头像" [ref=f9e380]
+              - generic [ref=f9e381]: 中国教育考试网
+              - generic [ref=f9e382]: 
+          - generic [ref=f9e388]:
+            - heading [level=3] [ref=f9e389]:
+              - link [ref=f9e390] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegcht1i8r--Y878K8_v7s7D-7nocmCnNoao1NnCHJRUD7aXYSN3CtMVRqLEKvoSrj4m_rAiFmbdGW-B7brgWfL-m5QgYkN3wUg9kyUIjZNBdY9BNdomzz7sufYfEHX1ifx3kaBMxiOeDWZfIGW_weRD8MFbCBSNPGCdjzADlMWJX_lHtsSDJpP6OAgqz_imsuVD_oIM_MiESsavMMhADJBaGQDPhECFNIPwuXBGLfjX7tU_9c7T38XO3l7YJDvvSKCgfOlJVLiBlH4QkPNgwNKPWEKd2MmMKQrntm3ERt-bkWiP6KI8C2feCpynlkfGB4hTkNoWHdPDIrQ2-fsFHjdhjhJynwulxNXCpeUa8A4QbU76R13aB5guR4TLklkwFfJ3AXaERDcfRPGCm-2SgClUDSXp61j2rx44_SrqHajWayk7Jsv_2ZEZ88RDgxIFNX__pBX_yoeSe1ZEglHwQk_kxyhnUNm-Oaeu6EzNOkgiNzwrx
+                - generic [ref=f9e391]:
+                  - text: 英语
+                  - emphasis [ref=f9e392]: 四级
+                  - text: "- 考试日程查询"
+            - link "官网 全国大学英语四、六级考试 https://cet.neea.edu.cn 查看" [ref=f9e394] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=vUiyEEYF-yukf_qMl1seIDtpfNT-bKJLbCrLy4g_m8CC0PQpXPqk9CcZsSAStO_9
+              - generic [ref=f9e397]:
+                - generic [ref=f9e398]:
+                  - generic [ref=f9e399]: 官网
+                  - generic [ref=f9e400]: 全国大学英语四、六级考试
+                - generic [ref=f9e401]: https://cet.neea.edu.cn
+              - button "查看" [ref=f9e402]
+            - generic [ref=f9e404]:
+              - generic [ref=f9e406]:
+                - generic [ref=f9e409] [cursor=pointer]:
+                  - generic [ref=f9e410]: 26年6月
+                  - generic [ref=f9e411]: 
+                - generic [ref=f9e414] [cursor=pointer]:
+                  - generic [ref=f9e415]: 上海
+                  - generic [ref=f9e416]: 
+                - generic [ref=f9e419] [cursor=pointer]:
+                  - generic [ref=f9e420]: 四级
+                  - generic [ref=f9e421]: 
+              - generic [ref=f9e425]:
+                - generic [ref=f9e427]:
+                  - generic [ref=f9e428]: 考试报名
+                  - generic [ref=f9e429]: 3月23日 至 4月2日
+                - generic [ref=f9e431]:
+                  - generic [ref=f9e432]: 笔试日程
+                  - generic [ref=f9e433]: 6月13日
+                - generic [ref=f9e435]:
+                  - generic [ref=f9e436]: 成绩查询
+                  - generic [ref=f9e437]: 预计8月中旬
+                - generic [ref=f9e438]: "1"
+              - generic [ref=f9e441]:
+                - link "国务院客户端 预计2026年8月中旬 查询" [ref=f9e448] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegchtAoEVbplOypMN43ffLy-aYL9b4jEegTlxYRbisoyAoHRwgSlof7fSuWQCn04xpetTtiy_8hPpA4Gloqc6Cf6_qu
+                  - generic [ref=f9e449]:
+                    - generic [ref=f9e450]: 国务院客户端
+                    - generic [ref=f9e452]: 预计2026年8月中旬
+                  - button "查询" [ref=f9e454]
+                - link "中国教育考试网 预计2026年8月中旬 查询" [ref=f9e462] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegchtCxzjFGq_Rgrhh7xpazB5oIiVpQl_9HP-YMuBl8LtAFULYOzhl_dshB-6owINvsnMf057rF_8RZ_0pu8FRwTl8rLRyHGraDqFV-M3UducfyF
+                  - generic [ref=f9e463]:
+                    - generic [ref=f9e464]: 中国教育考试网
+                    - generic [ref=f9e466]: 预计2026年8月中旬
+                  - button "查询" [ref=f9e468]
+              - link [ref=f9e471] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegchtAoEVbplOypMN43ffLy-aYL9b4jEegTlxYRbisoyAoHRwgSlof7fSuWQCn04xpetTtiy_8hPpA4Gloqc6Cf6_qu
+                - button "合格标准" [ref=f9e472]
+          - generic [ref=f9e474]:
+            - generic [ref=f9e475]: 大家还在搜
+            - generic [ref=f9e476]:
+              - link "雅思6.5一般人要学多久" [ref=f9e477] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D6.5%E4%B8%80%E8%88%AC%E4%BA%BA%E8%A6%81%E5%AD%A6%E5%A4%9A%E4%B9%85&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=5ac9wHa9V9PC9ihdthvFju0rywqlZuuKSoYks2M9lA3Pn25cZrIq7jOKj2s&rsf=101633803&rsv_dl=0_prs_28608_1
+              - link "CET-4成绩查询入口" [ref=f9e480] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=CET-4%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2%E5%85%A5%E5%8F%A3&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=5ac9wHa9V9PC9ihdthvFju0rywqlZuuKSoYks2M9lA3Pn25cZrIq7jOKj2s&rsf=101634000&rsv_dl=0_prs_28608_2
+              - link "四六级查询成绩入口" [ref=f9e483] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E8%AF%A2%E6%88%90%E7%BB%A9%E5%85%A5%E5%8F%A3&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=5ac9wHa9V9PC9ihdthvFju0rywqlZuuKSoYks2M9lA3Pn25cZrIq7jOKj2s&rsf=101634000&rsv_dl=0_prs_28608_3
+              - link "雅思7.0相当于六级多少分" [ref=f9e486] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D7.0%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%85%AD%E7%BA%A7%E5%A4%9A%E5%B0%91%E5%88%86&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=5ac9wHa9V9PC9ihdthvFju0rywqlZuuKSoYks2M9lA3Pn25cZrIq7jOKj2s&rsf=101633803&rsv_dl=0_prs_28608_4
+              - link "雅思6.5和六级哪个难" [ref=f9e489] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=%E9%9B%85%E6%80%9D6.5%E5%92%8C%E5%85%AD%E7%BA%A7%E5%93%AA%E4%B8%AA%E9%9A%BE&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=078emX%2BW4c8DDfRQbS7D6zGINIpixlpBIxBzwBkaykzthNF6%2F0QZAVzIH%2Fk&rsf=101631101&rsv_dl=0_prs_28608_5
+              - link "2026上半年英语四六级成绩公布 新" [ref=f9e492] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=2026%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%8B%B1%E8%AF%AD%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%88%90%E7%BB%A9%E5%85%AC%E5%B8%83&fenlei=256&usm=4&ie=utf-8&rsv_pq=b53506c2001df24f&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&rsv_t=078emX%2BW4c8DDfRQbS7D6zGINIpixlpBIxBzwBkaykzthNF6%2F0QZAVzIH%2Fk&rsf=101632809&rsv_dl=0_prs_28608_6
+                - generic [ref=f9e494]: 2026上半年英语四六级成绩公布
+                - generic [ref=f9e495]: 新
+          - generic [ref=f9e499]:
+            - generic [ref=f9e501]:
+              - heading [level=3] [ref=f9e502]:
+                - link [ref=f9e503] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrrC-T31tYfbSaTEI0hsWINF
+                  - generic [ref=f9e505]:
+                    - text: 全国大学英语四、
+                    - emphasis [ref=f9e506]: 六级
+                    - text: 考试
+                    - emphasis [ref=f9e507]: 成绩查询
+                    - text: "- 中国教育考试网"
+              - link [ref=f9e508] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrrC-T31tYfbSaTEI0hsWINF
+            - generic [ref=f9e509]: 您的浏览器版本过低 推荐您使用新版谷歌浏览器(Chrome)、火狐浏览器(Firefox)、360浏览器(选择极速模式)、QQ浏览器等主流浏览器 谷歌浏览器 Google Chrome 火狐浏览器 Mozilla Firefox 360安全浏览器 360 Chrome QQ浏览器 QQ Browser
+            - link "头像 中国教育考试网" [ref=f9e518] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrrC-T31tYfbSaTEI0hsWINF
+              - img "头像" [ref=f9e521]
+              - generic [ref=f9e522]: 中国教育考试网
+              - generic [ref=f9e523]: 
+          - generic [ref=f9e528]:
+            - generic [ref=f9e530]:
+              - heading [level=3] [ref=f9e531]:
+                - link [ref=f9e532] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=-Mv23vMJLoqzJ_qxv7SW0LJOCooDog1OYtYgEZ7SMcY2vEfjb2haU82yAz5uVMlO4Hhk6jrUnDXYS_RZmIYcYq
+                  - generic [ref=f9e534]:
+                    - text: 全国大学英语四、
+                    - emphasis [ref=f9e535]: 六级
+                    - text: 考试(含口试)
+                    - emphasis [ref=f9e536]: 成绩
+                    - text: 本人查询 - 中国教育考试网
+              - link [ref=f9e537] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=-Mv23vMJLoqzJ_qxv7SW0LJOCooDog1OYtYgEZ7SMcY2vEfjb2haU82yAz5uVMlO4Hhk6jrUnDXYS_RZmIYcYq
+            - generic [ref=f9e543] [cursor=pointer]:
+              - text: 查询范围为2005年上半年及以后各次考试英语四级,英语
+              - emphasis [ref=f9e544]: 六级
+              - text: ",日语四级,日语六级,德语四级,德语六级,俄语四级,俄语六级,法语四级"
+              - emphasis [ref=f9e545]: 成绩
+              - text: 报告单(证书)信息.2005年上半年至2020年下半年参加考试的考生,可通过"补办成绩证明"功能补办cet成绩证明. q2:何时开始提供电子成绩报告单(证书)? 自2021年上半年考试起,cet免费提供电子...
+            - link "头像 中国教育考试网" [ref=f9e550] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=-Mv23vMJLoqzJ_qxv7SW0LJOCooDog1OYtYgEZ7SMcY2vEfjb2haU82yAz5uVMlO4Hhk6jrUnDXYS_RZmIYcYq
+              - img "头像" [ref=f9e553]
+              - generic [ref=f9e554]: 中国教育考试网
+              - generic [ref=f9e555]: 
+          - generic [ref=f9e558]:
+            - heading [level=3] [ref=f9e559]:
+              - link [ref=f9e560] [cursor=pointer]:
+                - /url: /sf/vsearch?pd=video&wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&tn=vsearch&lid=b53506c2001df24f&ie=utf-8&rsv_pq=b53506c2001df24f&rsv_spt=5&rsv_bp=1&f=8&atn=index
+                - emphasis [ref=f9e561]: 四六级查成绩
+                - text: "- 视频大全 - 高清在线观看"
+            - generic [ref=f9e564]:
+              - generic [ref=f9e566]:
+                - link "02:04" [ref=f9e567] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=_lwUOXMor-aa7-fTH5sXNa4VaizIIyHIQPd7tMXj2IPtoYgwL5q-vjpbLy8iH6G0kYWZymkgves4D6odH2ssRYDeb3TbRe6_7vBQEVOJH4y
+                - link [ref=f9e576] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=_lwUOXMor-aa7-fTH5sXNa4VaizIIyHIQPd7tMXj2IPtoYgwL5q-vjpbLy8iH6G0kYWZymkgves4D6odH2ssRYDeb3TbRe6_7vBQEVOJH4y
+                  - generic [ref=f9e577]:
+                    - emphasis [ref=f9e578]: 四六级成绩
+                    - text: 8月24日公布，这次查分方式有大变...
+                - generic [ref=f9e579]:
+                  - generic [ref=f9e580]: 好看视频
+                  - generic [ref=f9e581]: 昨天16:18
+              - generic [ref=f9e583]:
+                - link "01:06" [ref=f9e584] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=xrRjS6bJzE-mLGBeKU9W7Ar3vt-ifkzC5Qrhjmf8JTe_9DzclaGh5RLOvzHpejDMRTnYD_XIMZCi4N409XYe0q
+                - link [ref=f9e593] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=xrRjS6bJzE-mLGBeKU9W7Ar3vt-ifkzC5Qrhjmf8JTe_9DzclaGh5RLOvzHpejDMRTnYD_XIMZCi4N409XYe0q
+                  - generic [ref=f9e594]:
+                    - emphasis [ref=f9e595]: 四六级
+                    - text: 出分两个变化四个查询渠道#
+                    - emphasis [ref=f9e596]: 四六级成绩
+                    - text: ...
+                - generic [ref=f9e597]:
+                  - generic [ref=f9e598]: 哔哩哔哩
+                  - generic [ref=f9e599]: 前天11:57
+              - generic [ref=f9e601]:
+                - link "01:53" [ref=f9e602] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=_lwUOXMor-aa7-fTH5sXNa4VaizIIyHIQPd7tMXj2IPtoYgwL5q-vjpbLy8iH6G0hp6lGJiVjbpdm8tsoNJrvzPzBWR11OCjU5SCAGZMRey
+                - link [ref=f9e611] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=_lwUOXMor-aa7-fTH5sXNa4VaizIIyHIQPd7tMXj2IPtoYgwL5q-vjpbLy8iH6G0hp6lGJiVjbpdm8tsoNJrvzPzBWR11OCjU5SCAGZMRey
+                  - generic [ref=f9e612]:
+                    - text: 年大学英语
+                    - emphasis [ref=f9e613]: 四六级成绩查
+                    - text: 询即将开启，如何顺利...
+                - generic [ref=f9e614]:
+                  - generic [ref=f9e615]: 好看视频
+                  - generic [ref=f9e616]: 8小时前
+              - generic [ref=f9e618]:
+                - link "02:02" [ref=f9e619] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegcht0r6RP42fG2mjOehGa9TC0VqSeo-aUkErr20CfTnZbCD-MVCpxEGBc9D68phupxKngMyZXufrVg4OayVet_tTqO
+                - link [ref=f9e628] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=G552tquTugCqXMTQegcht0r6RP42fG2mjOehGa9TC0VqSeo-aUkErr20CfTnZbCD-MVCpxEGBc9D68phupxKngMyZXufrVg4OayVet_tTqO
+                  - generic [ref=f9e629]:
+                    - emphasis [ref=f9e630]: 四六级成绩
+                    - text: 8月24号早上6点公布，查分渠道和复...
+                - generic [ref=f9e631]:
+                  - generic [ref=f9e632]: 好看视频
+                  - generic [ref=f9e633]: 前天01:04
+            - link "查看更多 " [ref=f9e634] [cursor=pointer]:
+              - /url: /sf/vsearch?pd=video&wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&tn=vsearch&lid=b53506c2001df24f&ie=utf-8&rsv_pq=b53506c2001df24f&rsv_spt=5&rsv_bp=1&f=8&atn=index
+              - generic [ref=f9e635]:
+                - generic [ref=f9e636]: 查看更多
+                - generic [ref=f9e637]: 
+          - generic [ref=f9e638]:
+            - heading [level=3] [ref=f9e639]:
+              - link [ref=f9e640] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKPCN5rK15WQTc1MfBTe5PVFEadqDnsi3U6DfNxSPlGSjDXW1pqQ8LlUJNcxKC-hPnSq8scSJ0QXyNTzdfRYPhhIIrGoDfisJE7D-R7rJjW08
+                - text: 2023年6月英语
+                - emphasis [ref=f9e641]: 四六级成绩查
+                - text: 询入口_
+                - emphasis [ref=f9e642]: 成绩查
+                - text: 询时间_查分_考试吧
+            - generic [ref=f9e643]:
+              - text: 2024年6月
+              - emphasis [ref=f9e644]: 四六级成绩查
+              - text: 询2024年8月23日上午6时开始
+            - table [ref=f9e645]:
+              - rowgroup [ref=f9e646]:
+                - row [ref=f9e647]:
+                  - columnheader "查分方式" [ref=f9e648]
+                  - columnheader "详细说明" [ref=f9e649]
+                - row [ref=f9e650]:
+                  - cell "方式1" [ref=f9e651]
+                  - cell [ref=f9e652]:
+                    - link "登录中国教育考试网查询" [ref=f9e653] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=xrRjS6bJzE-mLGBeKU9W7BrMOqWcrGf1hiV2AWUDOqqNEjhXUSmi3iD24_EedlWC
+                - row [ref=f9e654]:
+                  - cell "方式2" [ref=f9e655]
+                  - cell "使用微信APP搜索中国教育考试网小程序" [ref=f9e656]
+                - row [ref=f9e657]:
+                  - cell "方式3" [ref=f9e658]
+                  - cell "使用百度APP搜索中国教育考试网小程序" [ref=f9e659]
+            - link "查分常见问题 >>" [ref=f9e661] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKPCN5rK15WQTc1MfBTe5PVFEadqDnsi3U6DfNxSPlGSjDXW1pqQ8LlUJNcxKC-hPnSq8scSJ0QXyNTzdfRYPhhIIrGoDfisJE7D-R7rJjW08
+            - generic [ref=f9e662]:
+              - text: www.exam8.com/ 2024-08-23
+              - generic [ref=f9e663] [cursor=pointer]: 
+          - generic [ref=f9e668]:
+            - generic [ref=f9e670]:
+              - heading [level=3] [ref=f9e671]:
+                - link [ref=f9e672] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=0KZHSeh24wu149LSHV_c1Es1OBuv24DNDlffhZaAi7a1fyb9F25f4MFuDWajVkY2nOtKzEvmlaXAJlQKmOkjtK
+                  - generic [ref=f9e674]:
+                    - text: 全国大学英语四、
+                    - emphasis [ref=f9e675]: 六级
+                    - text: 考试(CET) - 中国教育考试网
+              - link [ref=f9e676] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=0KZHSeh24wu149LSHV_c1Es1OBuv24DNDlffhZaAi7a1fyb9F25f4MFuDWajVkY2nOtKzEvmlaXAJlQKmOkjtK
+            - generic [ref=f9e682] [cursor=pointer]:
+              - text: 2025年下半年全国大学英语四、
+              - emphasis [ref=f9e683]: 六级
+              - text: 考试报名工作启动2025年下半年全国大学英语四、六级考试包括笔试(CET)和口试(CET-SET),笔试将于12月13日举行,口试将于11月22至23日举行,报名工作将于... 2025年上半年全国大学英语四、六级考试(CET)
+              - emphasis [ref=f9e684]: 成绩查询
+              - text: 有关安排 ...
+            - link "头像 中小学教师资格考试" [ref=f9e689] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=0KZHSeh24wu149LSHV_c1Es1OBuv24DNDlffhZaAi7a1fyb9F25f4MFuDWajVkY2nOtKzEvmlaXAJlQKmOkjtK
+              - img "头像" [ref=f9e692]
+              - generic [ref=f9e693]: 中小学教师资格考试
+              - generic [ref=f9e694]: 
+          - generic [ref=f9e699]:
+            - generic [ref=f9e701]:
+              - heading [level=3] [ref=f9e702]:
+                - link [ref=f9e703] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=6AvUp_-DFPMx5P31582XxNldkbdahNVSJ3odjWHRmZAl4vm2p8WQG0x9qKtERi8T
+                  - generic [ref=f9e705]:
+                    - text: 全国大学英语四、
+                    - emphasis [ref=f9e706]: 六级
+                    - text: 考试
+                    - emphasis [ref=f9e707]: 成绩查询
+              - link [ref=f9e708] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=6AvUp_-DFPMx5P31582XxNldkbdahNVSJ3odjWHRmZAl4vm2p8WQG0x9qKtERi8T
+            - generic [ref=f9e714] [cursor=pointer]:
+              - text: Q3:如对
+              - emphasis [ref=f9e715]: 成绩
+              - text: 有异议怎么办? Q4:如何获取本次考试电子成绩报告单? 联系我们 query@mail.neea.edu.cn 010-83020302 操作说明 1、选择考试项目,输入姓名和证件号码/准考证号,点击查询按钮进行查询。 2、如果输入信息正确,对应考试的成绩信息将会在下一个页面列出。
+            - link "头像 中华人民共和国教育部政府门户网站" [ref=f9e720] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=6AvUp_-DFPMx5P31582XxNldkbdahNVSJ3odjWHRmZAl4vm2p8WQG0x9qKtERi8T
+              - img "头像" [ref=f9e723]
+              - generic [ref=f9e724]: 中华人民共和国教育部政府门户网站
+              - generic [ref=f9e725]: 
+          - generic [ref=f9e730]:
+            - generic [ref=f9e732]:
+              - heading [level=3] [ref=f9e733]:
+                - link "维护通知 - 中国教育考试网" [ref=f9e734] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrtm7PuN3jlPR8_Ofnfb1wF2
+              - link [ref=f9e737] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrtm7PuN3jlPR8_Ofnfb1wF2
+            - generic [ref=f9e742] [cursor=pointer]:
+              - text: 2026年6月1日
+              - generic [ref=f9e743]:
+                - text: 维护通知 系统维护中,由此给您带来不便,敬请谅解。 教育部教育考试院 2026年
+                - emphasis [ref=f9e744]: "6"
+                - text: 月1日
+            - link "全国大学英语四、六级考试报名网" [ref=f9e749] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=cDHoHGG_IqBD-HOZUSmLKYKE-3_VzMrjnAdDE_zVUrtm7PuN3jlPR8_Ofnfb1wF2
+              - generic [ref=f9e751]: 
+        - generic [ref=f9e755]:
+          - generic [ref=f9e756]: 相关搜索
+          - table [ref=f9e757]:
+            - rowgroup [ref=f9e758]:
+              - row [ref=f9e759]:
+                - cell [ref=f9e760]:
+                  - link "雅思6.5一般人要学多久" [ref=f9e761] [cursor=pointer]:
+                    - /url: /s?wd=%E9%9B%85%E6%80%9D6.5%E4%B8%80%E8%88%AC%E4%BA%BA%E8%A6%81%E5%AD%A6%E5%A4%9A%E4%B9%85&tn=baidu&rsf=101633803&rsp=0&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_1
+                - cell [ref=f9e764]:
+                  - link "CET-4成绩查询入口" [ref=f9e765] [cursor=pointer]:
+                    - /url: /s?wd=CET-4%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2%E5%85%A5%E5%8F%A3&tn=baidu&rsf=101634000&rsp=1&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_2
+              - row [ref=f9e768]:
+                - cell [ref=f9e769]:
+                  - link "四六级查询成绩入口" [ref=f9e770] [cursor=pointer]:
+                    - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E8%AF%A2%E6%88%90%E7%BB%A9%E5%85%A5%E5%8F%A3&tn=baidu&rsf=101634000&rsp=2&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_3
+                - cell [ref=f9e773]:
+                  - link "雅思7.0相当于六级多少分" [ref=f9e774] [cursor=pointer]:
+                    - /url: /s?wd=%E9%9B%85%E6%80%9D7.0%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%85%AD%E7%BA%A7%E5%A4%9A%E5%B0%91%E5%88%86&tn=baidu&rsf=101633803&rsp=3&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_4
+              - row [ref=f9e777]:
+                - cell [ref=f9e778]:
+                  - link "雅思6.5和六级哪个难" [ref=f9e779] [cursor=pointer]:
+                    - /url: /s?wd=%E9%9B%85%E6%80%9D6.5%E5%92%8C%E5%85%AD%E7%BA%A7%E5%93%AA%E4%B8%AA%E9%9A%BE&tn=baidu&rsf=101631101&rsp=4&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_5
+                - cell [ref=f9e782]:
+                  - link "2026上半年英语四六级成绩公布 新" [ref=f9e783] [cursor=pointer]:
+                    - /url: /s?wd=2026%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%8B%B1%E8%AF%AD%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%88%90%E7%BB%A9%E5%85%AC%E5%B8%83&tn=baidu&rsf=101632809&rsp=5&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_6
+                    - generic [ref=f9e785]: 2026上半年英语四六级成绩公布
+                    - generic [ref=f9e786]: 新
+              - row [ref=f9e787]:
+                - cell [ref=f9e788]:
+                  - link "四六级查分85%拥堵率 新" [ref=f9e789] [cursor=pointer]:
+                    - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E5%88%8685%25%E6%8B%A5%E5%A0%B5%E7%8E%87&tn=baidu&rsf=101632809&rsp=6&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_7
+                    - generic [ref=f9e791]: 四六级查分85%拥堵率
+                    - generic [ref=f9e792]: 新
+                - cell [ref=f9e793]:
+                  - link "四六级成绩单电子版下载" [ref=f9e794] [cursor=pointer]:
+                    - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%88%90%E7%BB%A9%E5%8D%95%E7%94%B5%E5%AD%90%E7%89%88%E4%B8%8B%E8%BD%BD&tn=baidu&rsf=100633803&rsp=7&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_8
+              - row [ref=f9e797]:
+                - cell [ref=f9e798]:
+                  - link "四六级查询官网入口" [ref=f9e799] [cursor=pointer]:
+                    - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E8%AF%A2%E5%AE%98%E7%BD%91%E5%85%A5%E5%8F%A3&tn=baidu&rsf=100631161&rsp=8&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_9
+                - cell [ref=f9e802]:
+                  - link "四六级查成绩时间2026" [ref=f9e803] [cursor=pointer]:
+                    - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9%E6%97%B6%E9%97%B42026&tn=baidu&rsf=100631101&rsp=9&f=1&rs_src=0&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&rsv_dl=brs_28338_10
+      - generic [ref=f9e808]:
+        - link:
+          - /url: ""
+        - strong [ref=f9e809]:
+          - generic [ref=f9e810]: "1"
+        - link "2" [ref=f9e811] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=10&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "3" [ref=f9e813] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=20&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "4" [ref=f9e815] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=30&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "5" [ref=f9e817] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=40&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "6" [ref=f9e819] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=50&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "7" [ref=f9e821] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=60&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "8" [ref=f9e823] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=70&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "9" [ref=f9e825] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=80&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link "10" [ref=f9e827] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=90&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=
+        - link [ref=f9e829] [cursor=pointer]:
+          - /url: /s?wd=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&pn=10&oq=%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%9F%A5%E6%88%90%E7%BB%A9&ie=utf-8&usm=4&fenlei=256&rsv_idx=1&rsv_pq=b53506c2001df24f&rsv_t=12ecOg5y0DNgr6432F3y8BV%2Fzpch7Qmnzdtic6%2BZQH2QCZTK%2F67DibEbuqE&topic_pn=&rsv_page=1
+      - generic [ref=f9e834]:
+        - link "帮助" [ref=f9e835] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=f9e836] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=f9e837] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=f9e838] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

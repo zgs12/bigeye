@@ -1,0 +1,143 @@
+- generic [ref=f43e2]:
+  - generic [ref=f43e3]:
+    - generic:
+      - generic [ref=f43e6]:
+        - link "新闻" [ref=f43e7] [cursor=pointer]:
+          - /url: http://news.baidu.com
+        - link "hao123" [ref=f43e8] [cursor=pointer]:
+          - /url: https://www.hao123.com?src=from_pc
+        - link "地图" [ref=f43e9] [cursor=pointer]:
+          - /url: http://map.baidu.com
+        - link "贴吧" [ref=f43e10] [cursor=pointer]:
+          - /url: http://tieba.baidu.com/
+        - link "视频" [ref=f43e11] [cursor=pointer]:
+          - /url: https://haokan.baidu.com/?sfrom=baidu-top
+        - link "图片" [ref=f43e12] [cursor=pointer]:
+          - /url: http://image.baidu.com/
+        - link "网盘" [ref=f43e13] [cursor=pointer]:
+          - /url: https://pan.baidu.com?from=1026962h
+        - link "文库" [ref=f43e14] [cursor=pointer]:
+          - /url: https://wenku.baidu.com/?fr=bdpcindex
+        - link "文心" [ref=f43e15] [cursor=pointer]:
+          - /url: https://chat.baidu.com/search?isShowHello=1&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22home_tab%22%7D
+        - link "百度搭子" [ref=f43e16] [cursor=pointer]:
+          - /url: https://dumate.cn?track=bdsy
+        - link "更多" [ref=f43e18] [cursor=pointer]:
+          - /url: http://www.baidu.com/more/
+      - generic [ref=f43e19]:
+        - generic [ref=f43e20] [cursor=pointer]: 设置
+        - link "登录" [ref=f43e21] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+    - generic [ref=f43e24]:
+      - generic [ref=f43e25]:
+        - generic:
+          - link "点击一下，了解更多":
+            - /url: //www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pcs
+      - generic [ref=f43e31]:
+        - generic [ref=f43e34]:
+          - textbox "四六级查成绩" [active] [ref=f43e36]
+          - generic [ref=f43e38]:
+            - generic [ref=f43e39]:
+              - generic [ref=f43e41] [cursor=pointer]
+              - generic [ref=f43e50]:
+                - generic [ref=f43e51] [cursor=pointer]
+                - generic [ref=f43e56] [cursor=pointer]
+            - button "百度一下" [ref=f43e63] [cursor=pointer]
+        - link "复杂问题就找文心助手，深入思考回答更优 " [ref=f43e67] [cursor=pointer]:
+          - /url: https://wenxin.baidu.com/?extParams=%7B%22enter_type%22%3A%22home_operate%22%7D
+          - generic [ref=f43e69]:
+            - generic [ref=f43e70]: 复杂问题就找文心助手，深入思考回答更优
+            - generic [ref=f43e71]: 
+      - generic [ref=f43e72]:
+        - generic [ref=f43e73]:
+          - link "百度热搜":
+            - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_entry
+            - generic "百度热搜" [ref=f43e74] [cursor=pointer]: 
+          - generic [ref=f43e75] [cursor=pointer]:
+            - generic [ref=f43e76]: 
+            - text: 换一换
+        - list:
+          - listitem [ref=f43e77]:
+            - link " 习近平同约旦国王阿卜杜拉二世会谈" [ref=f43e78] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e79]: 
+              - text: 习近平同约旦国王阿卜杜拉二世会谈
+          - listitem [ref=f43e81]:
+            - link "5 央媒评湖南扶老人被索赔事件" [ref=f43e82] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e83]: "5"
+              - text: 央媒评湖南扶老人被索赔事件
+            - generic [ref=f43e84]: 热
+          - listitem [ref=f43e85]:
+            - link "1 中学施发型令：不合格不让进校门" [ref=f43e86] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e87]: "1"
+              - text: 中学施发型令：不合格不让进校门
+          - listitem [ref=f43e89]:
+            - link "6 婚礼第二天新娘指纹被爸爸删掉" [ref=f43e90] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e91]: "6"
+              - text: 婚礼第二天新娘指纹被爸爸删掉
+          - listitem [ref=f43e93]:
+            - link "2 央视曝光后 沈阳等多地接连通报" [ref=f43e94] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e95]: "2"
+              - text: 央视曝光后 沈阳等多地接连通报
+            - generic [ref=f43e96]: 热
+          - listitem [ref=f43e97]:
+            - link "7 中央气象台对台风艾莎尼停止编号" [ref=f43e98] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e99]: "7"
+              - text: 中央气象台对台风艾莎尼停止编号
+            - generic [ref=f43e100]: 新
+          - listitem [ref=f43e101]:
+            - link "3 中国机器人连刷人类世界纪录" [ref=f43e102] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e103]: "3"
+              - text: 中国机器人连刷人类世界纪录
+          - listitem [ref=f43e105]:
+            - link "8 官方确认帮扶老人遭索赔店主不担责" [ref=f43e106] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e107]: "8"
+              - text: 官方确认帮扶老人遭索赔店主不担责
+            - generic [ref=f43e108]: 热
+          - listitem [ref=f43e109]:
+            - link "4 厨房纸到底能不能擦吃的" [ref=f43e110] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e111]: "4"
+              - text: 厨房纸到底能不能擦吃的
+            - generic [ref=f43e112]: 热
+          - listitem [ref=f43e113]:
+            - link "9 韩指日内跌超4% SK海力士跌超6%" [ref=f43e114] [cursor=pointer]:
+              - /url: https://www.baidu.com/s?wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25+SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1
+              - generic [ref=f43e115]: "9"
+              - text: 韩指日内跌超4% SK海力士跌超6%
+    - generic [ref=f43e118]:
+      - paragraph [ref=f43e119]:
+        - link "关于百度" [ref=f43e120] [cursor=pointer]:
+          - /url: //home.baidu.com
+      - paragraph [ref=f43e121]:
+        - link "About Baidu" [ref=f43e122] [cursor=pointer]:
+          - /url: http://ir.baidu.com
+      - paragraph [ref=f43e123]:
+        - link "使用百度前必读" [ref=f43e124] [cursor=pointer]:
+          - /url: //www.baidu.com/duty
+      - paragraph [ref=f43e125]:
+        - link "帮助中心" [ref=f43e126] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+      - paragraph [ref=f43e127]:
+        - link "企业推广" [ref=f43e128] [cursor=pointer]:
+          - /url: https://e.baidu.com/?refer=1271
+      - paragraph [ref=f43e129]:
+        - link "京公网安备11000002000001号" [ref=f43e130] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001
+      - paragraph [ref=f43e131]:
+        - link "京ICP证030173号" [ref=f43e132] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+      - paragraph [ref=f43e133]: 互联网新闻信息服务许可证11220180008
+      - paragraph [ref=f43e134]: 网络文化经营许可证： 京网文〔2026〕0171-042号
+      - generic [ref=f43e135]: 
+      - generic [ref=f43e136]: 
+  - generic [ref=f43e137]:
+    - generic [ref=f43e138] [cursor=pointer]
+    - generic [ref=f43e141] [cursor=pointer]

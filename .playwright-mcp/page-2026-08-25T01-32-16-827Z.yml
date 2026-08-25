@@ -1,0 +1,790 @@
+- generic [active] [ref=f40e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=f40e2]:
+    - generic [ref=f40e3]:
+      - generic [ref=f40e123]:
+        - link "百度首页" [ref=f40e124] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=f40e125] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=f40e126] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5
+      - generic [ref=f40e23]:
+        - generic:
+          - link [ref=f40e127] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=f40e128]
+          - generic [ref=f40e131]:
+            - textbox [ref=f40e133]: openai
+            - generic [ref=f40e135]:
+              - generic [ref=f40e136]:
+                - generic [ref=f40e137] [cursor=pointer]
+                - generic [ref=f40e142] [cursor=pointer]
+                - generic [ref=f40e151]:
+                  - generic [ref=f40e152] [cursor=pointer]
+                  - generic [ref=f40e157] [cursor=pointer]
+              - button "百度一下" [ref=f40e164] [cursor=pointer]
+    - generic [ref=f40e168]:
+      - link [ref=f40e169] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=openai&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2215249174358159972414%22%2C%22ori_lid%22%3A%2215249174358159972414%22%7D
+      - generic [ref=f40e171]: 网页
+      - link "图片" [ref=f40e172] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=d39ff349001ed83e&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=openai
+      - link "资讯" [ref=f40e173] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=openai
+      - link "视频" [ref=f40e174] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=d39ff349001ed83e&ie=utf-8&wd=openai&rsv_spt=7&rsv_bp=1&f=8&oq=openai&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ
+      - link "笔记" [ref=f40e175] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=openai
+      - link "地图" [ref=f40e176] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3Dopenai
+      - link "贴吧" [ref=f40e177] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=openai
+      - link "文库" [ref=f40e178] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=openai
+      - link "更多" [ref=f40e179] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=f40e180] [cursor=pointer]: 搜索工具
+    - generic [ref=f40e181]:
+      - generic [ref=f40e182]:
+        - table [ref=f40e184]:
+          - rowgroup [ref=f40e185]:
+            - row [ref=f40e186]:
+              - cell " 登录百度帐号 交易更有保障  相关搜索  open ai官网  http//OpenClaw.ai  ai下一页  OpenAI 公司  Gemini  open ai下载手机版    换一换 热搜榜 民生榜 财经榜  习近平同约旦国王阿卜杜拉二世会谈 1 中学施发型令：不合格不让进校门 2 央视曝光后 沈阳等多地接连通报 热 3 中国机器人连刷人类世界纪录 4 厨房纸到底能不能擦吃的 热 5 央媒评湖南扶老人被索赔事件 热 6 婚礼第二天新娘指纹被爸爸删掉 7 中央气象台对台风艾莎尼停止编号 新 8 官方确认帮扶老人遭索赔店主不担责 热 9 韩指日内跌超4% SK海力士跌超6% 10 建议这个年龄前开始控糖 很多人晚了 11 “被蚊子咬可能得艾滋”不实 12 印度去世乞丐家中发现30多麻袋现金 13 美政府宣布对伊朗经济制裁措施 14 人民日报曝光当天 腾冲成立工作组 15 10万内的电车越来越强 你还看油车吗 ▶想在此推广您的产品吗? 咨询热线：400-800-8888 e.baidu.com" [ref=f40e187]:
+                - list [ref=f40e190]:
+                  - listitem [ref=f40e191]:
+                    - generic [ref=f40e194]:
+                      - generic [ref=f40e195]: 
+                      - text: 登录百度帐号 交易更有保障
+                      - generic [ref=f40e196]: 
+                - generic [ref=f40e197]:
+                  - generic [ref=f40e203]:
+                    - generic [ref=f40e204]: 相关搜索
+                    - generic [ref=f40e206]:
+                      - link " open ai官网" [ref=f40e209] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=open%20ai%E5%AE%98%E7%BD%91&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e2bagNuir0GoilIzQGZFV1FeUBLvr%2BXvDssv6Sy%2FptTPulCgGleMnyPmpRI&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_1&rq=openai&rsf=101631161
+                        - generic [ref=f40e210]:
+                          - generic [ref=f40e211]: 
+                          - generic [ref=f40e212]: open ai官网
+                      - link " http//OpenClaw.ai" [ref=f40e215] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=http%2F%2FOpenClaw.ai&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_2&rq=openai&rsf=101631101
+                        - generic [ref=f40e216]:
+                          - generic [ref=f40e217]: 
+                          - generic [ref=f40e218]: http//OpenClaw.ai
+                      - link " ai下一页" [ref=f40e221] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=ai%E4%B8%8B%E4%B8%80%E9%A1%B5&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_3&rq=openai&rsf=100631101
+                        - generic [ref=f40e222]:
+                          - generic [ref=f40e223]: 
+                          - generic [ref=f40e224]: ai下一页
+                      - link " OpenAI 公司" [ref=f40e227] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=OpenAI%20%E5%85%AC%E5%8F%B8&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_4&rq=openai&rsf=100631161
+                        - generic [ref=f40e228]:
+                          - generic [ref=f40e229]: 
+                          - generic [ref=f40e230]: OpenAI 公司
+                      - link " Gemini" [ref=f40e233] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=Gemini&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_5&rq=openai&rsf=100631151
+                        - generic [ref=f40e234]:
+                          - generic [ref=f40e235]: 
+                          - generic [ref=f40e236]: Gemini
+                      - link " open ai下载手机版" [ref=f40e239] [cursor=pointer]:
+                        - /url: /s?rsv_idx=1&wd=open%20ai%E4%B8%8B%E8%BD%BD%E6%89%8B%E6%9C%BA%E7%89%88&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rfqid=d39ff349001ed83e&rsv_dl=0_prs_28616_6&rq=openai&rsf=100631161
+                        - generic [ref=f40e240]:
+                          - generic [ref=f40e241]: 
+                          - generic [ref=f40e242]: open ai下载手机版
+                  - generic [ref=f40e246]:
+                    - generic "百度热搜" [ref=f40e247]:
+                      - link " " [ref=f40e248] [cursor=pointer]:
+                        - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                        - generic [ref=f40e249]: 
+                        - generic [ref=f40e250]: 
+                      - link " 换一换" [ref=f40e252] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=f40e253]: 
+                        - text: 换一换
+                    - generic [ref=f40e254]:
+                      - generic [ref=f40e255] [cursor=pointer]: 热搜榜
+                      - generic [ref=f40e256] [cursor=pointer]: 民生榜
+                      - generic [ref=f40e257] [cursor=pointer]: 财经榜
+                    - generic [ref=f40e259]:
+                      - generic [ref=f40e261]:
+                        - generic [ref=f40e262]: 
+                        - link "习近平同约旦国王阿卜杜拉二世会谈" [ref=f40e264] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BA%A6%E6%97%A6%E5%9B%BD%E7%8E%8B%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BC%9A%E8%B0%88&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e266]:
+                        - generic [ref=f40e267]: "1"
+                        - link "中学施发型令：不合格不让进校门" [ref=f40e268] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%AD%A6%E6%96%BD%E5%8F%91%E5%9E%8B%E4%BB%A4%EF%BC%9A%E4%B8%8D%E5%90%88%E6%A0%BC%E4%B8%8D%E8%AE%A9%E8%BF%9B%E6%A0%A1%E9%97%A8&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e270]:
+                        - generic [ref=f40e271]: "2"
+                        - link "央视曝光后 沈阳等多地接连通报" [ref=f40e272] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E%20%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=a0b8AVD%2BRnAj6X7wL%2Fbzr7iX%2FkB8Oy3fqm%2Bnnj557YtJgGoLzQqVgPs7850&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f40e273]: 热
+                      - generic [ref=f40e275]:
+                        - generic [ref=f40e276]: "3"
+                        - link "中国机器人连刷人类世界纪录" [ref=f40e277] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e279]:
+                        - generic [ref=f40e280]: "4"
+                        - link "厨房纸到底能不能擦吃的" [ref=f40e281] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%8E%A8%E6%88%BF%E7%BA%B8%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%93%A6%E5%90%83%E7%9A%84&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f40e282]: 热
+                      - generic [ref=f40e284]:
+                        - generic [ref=f40e285]: "5"
+                        - link "央媒评湖南扶老人被索赔事件" [ref=f40e286] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A4%AE%E5%AA%92%E8%AF%84%E6%B9%96%E5%8D%97%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E4%BA%8B%E4%BB%B6&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f40e287]: 热
+                      - generic [ref=f40e289]:
+                        - generic [ref=f40e290]: "6"
+                        - link "婚礼第二天新娘指纹被爸爸删掉" [ref=f40e291] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%A9%9A%E7%A4%BC%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%96%B0%E5%A8%98%E6%8C%87%E7%BA%B9%E8%A2%AB%E7%88%B8%E7%88%B8%E5%88%A0%E6%8E%89&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e293]:
+                        - generic [ref=f40e294]: "7"
+                        - link "中央气象台对台风艾莎尼停止编号" [ref=f40e295] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%B0%E5%AF%B9%E5%8F%B0%E9%A3%8E%E8%89%BE%E8%8E%8E%E5%B0%BC%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f40e296]: 新
+                      - generic [ref=f40e298]:
+                        - generic [ref=f40e299]: "8"
+                        - link "官方确认帮扶老人遭索赔店主不担责" [ref=f40e300] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%AE%98%E6%96%B9%E7%A1%AE%E8%AE%A4%E5%B8%AE%E6%89%B6%E8%80%81%E4%BA%BA%E9%81%AD%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%E4%B8%8D%E6%8B%85%E8%B4%A3&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=f40e301]: 热
+                      - generic [ref=f40e303]:
+                        - generic [ref=f40e304]: "9"
+                        - link "韩指日内跌超4% SK海力士跌超6%" [ref=f40e305] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E9%9F%A9%E6%8C%87%E6%97%A5%E5%86%85%E8%B7%8C%E8%B6%854%25%20SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%B7%8C%E8%B6%856%25&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e307]:
+                        - generic [ref=f40e308]: "10"
+                        - link "建议这个年龄前开始控糖 很多人晚了" [ref=f40e309] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%BB%BA%E8%AE%AE%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%E5%89%8D%E5%BC%80%E5%A7%8B%E6%8E%A7%E7%B3%96%20%E5%BE%88%E5%A4%9A%E4%BA%BA%E6%99%9A%E4%BA%86&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e311]:
+                        - generic [ref=f40e312]: "11"
+                        - link "“被蚊子咬可能得艾滋”不实" [ref=f40e313] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=fb146p48v0qW0Ybw7CU%2BYp2%2B5aAqdM6U2jOi8lgGHit0DrGHz6a7dHkv42E&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e315]:
+                        - generic [ref=f40e316]: "12"
+                        - link "印度去世乞丐家中发现30多麻袋现金" [ref=f40e317] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E5%8D%B0%E5%BA%A6%E5%8E%BB%E4%B8%96%E4%B9%9E%E4%B8%90%E5%AE%B6%E4%B8%AD%E5%8F%91%E7%8E%B030%E5%A4%9A%E9%BA%BB%E8%A2%8B%E7%8E%B0%E9%87%91&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e454DBDEtgEMIJuDhS3rWWc4Zn9JAG1s0GclQ4rYX7z%2Fzpr3EKCNLew5kLE&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e319]:
+                        - generic [ref=f40e320]: "13"
+                        - link "美政府宣布对伊朗经济制裁措施" [ref=f40e321] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e454DBDEtgEMIJuDhS3rWWc4Zn9JAG1s0GclQ4rYX7z%2Fzpr3EKCNLew5kLE&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e323]:
+                        - generic [ref=f40e324]: "14"
+                        - link "人民日报曝光当天 腾冲成立工作组" [ref=f40e325] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9%20%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e454DBDEtgEMIJuDhS3rWWc4Zn9JAG1s0GclQ4rYX7z%2Fzpr3EKCNLew5kLE&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=f40e327]:
+                        - generic [ref=f40e328]: "15"
+                        - link "10万内的电车越来越强 你还看油车吗" [ref=f40e329] [cursor=pointer]:
+                          - /url: /s?rsv_idx=1&wd=10%E4%B8%87%E5%86%85%E7%9A%84%E7%94%B5%E8%BD%A6%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%BC%BA%20%E4%BD%A0%E8%BF%98%E7%9C%8B%E6%B2%B9%E8%BD%A6%E5%90%97&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e454DBDEtgEMIJuDhS3rWWc4Zn9JAG1s0GclQ4rYX7z%2Fzpr3EKCNLew5kLE&rqid=d39ff349001ed83e&rsf=fd0d5e1cc61eb83403f24ea9e70678cd_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                - generic [ref=f40e336]:
+                  - heading [level=2] [ref=f40e337]:
+                    - link "▶想在此推广您的产品吗?" [ref=f40e338] [cursor=pointer]:
+                      - /url: https://www.baidu.com/other.php?url=K60000KeXhUKU6ZtOYPfXIl01vmOmlySulD6wQHQzpMd4V1RLkdW6m_I5vfU2IoXUHTZGUCPnjU6F_4FuEf0KYP6AZSVCt42QrkRiVnFgVJnXX8GZ9IHO-Sx61vVhkiZHBPCRu3l_gWJ-wZQKYY9D385ZZhGj5hdnStpxoKJk1UxNACGRwBP2RMBf0B09b7Er8vwx9SUD38_42sQwAHNnIhOzFIe.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHdETAN8myb0IgP-T-qYXgK-5H00mywxIZ-suHYkn6KLULFb5fKzmLmqn0KdThkxpyfqnHRYnWfzPjTvPsKVINqGujYs0Adxpyfqn0KVIZK_gv-b5H00TZuxpyfqn0KGuAnqHbG2RsKspyfqn6KWpyfqPj0L0Au_IjYknHRYn0K-XZKxIA-VuHY1nWRsn1mdnHcs0ZP9gvu_myTqn0KWThnqnW03rH0&dt=1787621535&wd=openai&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424767
+                  - link "咨询热线：400-800-8888" [ref=f40e339] [cursor=pointer]:
+                    - /url: https://www.baidu.com/other.php?url=K60000KeXhUKU6ZtOva7R0-BZ2aRN9Q09CCR2sqUC0LZoGrK57IZNZHzkgmdDAWerghzAggApeOz_sUMpfVTCiQDot7SLNfYEVmu0vuyxtc6zzbDH50ttISSTp2x-puW3ewIhRF4ZleBl_oEjPVSKvrZ7qkLKr8C6-dEXpPlhaWAbv5c-sBEX2IkEY9RsCeR-YvxXIY1ZJ13Pdwc0ssQRq_avYd3.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHdETAN8myb0IgP-T-qYXgK-5H00mywxIZ-suHYkn6KLULFb5fKzmLmqn0KdThkxpyfqnHRYnWfzPjTvr0KVINqGujYs0Adxpyfqn0KVIZK_gv-b5H00TZuxpyfqn0KGuAnqHbG2RsKspyfqn6KWpyfqPj0L0Au_IjYknHRYn0K-XZKxIA-VuHY1nWRsn1mdnHcs0ZP9gvu_myTqn0KWThnqnHnYP1R&dt=1787621535&wd=openai&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424768
+                  - link "e.baidu.com" [ref=f40e340] [cursor=pointer]:
+                    - /url: https://www.baidu.com/other.php?url=K60000KeXhUKU6ZtO4ezRNDP_CbAesQPPUvAFRXpOm7Ky2d-n-VtSckYQ54KqXxMokxJT-NmBrJZ0DMnfa_VpNY7k5z8S07RXF2vXrgYCjt0uUORmputbhdmjWLfPMEy1AqhvBrfOYhVcJzHuGXDt9F5HL6xtXwIMB5WJAJbuQFBFCIO8QjL5Wat_YRBWUd8SmaQGRzBd95TZ2MOyzKSKyXFWvXL.DY_NR2Ar5Od66H4g_3_ac2rra6ePCIh6e1FdGhmo_z2N9h9mePqh1T0.TLFWgv-b5Hc0TLFWpyfqn6Kk5fKYUHdETAN8myb0IgP-T-qYXgK-5H00mywxIZ-suHYkn6KLULFb5fKzmLmqn0KdThkxpyfqnHRYnWfzPjTvrfKVINqGujYs0Adxpyfqn0KVIZK_gv-b5H00TZuxpyfqn0KGuAnqHbG2RsKspyfqn6KWpyfqPj0L0Au_IjYknHRYn0K-XZKxIA-VuHY1nWRsn1mdnHcs0ZP9gvu_myTqn0KWThnqPHcsnHT&dt=1787621535&wd=openai&ai=0_427675661_1_1&tpl=tpl_10341_15816_11345&l=1542424769
+        - generic [ref=f40e341]:
+          - generic [ref=f40e344]:
+            - generic [ref=f40e348]:
+              - heading [level=3] [ref=f40e350]:
+                - link "OpenAI GPT-5.6/5.5-登陆Amazon Bedrock-注册使用" [ref=f40e352] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - link "OpenAI前沿模型(GPT+Codex)登陆Amazon Bedrock,更少token生成更高质量输出,注册账号使用!在Amazon Bedrock上调用OpenAI前沿模型,企业级安全保障,助您安心构建,立即注册!" [ref=f40e355] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - generic [ref=f40e360]:
+                - link [ref=f40e361] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "亚马逊云科技" [ref=f40e364] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "2026-08" [ref=f40e365] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "" [ref=f40e366] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "广告" [ref=f40e369] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link [ref=f40e370] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsmtLxjOvtjWy0nIqqVSpxdMIPnpgAhI2rdOxWdOBY2ITmYDsqxD0uXjbI3Ngd4W3uitsozEVHd_qBpNoMwd9RTxSAzIQBlFC_kpWkRZpR0Sybfw_tbdX6T4Gl7QVK3V1iJkUMgOMvO96a1NEpVjp5nLc_MNBz5mbys98sJl53p21AyJUJjQkAotsak0goJPXB-MUGTb11w.7b_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_uPvOFxjEtTSeF3e_Ou3sqrxxElXrX1Wb88eDeeQCIMyrZ-9JuBBHwmkkqm3Xy7MHWuxJBmSZt8xeOQtvxvOxoZjz3t7q7tIiuh5NM76lkst_QPKrGYv9WtLsqm3Xgih4SjikqO-SU5exE9tx9OPSrxdq8ZkSZtoC_Oon17I9tx9q8GnNKt5lY_LFhWJxWsS5sSJmlZtwdzpnXZkSZSWWH7exE9tx9OC3YkXLe3xZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZqZAhQvOxoZjzLFCnEC_rkGBuxdW94mYlV2mJjAi1FYvU2ShzzzzzEoZjzlypDPNjwWik4qjnPjoZjzs8swRFVjZsO-RojPakYqhl8Vf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7G0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjD4g1csPH7xn1msnfKopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HDsnHIxnH0krNtznjRkg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A49pyfqn0K8mgws5H00mLNb5Hcsnj0kPjnsrjc0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HDs0A4Y5H00TLCq0A71gv-bm1dsTv7zUid-mvC0pywW5R42i-n0TA9YXHY0IA7zuvNY5Hm1g1KxnHRs0ZwdT1YdP1m3n1bkn16kn1D3Pj0LPH0k0ZF-TgfqnHT3P1mznHR1PHcdn0KGm1Ys0ZPGujdbn1-huWnYrH0snyNbrjP-0AP1UHdjfWIaPjuawWP7fWmzfbRv0AkBT1Ys0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYs0AFvujYs0AIsIjYk0AI9IjYk0AdWgvuzUvYqn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1Kxn7ts0ZK9I7qhUA7M5H00uAPGujY1nHfdP1c30ANYpyfqQHD0mgPsmvnqn0KdTA-8mvnqn0KkUymqn0KhmLNY5H00pgPWUjYs0A7buhk9u1Yk0Akhm1Ys0AwWmvfq0Zwzmyw-5HcsnWmsnsKBuA-b5Rn4fYcLf1nsnHFjwWwKPjKjfHn3fH7KPWc4nWRsnbcv0AFY5H00Uv7YI1Ys0AqY5H00ULFsIjYsc10Wc10Wnansc108nj0snj0sc10WwDuRc10WQinsQW0snj0snankQW0snj0snansc10Wna3snj0snj0Wnansc10Wnansc10WnansQW0s0AF9UhV9mvnqnansc10Wn0KkgLmqna3kP-tsQW0sg108njKxna3vP-tsQW04g108nj-xna3Yn7tsQWfsg1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5H00TZ0Y5Hc0mLFW5HcLrHb3&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+            - generic [ref=f40e373]:
+              - heading [level=3] [ref=f40e377]:
+                - link "GPT-5.6/5.5 on Amazon Bedrock-OpenAI立即接入" [ref=f40e379] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - generic [ref=f40e380]:
+                - link [ref=f40e383] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "通过Amazon Bedrock使用OpenAI前沿模型(ChatGPT-5.6/5.5),以更少token生成更高质量输出.OpenAI前沿模型面向智能体编程.." [ref=f40e388] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - generic [ref=f40e392]:
+                - generic [ref=f40e394]:
+                  - generic [ref=f40e395]:
+                    - text: "热门分类:"
+                    - link "企业AI出海" [ref=f40e396] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720rTO7X2CYrpnHMRRZSY0JMKM2B-V6I2AP_YUo6kq94NF2vY4mroKvXxH7ZBtr7Q9iF3873tEexOg5dZ1UdCrMlTDpVrt7nDXb9mXJg2hvCAWsvWMHbwq1zGESgYr6IDcRacp_MvfynWd4ramXYAlL97ZPI6YXDqVlMwfE2EivEjHPpQcF8EeJg_sMfzYQezJxVtm42J_L0Nb.DY_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwsrkGB3DEdNRPQobYm3rqaUVmE_HvUo8Mk1lerzE5vgTXrXO_LF1dqPqLAkrieFb9lkst_PHnRipQZ4Eklkst_QrMAzONDkt54TOLSg4_OVSOyrZ-k3QlQ3lb1ng_3_ZyrZ-9uCFdrhYnm3X_T5QGHTOKGmEukmrgZjzlLHpypZyrZ-9I7fH7fmd8hY_YryPva50l6eKfXze-Cr1pZu8_T5QTh6zSBkwx7vdqm3XyProih26kb_zXPMWbvyyyyNqm3Xgi1f9JCpnpyDqjnPjoZjzs8swRFVjZsO-RojPakktxZuv20.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5HD0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqPHfYrHf&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "主流AI大模型" [ref=f40e397] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720AsQX_AS2t5Wc-LjUf6Yx1LfL3BrOWkwSwYnioBz41VBJxfOeANc4Zrw7e4pcAq5IlUTuKLfGNgwnMR8j1eNu29cXz2ohCnlJKVV0rlBTLe3MqZOc94IEhGb7YRCCj-k9UqrbPSeepWAZ3p3E9sZo6yTSzbFKJqf9k-JpccgyPwrPLdgFinhzZtGzebvWpr59zpWndgqUq5s.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_plerMWYeATqL75uMecTBTqSHIuMzTpqhE_E99LeVOyrZ-9JuBBHwmOPS5yrZ-9uY3vglCh59OQMSOzOPMqELlkst85KxwxZRhuBqM76lkst_QPKrGYv9WZjdW94I2UM3PQ7erQKz33XgylUi1flkst_QCJamJjAVYv-h9zk8sw3ZRZm2jvgTVKvUfePdW94UbYAgYy2Q38LFdW94mYlV2mJjAi1F3vXrHuuuuugdW94IQPaAJ9CkGmHYnsYr_T5QaeK7fhYnxjSNi_nYQ7Xizkf.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5Hc0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqPHDkPHn&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "文生图/图生图" [ref=f40e398] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720Z6gjrmeGcDaZfZ7eG78Jf4Cc9CzUSUEhs6O5L0iitk1N1nQlqt6YtLfUdB0zCmD1Wbk2eqCDCCjkLGB7nrsZ5ptjGaxRwjl8Uy2tVQ0SfrtJhxiEs2vYuolg_akjaWouYhebFAqMWpuELFouUZyEHRMS2ZxbVSV5M4lGwxRio9MLFIEL0TGRRboMjn3D6AyDktyr07XtqxH.DR_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwswYAUl2Tq1qXEKAqYRZX9Pv_TXrlOczMIMuuEHMerrHG1eqLZ_1GHXhO_3L4PzyX_T5QjR17DhBkSUtX_T5Qa1Gk_EdwnxjSg5qO-SU5exEdW94TXaSBSrGn17erQKdW94mypaIHGVjArZoZjzlRL5spyQvTyj-kst8VYv-h9dW94mgwRDkRAPUGVQPj-WI6WsrCrsRZ_84pj_v9vUoZjzLFCnEC_RgkIEZoZjzkGdpRkRAn-hHk_tThzzzzzEoZjzlypDPNjwWisMCu9CIm3Xy7va29PCmSZtJ-muCy5ZGlTB60.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5Hn0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqn1n1n1b&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "文本转语音" [ref=f40e399] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7205MqPKKczCOoN1XnDMdGm9RHQsbe7Am91N_6S4duW4Gy6Q2hiWipwMQRJx5emu7QKWwp-8HHgXPcKKhmebxhqrFobI48Ag4tsTFpLgb9tWfU4m1WaKrOycQqDPx3QPQAbKG-z3458Y_NH724iQJxy8G7BvOLpHsCOz2-VxwHkewZ9RSS9f3TUyUdXlfDSQV9vIJFt7RqcCX8.DR_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwsmLRprBjEfheycUqbrHxou1G9Hb1qhemM5EtIxZrhZWkeDeEZ_zUQ8_T5QjR17DhBkSUtX_T5Qa1Gk_EdwnxjSg5qO-SU5exEdW94TXaSBSrGn17erQKdW94mypaIHGVjArZoZjzlRL5spyQvTyj-kst8VYv-h9dW94mgwRDkRAPUGVQPj-WI6WsrCrsRZ_84pj_v9vUoZjzLFCnEC_RgkIEudW94mYlV2mJjAi1F3vXrHuuuuugdW94IQPaAJ9CkGmHYnsYr_T5QaeK7fhYnxjSNi_nYQ7xugkz20.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5Hf0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnHRvnHf&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - generic [ref=f40e400]:
+                    - text: "热门推荐:"
+                    - link "爆款云服务器" [ref=f40e401] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZyrA7RXv1S4tXt-oGUzidmAWyP7AvCuxAVLFIniXXkWtdAQFHMsOELA3ukMM8vw4yaZHGU7oh848PUixAOL0MiuNPyTe6SRaoCIxjsOc9AZbSHiV0m0DI6Pw8j9wheWlwsYBrYEeQZY4oDG5tgQjnK3nqK_SC4p0W2sZLOTav6pXJr6_sAGH4phXatIlVJjtP13cueTdMhX.7b_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwsntDXXABeKIAhUlD1utTXxWoC8IPKLCHIoZHoodePv8Z5YeV-vx_3LTTqePve5vIb5AAZxgj3Golkst_PHnRipQZ4Eklkst_QrMAzONDkt54TOLSg4_OtHSFdW94TXaSBSrGn17erQKdW94mypaIHGVjArZoZjzlRL5spyQvTyj-kst8VYv-h9dW94mgwRDkRAPUGVQPj-WI6WsrCrsRZ_84pj_v9vUoZjzLFCnEC_RgkIEHdW94mYlV2mJjAi1F3vXrHuuuuugdW94IQPaAJ9CkGmHYnsYr_T5QaeK7fhYnxjSNi_nYQZZkvU8-f.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5HR0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqn104rHm&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "VPS 0元试用" [ref=f40e402] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7200oFKNofFz0rWJO-gj8Q4sEBwXtNgivbXOapc7SYzijehSHPmv6TuDMgPNGPOqwqK24mZijjCk9B4MDactFIGBm1G47x3D0lUgKNN-5ThJ8y0LLpeIe5fTzpg6iRfVQdnM0WeQWOPZ1FIz_J6xjr56EQJ69nkgf-8P4RD58t4EI1nDMva4zO2NA-qaPcXcmpcg0jkIJZKmYA.Db_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwsntDXxlnTXXBONNfWuxw6eYF8dWGiz1Io8d4t-zxZ5vTIdXxxgk81txAZxxX-hZktIOyrZ-9JuBBHwmOPS5yrZ-9uY3vglCh59OQMSOzOPMOBxkr_T5QWsgYgkdFhmEukmr_T5Qa1fHJIPCmksqm3Xgih4SjikX1BsT8rZ-d8hY_Yr_T5Qal26h26koIPGuCT_U_DXKdKva6q-LQfIhYr1Im3Xy4PK-q7BBSQVtX_T5QAMNGH7fmzyu5A1kzUQQQQ2S_T5QGuCfdRPAPQaX9hA9dW94mgmcJDv9W3xzJN9h9mzUqh1GR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5Hm0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWTkPWn&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "全球CDN加速" [ref=f40e403] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7205XXkBrqOERMk_dxxkSyZj7LcxMh0WH1G1u0Xcz4gdH_Eha4dkVeyne77YL7kUBPoVkwIIHqMugKcrSCJMPirhR33fvnDNZx4uFnLA9_NTVRFH78bgqyzzk41dFhHrKUCSHUHdSzt6_pJCVVtoiub-FuiqSdA5sU8QaGdq37l5LWL86NHpuaiXedzQ_nlmmFQm8T3SmEozaD.7b_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwsfYgmQVT1CJDZX9Pv_UqLWgvftIvX81XM5vgerrXqrHWMLpeeDePOWuT1Yqm3XyAGh2FP7WtL3qm3Xy7MHWuxJBmSZt8xeOQtvx4XLqjoZjz3t7q7tIiuhQvTyjoZjzs_YDlMHpAnT5yrZ-YG8x6Y_g_3_ZQW94IUGVQPjoZjzs8BCFBCnpLHpypZQAeKZ6IfI6C5uIzYZuVj_LyrZ-8HfuxwmCEBeIMyrZ-WHJYGBCnuQnMWu34P-----xyrZ-Y_YcpJAWA-95f1jflkst_Q_DNaUfkt54N2s1f_TX1Gtx7f.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5HT0TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnHczP1n&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                    - link "云存储S3" [ref=f40e404] [cursor=pointer]:
+                      - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7205IKo0fiHzJGKoKf3BpKTT5Ej9R7Adard_U8-iy1yvdN5p1dYG6KubVrh9LpKZlgFYYG-qmRMU9Gbp9VD0P4QfOFsPIJdL2vD6w6ASBt2z5o-okYgqwx5NnLPOdbPX13rynT5QM_1U-4AHXHmkuxKDLHNeGdDFGsTl8zk66NWAd0EUeUin4uAG-70tDuQUYa5d3Fxoz90Iig.7Y_NR2Ar5Od66u3cOFMi1s8BwKj7Ka1Gk_EdwwswtmrqaUVmoo8tRtpthx_lxZWMecpe_S1gEvuqYr4-M_LdGerhZoZjzsdnkwFC_xhOZoZjzs_lTUQqRHZsO-1Ox4xh1OQvOCIm3XgZ6ECEWJHnkX1BsIm3Xy7h6MRlUfkW9lkst8-P1tA-BqM764TT5QoIPGuCIm3Xy7YNKnNKWylUi1f4mLmctjJj_7KeQ8y6ePCIhlkstVzpjQlQ77tgUElkst_pIy-nNKWFubtU5ZF_____olkst8-h9jNfYmY_FlAmpZyrZ-9I6BCHpA59O2GyAp7W_LeVOiC.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0YP-tknjDLg1DsnH-xnW0dnNt1PW0k0AVG5H60TMfqrjb40AFG5HDdr7tznjf0UynqnH0YP-tknjDLg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn1n1njmvnjRdg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqPHD3P1n&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - generic [ref=f40e407]:
+                  - link [ref=f40e408] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "亚马逊云科技" [ref=f40e411] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "2026-08" [ref=f40e412] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "" [ref=f40e413] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "广告" [ref=f40e416] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link [ref=f40e417] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm720ZDUhNcJBrnayIdsIoba_718uVpPi6_qNNOUXZDKKVMR1EcvPcshOwMCKQog1AY-2uq0Iq1PuFTFWZsOvJo80eRLRFxsTvTfiAd380oRxz6myLk1pzS3zAcTq0NegY-YEFylYILlXc30FwBlXxtCkd-345bfWekdg6tLdndDMFKqHgR1yGMnoyI7TcpqyAQxOMwTgTimFqDG.7D_NR2Ar5Od66u3cOFMi1s8BwKj7KXhluY5U0eAhF-tZX9Pv_NlS1yh1kenqv8ek1qhSAE5x_uzuOZggXhAlEBMxblkst_PHnRipQAr5oZjzs_lTUQqRHZsO-1Ox4xh1SLeqm3XgZ6ECEWJHnkl_3_ZyrZ-9uCFdrhYnxhSZoZjzlRL5spy5EtE1uOUqt5Wt54Ek1SEVsS5sO-I7Mquhmo_5Wt5VdFBC59Oy-h4nYIHtXZkSZdHZfOBr8HwWsS5sOYTpmEUqt5Wt5zHWC8YmxZ3x9OQ9tx9OPtrZkSZqK5wflkst_QCJamJjZVOPqS_T5QTh6zSBseAhF-SZ1Lmxg3Trz1j4e_r1l3IqXZ1vmI-hZu8lkst_pIy-nNKWFublUP-xHuuuuugdW94IQPaAJ9CkGmtS9hA9dW94mgmcJDv9W3xzJN9h9mLIhexkR0.U1Yz0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GElJLCVgx0A-V5HczPfKM5yq-TZns0ZNG5yF9pywd0ZKGujYz0APGujYYnjT0UgfqnH0kPdtknjfvg1DsnH-xnW0dnNt1PW0k0AVG5H00TMfqrjb40AFG5HDdr7tznjf0UynqnH0kPdtknjfvg1DsnH-xnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznj0snHf1nj6z0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0YnsKYIgnqnHRdnjnYPW6dnWD3PH6sPHRdrH60ThNkIjYkP16LPWckPHndnWRs0A-W5H00Tv-b5yf1ryuhn1f4nj0kuyf3nvR0mLPV5RPaPYcYPbFAnYNaPWFawHm0UAF15H00mynqnfKsUWYs0Z7VIjYs0Z7VT1Ys0ZGY5H00mMub5H00uLKY5HD0uv7Y5HD0UyPxuMFEUHYsg1Kxn7tsg100uA78IyF-gLK_my4GuZnqn7t1n1nsPWmsPHNxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0zPW010AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0mMfqnsKEmgwL5H00ULfqn0KETMKY5H0WnanWnansc10Wna3snj0snj0WnaPDw-fWnanVc108nj0snj0sc1D8nj0snj0sc10WnansQW0snj0snansc10Wnansc10Wnansc108nj00mh78pv7Wm1Ysc10Wnans0Z7xIWYsQWDvg108njKxna3sn7tsQWmvg108nj-xna3sr7tsQWfsg108PjKxn7tsg100mMPxTZFEuA-b5H00ThqGuhk9u1YY0Ad-IjYs0APv5fKGTdqWTADqn0KWTjYs0AN1IjYs0Z7MIvfqn0KETjDqn0KsTjfqn6KWThnqnWmknWR&us=newvui&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+          - generic [ref=f40e425]:
+            - generic [ref=f40e427]:
+              - paragraph [ref=f40e437]:
+                - mark [ref=f40e438]:
+                  - text: ‌
+                  - strong [ref=f40e439]: OpenAI 是一家美国人工智能研究公司
+                  - text: ‌
+                - text: ，官网为
+                - link "openai.com" [ref=f40e440] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+                - text: ，旗下核心产品包括 ChatGPT、GPT-5.6 系列模型及 Sora 文生视频模型 。‌‌‌
+                - button "参考文档，单指双击即可执行" [ref=f40e441]:
+                  - generic [ref=f40e442]: 百科
+                - text: ‌
+                - generic [ref=f40e445]: 
+              - generic [ref=f40e451]:
+                - generic [ref=f40e454]:
+                  - generic [ref=f40e455]:
+                    - generic [ref=f40e456]:
+                      - generic [ref=f40e457]: 怎么访问官网和下载 APP
+                      - text: 
+                    - generic [ref=f40e467]:
+                      - list [ref=f40e468]:
+                        - listitem [ref=f40e469]:
+                          - mark [ref=f40e470]:
+                            - text: ‌
+                            - strong [ref=f40e471]: 网页版入口
+                            - text: ‌
+                          - text: ：直接访问
+                          - link "openai.com" [ref=f40e472] [cursor=pointer]:
+                            - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+                          - text: 即可进入官网，登录后可使用 ChatGPT 网页版服务 。‌‌‌
+                          - generic [ref=f40e473]: 
+                        - listitem [ref=f40e479]:
+                          - mark [ref=f40e480]:
+                            - text: ‌
+                            - strong [ref=f40e481]: 手机 APP 下载
+                            - text: ‌
+                          - text: ：
+                          - list [ref=f40e482]:
+                            - listitem [ref=f40e483]: Android 用户：在 Google Play Store 搜索"ChatGPT"，确认发布者为 OpenAI 后下载 。
+                            - listitem [ref=f40e484]: iOS 用户：在 App Store 搜索"ChatGPT"下载官方应用，具体支持国家/地区可参考 OpenAI 官方帮助文档 。
+                            - listitem [ref=f40e485]:
+                              - text: 注意：下载时务必确认应用由 OpenAI 发布，避免安装非官方版本 。‌‌‌
+                              - generic [ref=f40e486]: 
+                      - paragraph [ref=f40e492]: "[OpenAI 官方移动应用]"
+                  - generic [ref=f40e493]:
+                    - generic [ref=f40e494]:
+                      - generic [ref=f40e495]: 2026 年最新产品和技术进展
+                      - text: 
+                    - list [ref=f40e506]:
+                      - listitem [ref=f40e507]:
+                        - mark [ref=f40e508]:
+                          - text: ‌
+                          - strong [ref=f40e509]: GPT-5.6 系列
+                          - text: ‌
+                        - text: ：2026 年 7 月 30 日发布 GPT-5.6，包含 Sol 和 Luna 两个版本，Luna 对免费用户开放 。
+                      - listitem [ref=f40e510]:
+                        - mark [ref=f40e511]:
+                          - text: ‌
+                          - strong [ref=f40e512]: 推理模型
+                          - text: ‌
+                        - text: ：2024 年 9 月发布 GPT-o1，同年 12 月升级至 o3 版本，在 ARC-AGI 基准测试中取得 87.5% 成绩 。
+                      - listitem [ref=f40e513]:
+                        - mark [ref=f40e514]:
+                          - text: ‌
+                          - strong [ref=f40e515]: 文生视频模型 Sora
+                          - text: ‌
+                        - text: ：2024 年 12 月向用户开放 。
+                      - listitem [ref=f40e516]:
+                        - mark [ref=f40e517]:
+                          - text: ‌
+                          - strong [ref=f40e518]: Deep Research API
+                          - text: ‌
+                        - text: ：2025 年 6 月推出，可自动化复杂研究工作流程，支持 o3-deep-research 和 o4-mini-deep-research 模型 。
+                      - listitem [ref=f40e519]:
+                        - mark [ref=f40e520]:
+                          - text: ‌
+                          - strong [ref=f40e521]: 核心研究人员
+                          - text: ‌
+                        - text: ：Alec Radford 是 GPT-1、GPT-2、CLIP、Whisper 等核心论文的第一作者，2024 年 12 月离开公司转向独立研究 。‌‌‌
+                        - button "参考文档，单指双击即可执行" [ref=f40e522]:
+                          - generic [ref=f40e523]: 百科
+                        - text: ‌
+                        - generic [ref=f40e526]: 
+                  - generic [ref=f40e532]:
+                    - generic [ref=f40e533]:
+                      - generic [ref=f40e534]: 公司背景和资本市场动态
+                      - text: 
+                    - list [ref=f40e545]:
+                      - listitem [ref=f40e546]:
+                        - mark [ref=f40e547]:
+                          - text: ‌
+                          - strong [ref=f40e548]: IPO 计划
+                          - text: ‌
+                        - text: ：OpenAI 计划于 2027 年完成首次公开募股，若业务增长加速可能提前 。
+                      - listitem [ref=f40e549]:
+                        - mark [ref=f40e550]:
+                          - text: ‌
+                          - strong [ref=f40e551]: 融资情况
+                          - text: ‌
+                        - text: ：2026 年 3 月 31 日完成新一轮融资，获得 1220 亿美元承诺资本，估值达 8520 亿美元 。
+                      - listitem [ref=f40e552]:
+                        - mark [ref=f40e553]:
+                          - text: ‌
+                          - strong [ref=f40e554]: 营收表现
+                          - text: ‌
+                        - text: ：2026 年第二季度营收为 67 亿美元，较第一季度增长 18%。
+                      - listitem [ref=f40e555]:
+                        - mark [ref=f40e556]:
+                          - text: ‌
+                          - strong [ref=f40e557]: 马斯克诉讼案
+                          - text: ‌
+                        - text: ：2024 年马斯克起诉 OpenAI，核心争议为 OpenAI 从非营利机构转向营利性公司是否合法，2026 年 4 月 27 日在加州奥克兰联邦法院开庭审理 。
+                      - listitem [ref=f40e558]:
+                        - mark [ref=f40e559]:
+                          - text: ‌
+                          - strong [ref=f40e560]: 全球部署
+                          - text: ‌
+                        - text: ：2026 年 5 月 20 日在新加坡设立应用人工智能实验室，是 OpenAI 在美国以外首个此类实验室，计划投入超 3 亿新元 。‌‌‌
+                        - button "参考文档，单指双击即可执行"
+                        - text: ‌
+                        - generic [ref=f40e561]: 
+                - paragraph [ref=f40e573]: 需要我帮你对比ChatGPT和GPT-5.6在功能上的主要区别吗？可以帮你快速判断哪个更适合你的使用场景。
+              - generic [ref=f40e577]:
+                - textbox "👌好的，继续吧" [ref=f40e578]
+                - generic [ref=f40e579]: 
+            - generic [ref=f40e589] [cursor=pointer]:
+              - generic [ref=f40e590]: 展开剩余59%内容
+              - generic [ref=f40e591]: 
+            - generic [ref=f40e592]:
+              - generic [ref=f40e593]: AI总结27篇结果生成
+              - generic [ref=f40e594]:
+                - generic [ref=f40e598] [cursor=pointer]:
+                  - generic [ref=f40e599]: 
+                  - generic [ref=f40e603]: 
+                  - generic [ref=f40e607]:
+                    - generic [ref=f40e608]: 
+                    - generic [ref=f40e614]:
+                      - generic [ref=f40e615]: openai
+                      - generic [ref=f40e620]:
+                        - generic [ref=f40e621]: 长按识别，即刻体验百度AI
+                        - generic [ref=f40e622]: 以上内容均由AI生成
+                  - generic [ref=f40e624]: 
+                  - generic [ref=f40e628]: 
+                - generic [ref=f40e635]:
+                  - text: 
+                  - generic [ref=f40e636]: 
+          - generic [ref=f40e638]:
+            - generic [ref=f40e639]: 大家还在搜
+            - generic [ref=f40e640]:
+              - link "open ai官网" [ref=f40e641] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=open%20ai%E5%AE%98%E7%BD%91&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=47f4T60z5cjo9KNyEDFF%2BNSNUEnD7OPEPanWFcLCmW522sZYYfXpAOV6b%2BM&rsf=101631161&rsv_dl=0_prs_28608_1
+              - link "http//OpenClaw.ai" [ref=f40e644] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=http%2F%2FOpenClaw.ai&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=47f4T60z5cjo9KNyEDFF%2BNSNUEnD7OPEPanWFcLCmW522sZYYfXpAOV6b%2BM&rsf=101631101&rsv_dl=0_prs_28608_2
+              - link "ai下一页" [ref=f40e647] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=ai%E4%B8%8B%E4%B8%80%E9%A1%B5&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=47f4T60z5cjo9KNyEDFF%2BNSNUEnD7OPEPanWFcLCmW522sZYYfXpAOV6b%2BM&rsf=100631101&rsv_dl=0_prs_28608_3
+              - link "OpenAI 公司" [ref=f40e650] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=OpenAI%20%E5%85%AC%E5%8F%B8&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100631161&rsv_dl=0_prs_28608_4
+              - link "Gemini" [ref=f40e653] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=Gemini&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100631151&rsv_dl=0_prs_28608_5
+              - link "open ai下载手机版" [ref=f40e656] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=open%20ai%E4%B8%8B%E8%BD%BD%E6%89%8B%E6%9C%BA%E7%89%88&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100631161&rsv_dl=0_prs_28608_6
+              - link "OpenAI宣布与CodeAI合作" [ref=f40e659] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=OpenAI%E5%AE%A3%E5%B8%83%E4%B8%8ECodeAI%E5%90%88%E4%BD%9C&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100633601&rsv_dl=0_prs_28608_7
+              - link "openai国内能用吗" [ref=f40e662] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=openai%E5%9B%BD%E5%86%85%E8%83%BD%E7%94%A8%E5%90%97&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100636703&rsv_dl=0_prs_28608_8
+              - link "openclaw官网入口" [ref=f40e665] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=openclaw%E5%AE%98%E7%BD%91%E5%85%A5%E5%8F%A3&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100633601&rsv_dl=0_prs_28608_9
+              - link "operitai官网下载" [ref=f40e668] [cursor=pointer]:
+                - /url: /s?rsv_idx=1&wd=operitai%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=c69emUiLSeGYA0GHkdE%2BxTG02owPBFaBp4eqe26jyWJiMTosQW24vEKYWJE&rsf=100631101&rsv_dl=0_prs_28608_10
+          - generic [ref=f40e675]:
+            - heading [level=3] [ref=f40e679]:
+              - link "APINEBULA中转API" [ref=f40e681] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+            - generic [ref=f40e682]:
+              - link [ref=f40e685] [cursor=pointer]:
+                - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+              - generic [ref=f40e687]:
+                - link "17小时前有人申请" [ref=f40e690] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - link "专为开发者打造的终极API中转站.通过高速、稳定、统一的接口,轻松调用所有主流大模型" [ref=f40e694] [cursor=pointer]:
+                  - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                - generic [ref=f40e699]:
+                  - link "收录4年" [ref=f40e700] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "杭州崇宇信息科技有限公司" [ref=f40e702] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "2026-08" [ref=f40e703] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "" [ref=f40e704] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link "广告" [ref=f40e707] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+                  - link [ref=f40e708] [cursor=pointer]:
+                    - /url: https://www.baidu.com/baidu.php?url=K60000avpXkFvm7202dUScaZrKVPLXQEzlRG5D215EyJvQOkGWcQRfzSOXUkDzNCT2PpLmKVTC6HkHADBNND04fHP4srftqLMdRytpPw0QQFdpH3DPANxB_FOAgb5cjHTg_rBZfj_A535FLB0JQcXvV-nyh3QpoOEh_nr_GCrg4AbCVgIdneKcuG-4MXeNx9ToWjARD_fT15QfgN666CguWyKWMD.DD_NR2Ar5Od66BdSgYmb86ukEBHx6C_88RojPakvUS5AVf.U1Yk0ZDqULK-Uh7G0ZKGm1Yk0ZfqULK-Uh7GVTxaE0KGUHYkPjmk0ATqUvNsT100Iybqmh7GuZR0TA-b5Hc0mv-b5HfsPsKVIjY1nWc3g1DsnHIxnW0dnNtknjD4g1nvnj7xrHDLr0KopHYs0ZFY5H64rfKBpHYkPH9xnW0Y0AdW5HnznW9xnH0kPdtznjRkg1DsnH-xn7t4nHT30Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K8my-b5H00Uh7YTjYs0APdujYznjDzn1TdrHfd0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1Ykn0K8IjYs0ZPl5fK9TdqGuAnqTZP9ThYVuyPJ0A-bm1dribGH0ZKCIZbq0Zw9ThI-IjY1nNt1nHwxnH0kP0KYIgnqPHmznWbkrHckn1RLn1b3nH6zr0Kzug7Y5HDLrjTvnWDdn1RzPH00pynqn0K1pyfqujn4uhm1Pjbsnj7-uj61ufKWTvYqfYcLfWfvfbm1wRcvnbF7P6K_mMnqn0K9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KBIhfqn0KMTZfqnfKMmgfqnfKVmdqhThqV5HKxn7tsg1Kxn7ts0Aw9UMNBuNqsUA78pyw15HnsrHbzrH61n7tsg1Kxn7tsg100TA7Ygvu_myTqn0Kbmv-b5HnkPjRLnW60ugwGujYVnfK9TLKWm1Ys0ZNspy4Wm1Ys0Z7VuWYs0AuWIgfqn0KGTvP_5H00mywhUA7M5HD0UAuW5H00uAPWujY0IZF9uARqnW0sP10Y0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0UvnqnfKBIjYk0Aq9IZTqn0KEIjYk0AqzTZfqnBnsc1Dsc1Dsnj0WPj01njDzPHDvran3PHcvc16dnWm8nj0snj0sc1nWnH0snansczYWna3sn1bdPHDWni3snj0snj0Wninsc108nj0snj0sc10Wnansc10Wninsc10Wna3sn0KBmy4omyPW5H0Wnansc100XZPYIHYdnH0LPH6dn0KkgLmqna3kP7tsQW0sg108njKxna3vP-tsQWDzg108nj9xna3YndtsQWf1g1Kxn7ts0AF1gLKzUvwGujYs0ZFEpyu_myTqn0KVugfqn0KWIWY0pgPxmLK95H00mL0qn0K-TLfqn0KkuLIb5H00UL0k5Hcsr0KsTjfqnH00mLFW5Hcvnj0v&us=newvui&xst=mWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HDdnWf4nHTYn1R3nHR4rHTzPjDYg1DYPW7xn07L5yqsuy49pUgZsosKTHdETAN8mybKIHYdnH0LPH6dn07Y5HDLrjTvnWDdn1RKUgDqn0cs0BYKmv6quhPxTAnKUZRqn07WUWdBmy-bIf7zIjYs0HDknHcvrH61nHf&word=&ck=0.0.0.0.0.0.0.0&shh=www.baidu.com&sht=baidu
+          - generic [ref=f40e713]:
+            - generic [ref=f40e715]:
+              - heading [level=3] [ref=f40e716]:
+                - link [ref=f40e717] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+                  - generic [ref=f40e719]:
+                    - emphasis [ref=f40e720]: OpenAI
+                    - text: "| Research & Deployment"
+              - link [ref=f40e721] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+            - generic [ref=f40e722]:
+              - link [ref=f40e724] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+              - generic [ref=f40e729]:
+                - generic [ref=f40e730] [cursor=pointer]:
+                  - generic [ref=f40e731]:
+                    - generic [ref=f40e732]: 查看此网页的中文翻译，请点击
+                    - link "翻译此页" [ref=f40e733]:
+                      - /url: http://www.baidu.com/link?url=8hmZhqvBedaQoC6LrM_L9FLnpUkKEoaU_IValVDj3zz1fiaKj2QF0w3QK9QjEaORTQXvnup4f0yYOxvCYhOm2uxo6Oj9S7B7JeYzrQtHuSLgQpE3wonepv7VNoPFq2DOapIepvgWoKbeSyurGQsYtF9PGUe42e_YEZdEGikrh_G
+                  - generic [ref=f40e740]:
+                    - text: An
+                    - emphasis [ref=f40e741]: OpenAI
+                    - text: model has disproved a central conjecture in discrete geometry Research May 20, 2026 Introducing GPT-Rosalind for life sciences research Research Apr 16, 2026 Model ML completes finance work more efficiently with GPT-5.6 Sol Startup Aug 10, 2026 Virgin Atlantic sharpens customer journeys with ChatGPT Work Aug 10, 2026 How Zapier transformed core marketing processes with ChatGP...
+                - link "OpenAI官网" [ref=f40e746] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp-j1Ti5w823MZyMgWhDJrCg
+                  - generic [ref=f40e748]: 
+          - generic [ref=f40e751]:
+            - heading [level=3] [ref=f40e752]:
+              - link [ref=f40e753] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=bxG9fuC0iSZTYpA8H95qsPB2VSl0wIhYnyunaVpPESnZbALw512MlttVazthSHfsHod_Opikf_EHDrLX7Atg0q
+                - paragraph [ref=f40e756]:
+                  - generic [ref=f40e758]:
+                    - emphasis [ref=f40e759]: OpenAI
+                    - text: (2015年创立的美国... - 百度百科
+            - generic [ref=f40e761]:
+              - generic [ref=f40e763]:
+                - generic [ref=f40e764]: 
+                - generic [ref=f40e771]:
+                  - paragraph [ref=f40e775]:
+                    - generic [ref=f40e777]:
+                      - emphasis [ref=f40e778]: OpenAI
+                      - text: 是2015年12月11日由萨姆·奥尔特曼、埃隆·马斯克、彼得·蒂尔等科技领袖创立的一家研究和部署人工智能的公司，总部位于美国旧金山，公司核心宗旨在于“实现安全的通用人工智能（AGI）”，现任首席执行官萨姆·奥尔特曼。2016年4月27日，发布工具包
+                      - emphasis [ref=f40e779]: OpenAI
+                      - text: Gym。2018年，...
+                    - generic [ref=f40e781]:
+                      - link "详情" [ref=f40e782] [cursor=pointer]:
+                        - /url: http://www.baidu.com/link?url=bxG9fuC0iSZTYpA8H95qsPB2VSl0wIhYnyunaVpPESnZbALw512MlttVazthSHfsHod_Opikf_EHDrLX7Atg0q
+                      - link "" [ref=f40e783] [cursor=pointer]:
+                        - /url: http://www.baidu.com/link?url=bxG9fuC0iSZTYpA8H95qsPB2VSl0wIhYnyunaVpPESnZbALw512MlttVazthSHfsHod_Opikf_EHDrLX7Atg0q
+                  - generic [ref=f40e787]:
+                    - link "公司发展" [ref=f40e789] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp8ylirSXtdTtXWCBpLKhJBsdQihO1_8FBLd99NEt2V79Kre4xNjD9QudKlVSe0ZAri
+                    - link "价值理念" [ref=f40e792] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp8ylirSXtdTtXWCBpLKhJBsdQihO1_8FBLd99NEt2V79Ky909GMw-_NzNfBP0EsXDy
+                    - link "公司治理" [ref=f40e795] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp8ylirSXtdTtXWCBpLKhJBsdQihO1_8FBLd99NEt2V79RRmTmkfgD3T4pi6UhDGcvO
+                    - link "对外合作" [ref=f40e798] [cursor=pointer]:
+                      - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp8ylirSXtdTtXWCBpLKhJBsdQihO1_8FBLd99NEt2V79Mk8Yjt4RTQBFxvNCcl82ei
+              - generic [ref=f40e802]:
+                - link "OpenAI创始团队成员" [ref=f40e803] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Xfu1RUcA8_mk0WmZ-BZZszdFtTZThWwdroK_--ue6iklrYzQGltOP1Bsutl6DC6sgq52fMkCafPfdI9Geb5T7svXK3-EkoeTVFR3Bqknf715IWtYh5QN-D_8WIqqkCvs
+                - generic [ref=f40e807]:
+                  - link "萨姆·奥尔特曼" [ref=f40e810] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E8%90%A8%E5%A7%86%C2%B7%E5%A5%A5%E5%B0%94%E7%89%B9%E6%9B%BC%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e5a60D3zm%2BPTOrxT%2BltYuyJsAvnCyvXSk1rOOZz6ZIYZWcAu3IvZQAIak24&baikeid=63786836&sa=re_guanxi
+                    - paragraph [ref=f40e815]: 萨姆·奥尔特曼
+                  - link "雷德·霍夫曼" [ref=f40e818] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E9%9B%B7%E5%BE%B7%C2%B7%E9%9C%8D%E5%A4%AB%E6%9B%BC%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=e5a60D3zm%2BPTOrxT%2BltYuyJsAvnCyvXSk1rOOZz6ZIYZWcAu3IvZQAIak24&baikeid=4721906&sa=re_guanxi
+                    - paragraph [ref=f40e823]: 雷德·霍夫曼
+                  - link "埃隆·马斯克" [ref=f40e826] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E5%9F%83%E9%9A%86%C2%B7%E9%A9%AC%E6%96%AF%E5%85%8B%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=5059pnNefTx5cOr2ZpA9nqgV29JThxKbLojqT3qkWVAeu0Ktnbu5TMaEE0w&baikeid=3776526&sa=re_guanxi
+                    - paragraph [ref=f40e831]: 埃隆·马斯克
+                  - link "伊尔亚·苏茨克维" [ref=f40e834] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E4%BC%8A%E5%B0%94%E4%BA%9A%C2%B7%E8%8B%8F%E8%8C%A8%E5%85%8B%E7%BB%B4%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=5059pnNefTx5cOr2ZpA9nqgV29JThxKbLojqT3qkWVAeu0Ktnbu5TMaEE0w&baikeid=63739745&sa=re_guanxi
+                    - paragraph [ref=f40e839]: 伊尔亚·苏茨克维
+                  - link "彼得·蒂尔" [ref=f40e842] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E5%BD%BC%E5%BE%97%C2%B7%E8%92%82%E5%B0%94%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=5059pnNefTx5cOr2ZpA9nqgV29JThxKbLojqT3qkWVAeu0Ktnbu5TMaEE0w&baikeid=12589797&sa=re_guanxi
+                    - paragraph [ref=f40e847]: 彼得·蒂尔
+                  - link "格雷格·布罗克曼" [ref=f40e850] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E6%A0%BC%E9%9B%B7%E6%A0%BC%C2%B7%E5%B8%83%E7%BD%97%E5%85%8B%E6%9B%BC%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=5059pnNefTx5cOr2ZpA9nqgV29JThxKbLojqT3qkWVAeu0Ktnbu5TMaEE0w&baikeid=63445661&sa=re_guanxi
+                    - paragraph [ref=f40e855]: 格雷格·布罗克曼
+                  - link "约翰·舒尔曼" [ref=f40e858] [cursor=pointer]:
+                    - /url: /s?rsv_idx=1&wd=%E7%BA%A6%E7%BF%B0%C2%B7%E8%88%92%E5%B0%94%E6%9B%BC%20OpenAI&fenlei=256&usm=3&ie=utf-8&rsv_pq=d39ff349001ed83e&oq=openai&rsv_t=5059pnNefTx5cOr2ZpA9nqgV29JThxKbLojqT3qkWVAeu0Ktnbu5TMaEE0w&baikeid=64129111&sa=re_guanxi
+                    - paragraph [ref=f40e863]: 约翰·舒尔曼
+            - generic [ref=f40e864]:
+              - link "百度百科" [ref=f40e867] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=bxG9fuC0iSZTYpA8H95qsPB2VSl0wIhYnyunaVpPESnZbALw512MlttVazthSHfsHod_Opikf_EHDrLX7Atg0q
+              - generic [ref=f40e869] [cursor=pointer]: 
+          - generic [ref=f40e874]:
+            - generic [ref=f40e876]:
+              - heading [level=3] [ref=f40e877]:
+                - link [ref=f40e878] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=ocYPMQty0QQYxz8z8A4GZeHE-27TIcf2KeT4DjtaBs6EIQeonMj7Sq1bqjpaKUk0
+                  - emphasis [ref=f40e881]: OpenAI
+              - link [ref=f40e882] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=ocYPMQty0QQYxz8z8A4GZeHE-27TIcf2KeT4DjtaBs6EIQeonMj7Sq1bqjpaKUk0
+            - generic [ref=f40e888] [cursor=pointer]:
+              - emphasis [ref=f40e889]: OpenAI
+              - text: ’s mission is to ensure that artificial general intelligence (AGI) benefits all of humanity. In service of that mission, we sometimes provide grants (in the form of monetary compensation or API credits, depending on the program) to support strategic initiatives and research. Please see bel...
+            - link "grants.openai.com/" [ref=f40e894] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=ocYPMQty0QQYxz8z8A4GZeHE-27TIcf2KeT4DjtaBs6EIQeonMj7Sq1bqjpaKUk0
+              - generic [ref=f40e896]: 
+          - generic [ref=f40e900]:
+            - heading [level=3] [ref=f40e901]:
+              - link "马斯克起诉openai案，2024年埃隆·马斯克在美国起诉OpenAI的法律案件，百度百科" [ref=f40e902] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JDiIkgAyPe2Hzb425iB_3TCWcMuVAfilJmnThxuSYA0q0XxkMYmmZsu4dEdS1sJpo7AaZSDbmAuR2PXewBPYlxjprp6uyfxOkwNXVM2p3nn4Ksih7Zj0wAJ4EMR8o9WD7G8_4EV6XNAU9s0XGDcDD587cMR60SK4AXyp7dM1YwG
+                - text: 马斯克起诉
+                - emphasis [ref=f40e903]: OpenAI
+                - text: 案 - 百度百科
+            - generic [ref=f40e904]:
+              - generic "播放视频" [ref=f40e905] [cursor=pointer]: 
+              - generic [ref=f40e914]:
+                - generic "马斯克起诉OpenAI案是埃隆·马斯克及其AI公司xAI于2024年向美国法院提起的一起诉讼，被告包括OpenAI、其CEO山姆·阿尔特曼、联合创始人格雷格·布洛克曼及投资方微软等。该案核心争议在于OpenAI从非营利组织转型为营利性公司是否违背其创立章程与造福全人类的初衷。2026年4月27日，此案在加利福尼亚州奥克兰联邦法院开庭审理，马斯克提出包括罢免阿尔特曼等人职务、恢复OpenAI非营利属性以及索赔1500亿美元等诉求。马斯克是OpenAI的联合创始人及早期重要捐赠人，累计投入约3800万至4500万美元。2018年，他因控制权争议退出董事会。2019年，OpenAI设立营利性子机构并引入微软投资。2024年，马斯克正式提起诉讼。2025年10月，OpenAI将营利实体重组为公益公司(PBC)。2026年3月31日，OpenAI完成新一轮融资，估值达8520亿美元。2026年4月，" [ref=f40e916]:
+                  - generic [ref=f40e917]:
+                    - text: 马斯克起诉
+                    - emphasis [ref=f40e918]: OpenAI
+                    - text: 案是埃隆·马斯克及其AI公司xAI于2024年向美国法院提起的一起诉讼，被告包括
+                    - emphasis [ref=f40e919]: OpenAI
+                    - text: 、其CEO山姆·阿尔特曼、联合创始人格雷格·布洛克曼及投资方微软等。该案核心争议在于
+                    - emphasis [ref=f40e920]: OpenAI
+                    - text: 从非营利组织转型为营利性公司是否违背其创立章程与造福全人类的...
+                - generic [ref=f40e922]:
+                  - link "案件背景" [ref=f40e923] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=365BWBjSA9l3FnXRbkH4evEcMABYEirxYgDQtxHvbgPSlsKnAX6I9c5ntXVADd4HWpbwuvmUomKUR3ixzgnin0zdEMGj_35JONDdIzRayxARSrM6w2PCXttmp-4kDnGNR46P2qA0MyzgAEcOKEx3pWL3eKakwPElabu2Da-Z5LC
+                  - link "案件经过" [ref=f40e924] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=365BWBjSA9l3FnXRbkH4evEcMABYEirxYgDQtxHvbgPSlsKnAX6I9c5ntXVADd4HWpbwuvmUomKUR3ixzgnin0zdEMGj_35JONDdIzRayxARSrM6w2PCXttmp-4kDnGNR46P2qA0MyzgAEcOKEx3pSVX1MuAlAXwINvtaSD6hy3
+                  - link "案件审理" [ref=f40e925] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=365BWBjSA9l3FnXRbkH4evEcMABYEirxYgDQtxHvbgPSlsKnAX6I9c5ntXVADd4HWpbwuvmUomKUR3ixzgnin0zdEMGj_35JONDdIzRayxARSrM6w2PCXttmp-4kDnGNR46P2qA0MyzgAEcOKEx3pPqL6YwfgYCn7oyx0qsr7kS
+                  - link "案件处置" [ref=f40e926] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=365BWBjSA9l3FnXRbkH4evEcMABYEirxYgDQtxHvbgPSlsKnAX6I9c5ntXVADd4HWpbwuvmUomKUR3ixzgnin0zdEMGj_35JONDdIzRayxARSrM6w2PCXttmp-4kDnGNR46P2qA0MyzgAEcOKEx3pXLUPo--3exlDWJYIZQ1wXK
+                  - link "各方回应" [ref=f40e927] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=365BWBjSA9l3FnXRbkH4evEcMABYEirxYgDQtxHvbgPSlsKnAX6I9c5ntXVADd4HWpbwuvmUomKUR3ixzgnin0zdEMGj_35JONDdIzRayxARSrM6w2PCXttmp-4kDnGNR46P2qA0MyzgAEcOKEx3pMg6Eba6BE7IyF_bA94JNzS
+                  - link "点击可查看更多内容" [ref=f40e928] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=JDiIkgAyPe2Hzb425iB_3TCWcMuVAfilJmnThxuSYA0q0XxkMYmmZsu4dEdS1sJpo7AaZSDbmAuR2PXewBPYlxjprp6uyfxOkwNXVM2p3nn4Ksih7Zj0wAJ4EMR8o9WD7G8_4EV6XNAU9s0XGDcDD587cMR60SK4AXyp7dM1YwG
+                    - text: 更多 >
+                - generic [ref=f40e929]:
+                  - link "百度百科" [ref=f40e930] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=JDiIkgAyPe2Hzb425iB_3TCWcMuVAfilJmnThxuSYA0q0XxkMYmmZsu4dEdS1sJpo7AaZSDbmAuR2PXewBPYlxjprp6uyfxOkwNXVM2p3nn4Ksih7Zj0wAJ4EMR8o9WD7G8_4EV6XNAU9s0XGDcDD587cMR60SK4AXyp7dM1YwG
+                  - generic [ref=f40e936] [cursor=pointer]: 
+          - generic [ref=f40e939]:
+            - heading [level=3] [ref=f40e940]:
+              - link [ref=f40e941] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp7sCt9pZMqrTC3xVBuzKKiByy8x4964hWTI8pDtVeNYWFDGkhcyqnuAMvZYQgP6dLu8d15uX4Jwk7J4_PRqKieG8viWQVX4gG3alj7YFm290q
+                - emphasis [ref=f40e942]: openai
+                - text: 吧 - 百度贴吧
+            - generic [ref=f40e943]:
+              - link [ref=f40e945] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp7sCt9pZMqrTC3xVBuzKKiByy8x4964hWTI8pDtVeNYWFDGkhcyqnuAMvZYQgP6dLu8d15uX4Jwk7J4_PRqKieG8viWQVX4gG3alj7YFm290q
+              - generic [ref=f40e951]:
+                - paragraph [ref=f40e952]: OpenAI技术交流
+                - paragraph [ref=f40e953]:
+                  - generic [ref=f40e954]: 关注用户：3096人
+                - paragraph [ref=f40e955]:
+                  - generic [ref=f40e956]: 累计发贴：4084
+                - paragraph [ref=f40e957]:
+                  - link "精品贴" [ref=f40e958] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuaJTXf9to-cfFVCYgxh4smxqlfOLQiS5Fhlr6wZWR-ANcw0E5za8xT9XhLzOUL2uX_
+                  - link "图片" [ref=f40e959] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=izPt15KdlKB2pWMW_fNBP2Ls8j5quQFJ3l9sk5Y7V5KtrQgxD4Ut6bYK9-LqL015LhB2RG8TL7QLxnIGetLPKR8tC9dVghm4HDMLYvMvuBa
+            - generic [ref=f40e960]:
+              - generic [ref=f40e962]:
+                - link [ref=f40e964] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=izPt15KdlKB2pWMW_fNBP2Ls8j5quQFJ3l9sk5Y7V5Muu9AiRuI6pzmupuASqmuEMPpkXOIRxXwruwQeIMYPJCmFfLK0O3aYAayFTMSWcmJFEHd73izr46J74c8ioUPb
+                  - emphasis [ref=f40e965]: openai
+                  - text: 主页打不开
+                - generic [ref=f40e966]:
+                  - generic [ref=f40e967]:
+                    - text: 回复：
+                    - generic [ref=f40e968]: "14"
+                  - generic [ref=f40e969]:
+                    - text: 点击：
+                    - generic [ref=f40e970]: "5011"
+              - generic [ref=f40e972]:
+                - link [ref=f40e974] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea449-c12pUZzb4ho0lwnYBkyjc3ClU-k0VV32g9mnxvzo-28B3deYS9MsoEizWkS86JDg0jmpN1NXMlAz-zy9b9nK-NgozAuECwbaoQgtT_Zb7
+                  - emphasis [ref=f40e975]: openai
+                  - text: 的sora怎么样？
+                - generic [ref=f40e976]:
+                  - generic [ref=f40e977]:
+                    - text: 回复：
+                    - generic [ref=f40e978]: "4"
+                  - generic [ref=f40e979]:
+                    - text: 点击：
+                    - generic [ref=f40e980]: "1647"
+              - generic [ref=f40e982]:
+                - link [ref=f40e984] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea449-c12pUZzb4ho0lwnYBkyjc3ClU-k0VV32g9mnxvzo-A7BaauQl6CzZfiWt-Awp3KSCXw-x88WbaghBvJ6wtNYSAJMMCSnFDiqhwNRVlvLW
+                  - emphasis [ref=f40e985]: openai
+                  - text: api服务禁用
+                - generic [ref=f40e986]:
+                  - generic [ref=f40e987]:
+                    - text: 回复：
+                    - generic [ref=f40e988]: "6"
+                  - generic [ref=f40e989]:
+                    - text: 点击：
+                    - generic [ref=f40e990]: "1379"
+            - link [ref=f40e992] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=m4t31AW2VmICy22Xkea44w3gDsRDFVewsZG3q79bCp7sCt9pZMqrTC3xVBuzKKiByy8x4964hWTI8pDtVeNYWFDGkhcyqnuAMvZYQgP6dLu8d15uX4Jwk7J4_PRqKieG8viWQVX4gG3alj7YFm290q
+              - text: 查看更多
+              - emphasis [ref=f40e993]: openai
+              - text: 吧的内容 >
+            - generic [ref=f40e994]:
+              - generic [ref=f40e995]: tieba.baidu.com/
+              - generic [ref=f40e996] [cursor=pointer]: 
+          - generic [ref=f40e1001]:
+            - generic [ref=f40e1003]:
+              - heading [level=3] [ref=f40e1004]:
+                - link [ref=f40e1005] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=yKsUw6v6zVPmCS7DlQVUoU_t-QPwAKb5TpN2t8Isy6e5kNb-fVq-miTb4V44PWlC1kYQa5EMPVWUrb54VzB0fK
+                  - generic [ref=f40e1007]:
+                    - text: 一文读懂
+                    - emphasis [ref=f40e1008]: OpenAI
+                    - text: "-腾讯云开发者社区-腾讯云"
+              - link [ref=f40e1009] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=yKsUw6v6zVPmCS7DlQVUoU_t-QPwAKb5TpN2t8Isy6e5kNb-fVq-miTb4V44PWlC1kYQa5EMPVWUrb54VzB0fK
+            - generic [ref=f40e1014] [cursor=pointer]:
+              - text: 2023年5月16日
+              - generic [ref=f40e1015]:
+                - emphasis [ref=f40e1016]: openai
+                - text: 是什么 来自 wiki openai是一家美国 人工智能 (ai)研究实验室,由非营利性 openai incorporated(openai inc.)及其营利性子公司 openai limited partnership(openai lp)组成.openai进行 ai研究的目的是促进和开发友好的 ai.openai系统运行在世界上第五强大的超级计算机上.该组织于 2015年由 sam altman,reid ...
+            - link "腾讯云计算" [ref=f40e1021] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=yKsUw6v6zVPmCS7DlQVUoU_t-QPwAKb5TpN2t8Isy6e5kNb-fVq-miTb4V44PWlC1kYQa5EMPVWUrb54VzB0fK
+              - generic [ref=f40e1023]: 
+          - generic [ref=f40e1028]:
+            - generic [ref=f40e1030]:
+              - heading [level=3] [ref=f40e1031]:
+                - link [ref=f40e1032] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGFfywus-xGmssVmofRT0Mdbby65G6n-sdAFPkgoMq6yzCmK3NN1Qez0k82_Dpg6Y3W
+                  - generic [ref=f40e1034]:
+                    - emphasis [ref=f40e1035]: OpenAI
+                    - text: 宣布开源Codex Harness
+              - link [ref=f40e1036] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGFfywus-xGmssVmofRT0Mdbby65G6n-sdAFPkgoMq6yzCmK3NN1Qez0k82_Dpg6Y3W
+            - generic [ref=f40e1037]:
+              - link [ref=f40e1039] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGFfywus-xGmssVmofRT0Mdbby65G6n-sdAFPkgoMq6yzCmK3NN1Qez0k82_Dpg6Y3W
+              - generic [ref=f40e1044]:
+                - generic [ref=f40e1050] [cursor=pointer]:
+                  - text: 15小时前
+                  - generic [ref=f40e1051]:
+                    - emphasis [ref=f40e1052]: OpenAI
+                    - text: 表示 与其要求每一个团队 都把他们原本熟悉的工作流程 强行搬到一个 通用的代码助手中去 不如把Agent直接带入 那些围绕实际工作设计的软件里 OpenAI称 Codex能驱动的 远不止编程工具 用户可以在Codex Harness上 直接构建自己的产品 Harness重要性开始凸显 如果说模型决定了AI “能做什么”那么Harness就是决定AI...
+                - link "头像  光明网" [ref=f40e1057] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGFfywus-xGmssVmofRT0Mdbby65G6n-sdAFPkgoMq6yzCmK3NN1Qez0k82_Dpg6Y3W
+                  - generic [ref=f40e1058]:
+                    - img "头像" [ref=f40e1060]
+                    - generic [ref=f40e1061]: 
+                  - generic [ref=f40e1063]: 光明网
+                  - generic [ref=f40e1064]: 
+          - generic [ref=f40e1069]:
+            - generic [ref=f40e1071]:
+              - heading [level=3] [ref=f40e1072]:
+                - link [ref=f40e1073] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGC8EvGpMvj5UQ1WgR4Ch3R6J12-AVXWmAZVSR1U5Uck27hRTq0WChda4sf8OQDSOrC
+                  - generic [ref=f40e1075]:
+                    - emphasis [ref=f40e1076]: OpenAI
+                    - text: 计划2027年或更早上市,近期多名高管离职
+              - link [ref=f40e1077] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGC8EvGpMvj5UQ1WgR4Ch3R6J12-AVXWmAZVSR1U5Uck27hRTq0WChda4sf8OQDSOrC
+            - generic [ref=f40e1082] [cursor=pointer]:
+              - text: 5天前
+              - generic [ref=f40e1083]:
+                - emphasis [ref=f40e1084]: OpenAI
+                - text: 已于6月向美国证券交易委员会秘密提交了IPO招股说明书，但尚未公开披露其计划上市的具体时间。该公司的主要竞争对手Anthropic也已向监管机构秘密提交了招股书，并一直在与潜在投资者举行初步会议以试探市场反应。Friar还告诉员工，如果Anthropic比OpenAI更早上市，不必担心。“你们知道，我们目前处于保密备案状态，...
+            - link "头像  海报新闻" [ref=f40e1089] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=Gu6hKJMWivUg1UyAKYRSuarHZhGtek48Ug8SVB63wGC8EvGpMvj5UQ1WgR4Ch3R6J12-AVXWmAZVSR1U5Uck27hRTq0WChda4sf8OQDSOrC
+              - generic [ref=f40e1090]:
+                - img "头像" [ref=f40e1092]
+                - generic [ref=f40e1093]: 
+              - generic [ref=f40e1095]: 海报新闻
+              - generic [ref=f40e1096]: 
+        - generic [ref=f40e1100]:
+          - generic [ref=f40e1101]: 相关搜索
+          - table [ref=f40e1102]:
+            - rowgroup [ref=f40e1103]:
+              - row [ref=f40e1104]:
+                - cell [ref=f40e1105]:
+                  - link "open ai官网" [ref=f40e1106] [cursor=pointer]:
+                    - /url: /s?wd=open%20ai%E5%AE%98%E7%BD%91&tn=baidu&rsf=101631161&rsp=0&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_1
+                - cell [ref=f40e1109]:
+                  - link "http//OpenClaw.ai" [ref=f40e1110] [cursor=pointer]:
+                    - /url: /s?wd=http%2F%2FOpenClaw.ai&tn=baidu&rsf=101631101&rsp=1&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_2
+              - row [ref=f40e1113]:
+                - cell [ref=f40e1114]:
+                  - link "openai注册" [ref=f40e1115] [cursor=pointer]:
+                    - /url: /s?wd=openai%E6%B3%A8%E5%86%8C&tn=baidu&rsf=100636703&rsp=2&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_3
+                - cell [ref=f40e1118]:
+                  - link "Gemini" [ref=f40e1119] [cursor=pointer]:
+                    - /url: /s?wd=Gemini&tn=baidu&rsf=100631151&rsp=3&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_4
+              - row [ref=f40e1122]:
+                - cell [ref=f40e1123]:
+                  - link "open ai下载手机版" [ref=f40e1124] [cursor=pointer]:
+                    - /url: /s?wd=open%20ai%E4%B8%8B%E8%BD%BD%E6%89%8B%E6%9C%BA%E7%89%88&tn=baidu&rsf=100631161&rsp=4&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_5
+                - cell [ref=f40e1127]:
+                  - link "ai下一页" [ref=f40e1128] [cursor=pointer]:
+                    - /url: /s?wd=ai%E4%B8%8B%E4%B8%80%E9%A1%B5&tn=baidu&rsf=100631101&rsp=5&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_6
+              - row [ref=f40e1131]:
+                - cell [ref=f40e1132]:
+                  - link "OpenAI宣布与CodeAI合作" [ref=f40e1133] [cursor=pointer]:
+                    - /url: /s?wd=OpenAI%E5%AE%A3%E5%B8%83%E4%B8%8ECodeAI%E5%90%88%E4%BD%9C&tn=baidu&rsf=100633601&rsp=6&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_7
+                - cell [ref=f40e1136]:
+                  - link "openai国内能用吗" [ref=f40e1137] [cursor=pointer]:
+                    - /url: /s?wd=openai%E5%9B%BD%E5%86%85%E8%83%BD%E7%94%A8%E5%90%97&tn=baidu&rsf=100636703&rsp=7&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_8
+              - row [ref=f40e1140]:
+                - cell [ref=f40e1141]:
+                  - link "openai什么意思" [ref=f40e1142] [cursor=pointer]:
+                    - /url: /s?wd=openai%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&tn=baidu&rsf=100636703&rsp=8&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_9
+                - cell [ref=f40e1145]:
+                  - link "openclaw官网入口" [ref=f40e1146] [cursor=pointer]:
+                    - /url: /s?wd=openclaw%E5%AE%98%E7%BD%91%E5%85%A5%E5%8F%A3&tn=baidu&rsf=100633601&rsp=9&f=1&rs_src=0&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&rsv_dl=brs_28338_10
+      - generic [ref=f40e1151]:
+        - link:
+          - /url: ""
+        - strong [ref=f40e1152]:
+          - generic [ref=f40e1153]: "1"
+        - link "2" [ref=f40e1154] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=10&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "3" [ref=f40e1156] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=20&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "4" [ref=f40e1158] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=30&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "5" [ref=f40e1160] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=40&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "6" [ref=f40e1162] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=50&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "7" [ref=f40e1164] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=60&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "8" [ref=f40e1166] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=70&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "9" [ref=f40e1168] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=80&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link "10" [ref=f40e1170] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=90&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=
+        - link [ref=f40e1172] [cursor=pointer]:
+          - /url: /s?wd=openai&pn=10&oq=openai&ie=utf-8&usm=3&fenlei=256&rsv_idx=1&rsv_pq=d39ff349001ed83e&rsv_t=95dblixUKlXxPjBJ9FZeWiSHqq91sqLOVvzKB%2BJ5P3F4k3AogWTikxgT5oQ&topic_pn=&rsv_page=1
+      - generic [ref=f40e1177]:
+        - link "帮助" [ref=f40e1178] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=f40e1179] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=f40e1180] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=f40e1181] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

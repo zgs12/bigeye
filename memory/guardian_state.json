@@ -1,0 +1,15 @@
+{
+  "role": "primary",
+  "version": 0,
+  "pid": null,
+  "started_at": null,
+  "restart_count": 0,
+  "upgrade_count": 9,
+  "last_health": null,
+  "status": "running",
+  "active_port": 9878,
+  "active_slot": "A",
+  "active_pid": 53724,
+  "unhealthy_streak": 0,
+  "last_good_slot": "B"
+}

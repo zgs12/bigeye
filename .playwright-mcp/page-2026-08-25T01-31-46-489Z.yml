@@ -1,0 +1,296 @@
+- generic [ref=f36e2]:
+  - generic [ref=f36e4]:
+    - generic [ref=f36e8]:
+      - link [ref=f36e9] [cursor=pointer]:
+        - /url: https://image.baidu.com
+      - generic [ref=f36e15]:
+        - textbox [ref=f36e18]: 人工智能
+        - generic [ref=f36e20]:
+          - generic [ref=f36e21]:
+            - generic [ref=f36e22] [cursor=pointer]
+            - generic [ref=f36e26]:
+              - generic [ref=f36e28] [cursor=pointer]
+              - generic [ref=f36e36] [cursor=pointer]
+              - generic [ref=f36e41] [cursor=pointer]
+          - button "百度一下" [ref=f36e48] [cursor=pointer]
+    - generic [ref=f36e49]:
+      - generic [ref=f36e50]: 免费生图
+      - generic [ref=f36e55]:
+        - list [ref=f36e56]:
+          - listitem [ref=f36e57]:
+            - link "百度首页" [ref=f36e58] [cursor=pointer]:
+              - /url: https://www.baidu.com
+        - generic [ref=f36e59] [cursor=pointer]: 登录
+  - generic [ref=f36e61]:
+    - generic [ref=f36e62]:
+      - link [ref=f36e63] [cursor=pointer]:
+        - /url: //chat.baidu.com/search?pd=csaitab&setype=csaitab&source=pc_csaitab&extParams=%7B%22enter_type%22%3A%22search_b_tab%22%2C%22sa%22%3A%22vs_tab%22%7D&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "网页" [ref=f36e65] [cursor=pointer]:
+        - /url: //www.baidu.com/s?wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - strong [ref=f36e66]: 图片
+      - link "资讯" [ref=f36e67] [cursor=pointer]:
+        - /url: //www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "视频" [ref=f36e68] [cursor=pointer]:
+        - /url: //www.baidu.com/sf/vsearch?pd=video&tn=vsearch&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "笔记" [ref=f36e69] [cursor=pointer]:
+        - /url: //www.baidu.com/s?pd=note&rpf=pc&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "地图" [ref=f36e70] [cursor=pointer]:
+        - /url: //map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s&wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+      - link "贴吧" [ref=f36e71] [cursor=pointer]:
+        - /url: //tieba.baidu.com/f?kw=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "文库" [ref=f36e72] [cursor=pointer]:
+        - /url: //wenku.baidu.com/search?lm=0&od=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5
+      - link "更多" [ref=f36e73] [cursor=pointer]:
+        - /url: //www.baidu.com/more/
+      - generic [ref=f36e74] [cursor=pointer]: 筛选工具
+    - generic [ref=f36e76]:
+      - generic [ref=f36e80]:
+        - generic [ref=f36e81]: 全部
+        - generic [ref=f36e83]: 简笔画
+        - generic [ref=f36e85]: 卡通
+        - generic [ref=f36e87]: 儿童
+        - generic [ref=f36e90]: 背景图
+        - generic [ref=f36e93]: 市场规模
+        - generic [ref=f36e95]: 漫画
+        - generic [ref=f36e98]: 科幻
+        - generic [ref=f36e101]: 手抄报
+        - generic [ref=f36e104]: 设计
+        - generic [ref=f36e106]: 算法
+        - generic [ref=f36e109]: 神经网络
+        - generic [ref=f36e112]: 插画
+        - generic [ref=f36e114]: 创意
+        - generic [ref=f36e116]: 桌面
+        - generic [ref=f36e119]: 头像
+        - generic [ref=f36e122]: 海报
+        - generic [ref=f36e124]: 素材
+        - generic [ref=f36e127]: 电影
+        - generic [ref=f36e129]: logo
+        - generic [ref=f36e132]: 物联网
+        - generic [ref=f36e135]: 行业
+        - generic [ref=f36e137]: 未来
+        - generic [ref=f36e140]: 领域
+        - generic [ref=f36e142]: 发展方向
+        - generic [ref=f36e145]: 语音
+        - generic [ref=f36e147]: 图标
+        - generic [ref=f36e149]: 生活
+        - generic [ref=f36e151]: 实验室
+        - generic [ref=f36e154]: 发展历程
+        - generic [ref=f36e156]:
+          - generic [ref=f36e158]: 汽车
+          - generic [ref=f36e159]: 
+      - text:      
+    - generic [ref=f36e163]:
+      - generic [ref=f36e166]:
+        - generic [ref=f36e167]:
+          - generic [ref=f36e170]:
+            - link [ref=f36e172] [cursor=pointer]:
+              - /url: http://www.baidu.com/baidu.php?url=K60000avpXkFvm720DZQ0NGNPdf8_WBhBZIhH8F6EBAt_Xpu8CT-p2BxUl0V7C7JfCvPZTXFERJmkREQcKVNVRtR6xOli5_OSL4dFPpLYrWz-RA5oZQBeMuL712Dsyt0lkbLZqHSz_vhwpQ7epNbY1CcY1Z35P8Yhoapz3gBm-h_otE5il5KzjcFHlh3a5T5TSWWUoxg_UVICOMIZ72MNv5d6Ja-.7D_iTZK4pZmQvgL_E4crZNsqEjKe2nArAj8_Has1f_Neqv1GR0.U1Yk0ZDqzn84GPUZkPs0IjLczehbd_xDL0KGUHY1PWT0Iybq0ZKGujYz0APGujYYnjT0mhbqn10k0AuY5H00TA6qn0KET1Ys0AFL5H00UMfqn0K1XWY0ThIYmyTqn0K8IM0qna3snj0snj0sn0K-ThTqn0KYTh7buHYs0AFbpyfqf1-jfWIjn10knbPAPDDYnDPKn19KnRDvnWbzPH0zfWm0uAPWujY0IA7zuvNY5Hm1g1Kxn1m0mgPxpywW5gK1Qy4J0APdujYznjDLrjfYPjRz0AqW5HD0u1dLTv410AqsnHYznj60TZ0Y5HDs0ZFY5H64rfKkTA-b5H00TyPGujYs0A7B5HKxn0KsTjYs0AdYTjYs0AwbUL0qn0KzpWYs0ZwdT1Y3nHRdPjRdPW61PjndrjmdrHfz0A7W5HD0TA3qn0Ksmgwxuhk9u1Ys0Z7MIvfqn0K-TLfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00uhPdIjYs0A7buhk9u1Yk0ZIhThqV5fKBIjYs0Z91IZRqrj64Pjn3PHm0pynqn0Kzug7Y5HDLrjTvnWDdnjDsPHc0Tv-b5HmYnARkrH79mH79PyckuhR0ULfqnfKETMKY5HcWnankranzc1fsrj6LPW0dnj0WnH6snj0WnH6snj08nan1c1cWnanVc108njn4PHRkc1D8nj0snj0sc1DWnansQW0snj0snansc10Wnansc100TMw9pyfq0AVG5H00UgfqnWfkn0KVm1Ys0AdWgvuzUvYqn0Kbmy4dmhNxTAk9Uh-bT1Ys0A7bTgbqzn84GPUZkPs0mywkIjYs0A-1mvsqn0KkUgfqn0K9u7q1ULNzmvRqnanW0APzm1YLnHbk&us=newvui&xst=m1YKmWdjrRPaPYn1njDzfYmYfHfsfYD1rDDkfHmzrHcdnjFaP6715HTznjbLnWTvPHRvn16dP1TvPWFxn1mLg10KI1Lczehbd_xDL07k5TWQ8pHyktHT0gRqrj64Pjn3PHmKIjYkP16LPWckPH0k0ydk5HDan0Qczehbd_xDL07Wpjdhmdqsms7zIjYs0HnzP1bkrjRznHf&ai=0_2017844452_1_0&word=
+              - img "2026人工智能-报名时间已公布" [ref=f36e175]
+            - generic [ref=f36e176]: 广告
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e179]:
+            - link [ref=f36e181] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=466636231%2C4203565704&di=1&fr=click-pic&fromurl=http%253A%252F%252Fit.sohu.com%252Fa%252F865066538_99999712&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq7.itc.cn%252Fq_70%252Fimages01%252F20250228%252F6a05754a575d49f9b561ca0aa15aa790.jpeg&os=1817653606%2C1986584173&pd=image_content&pi=0&pn=0&rn=1&simid=3281349041%2C219645436&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能与伦理:机器能否拥有道德责任?" [ref=f36e184]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e189]:
+            - link [ref=f36e191] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2057645008%2C2730798670&di=1&fr=click-pic&fromurl=http%253A%252F%252Froll.sohu.com%252Fa%252F894328942_121826552&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq3.itc.cn%252Fimages01%252F20250512%252Fc3fdab4abfe8444e8fc725c4f47d8da6.jpeg&os=361778249%2C1763285224&pd=image_content&pi=0&pn=1&rn=1&simid=3385551944%2C368334691&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "强人工智能未来的全能助手还是科幻幻想" [ref=f36e194]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e199]:
+            - link [ref=f36e201] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=635599216%2C1371234658&di=1&fr=click-pic&fromurl=http%253A%252F%252Fmbd.baidu.com%252Fnewspage%252Fdata%252Fdtlandingsuper%253Fnid%253Ddt_5321864672723916413&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic.rmb.bdstatic.com%252Fbjh%252F250910%252Fdump%252Ff3a5e086e3dee26684a158737d686d82.jpeg&os=776848377%2C1582791935&pd=image_content&pi=0&pn=2&rn=1&simid=3495431324%2C603721850&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "我外甥学的是人工智能专业,他跟我说,只要能健康长寿地活下去,用不了" [ref=f36e204]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e209]:
+            - link [ref=f36e211] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2493414656%2C2288115948&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1839811597780934186%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpics4.baidu.com%252Ffeed%252Fb2de9c82d158ccbf1cbd77b3e5edfa2eb03541f8.jpeg%2540f_auto%253Ftoken%253D0cb91d4e3e8b806f9e61a6d69a988414&os=1137621153%2C378742544&pd=image_content&pi=0&pn=3&rn=1&simid=2493414656%2C2288115948&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能进入\"应用爆发期\"" [ref=f36e214]
+            - generic:
+              - generic: 变清晰
+              - generic: 
+        - generic [ref=f36e217]:
+          - generic [ref=f36e220]:
+            - link [ref=f36e222] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=4276052165%2C3180742648&di=1&fr=click-pic&fromurl=http%253A%252F%252Fquanmin.baidu.com%252Fsv%253Fsource%253Dshare-h5%2526pd%253Dqm_share_search%2526vid%253D5030702401677016824&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic.rmb.bdstatic.com%252Fbjh%252Fdown%252FNEz1pgCANmzLD-dVxe_fPAfc4761dddd71d7db174412b3400f690e.jpg%253Ffor%253Dbg&os=1229600635%2C2333383542&pd=image_content&pi=0&pn=4&rn=1&simid=55712370%2C696516041&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能在医学中的应用:如何诊断疾病#人工智能" [ref=f36e225]
+            - generic:
+              - generic: 变清晰
+              - generic: 
+          - generic [ref=f36e230]:
+            - link [ref=f36e232] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3407452646%2C3826557141&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.sohu.com%252Fa%252F892724254_573310&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq4.itc.cn%252Fimages01%252F20250507%252Ffc354d0391d44aa6b671c9dfc7da3269.jpeg&os=2278409590%2C2556655963&pd=image_content&pi=0&pn=5&rn=1&simid=3407452646%2C3826557141&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "培养驯化你的专属ai人工智能体" [ref=f36e235]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e240]:
+            - link [ref=f36e242] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2042199709%2C3634967610&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1830641717550283660%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fgips3.baidu.com%252Fit%252Fu%253D2042199709%252C3634967610%2526fm%253D3003%2526app%253D3003%2526f%253DJPEG%253Fw%253D4409%2526h%253D2939&os=1812725014%2C4072828862&pd=image_content&pi=0&pn=6&rn=1&simid=3507113422%2C410731892&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "顶点财经栗智:锚定\"人工智能+\"国家战略,长假布局首选政务细分" [ref=f36e245]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e250]:
+            - link [ref=f36e252] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=22341364%2C4146883164&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1866213669170128492%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic.rmb.bdstatic.com%252Fbjh%252F3ea190e6377f%252F260526%252F093576fc5b061fc9e33f9cc27297d96b.jpeg&os=3818842325%2C1167644089&pd=image_content&pi=0&pn=7&rn=1&simid=3124345634%2C3060074956&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "一年狂揽270亿!激光巨头收入拆解:赚大钱的路子彻底变了" [ref=f36e255]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e260]:
+            - link [ref=f36e262] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1883734463%2C881969266&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.ewbang.com%252Fcommunity%252Farticle%252Fdetails%252F1000172825.html&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fi-blog.csdnimg.cn%252Fimg_convert%252Fbac1e8cbf83db5059f8d10eb458a6772.jpeg&os=89263612%2C3033479038&pd=image_content&pi=0&pn=8&rn=1&simid=3476864104%2C256735789&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能ai简史推动新时代的科技力量" [ref=f36e265]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+        - generic [ref=f36e268]:
+          - generic [ref=f36e279] [cursor=pointer]:
+            - generic [ref=f36e280]: 没找到满意的图片?
+            - generic [ref=f36e281]: 试试AI创作~
+            - generic [ref=f36e282]: 免费生图
+          - generic [ref=f36e286]:
+            - link [ref=f36e288] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2563011039%2C53839076&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1828483699008984406%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpics7.baidu.com%252Ffeed%252F37d3d539b6003af3022d9067331363531138b6ee.jpeg%2540f_auto%253Ftoken%253D12748f04cc6eccf617609c2c6f0d5726&os=2791306239%2C255639358&pd=image_content&pi=0&pn=9&rn=1&simid=4192386233%2C630796212&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能未来十年:重塑人类生活的五大变革与思考" [ref=f36e291]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e296]:
+            - link [ref=f36e298] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3319630154%2C1141775820&di=1&fr=click-pic&fromurl=http%253A%252F%252Fit.sohu.com%252Fa%252F835841967_122069760&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq4.itc.cn%252Fq_70%252Fimages01%252F20241212%252F02b271a4b78f417ea7ca146aa4ca9962.png&os=2923106231%2C712955350&pd=image_content&pi=0&pn=10&rn=1&simid=4250887941%2C610743644&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能携手 saas:领航软件市场未来新征程" [ref=f36e301]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e306]:
+            - link [ref=f36e308] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1290851123%2C3508583295&di=1&fr=click-pic&fromurl=http%253A%252F%252Fgxj.qinzhou.gov.cn%252Fxyzxygh%252Fgyxyzx%252Ft19714143.shtml&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fgxj.qinzhou.gov.cn%252Fxyzxygh%252Fgyxyzx%252FW020250314402414559550_ORIGIN.png&os=266116064%2C580976463&pd=image_content&pi=0&pn=11&rn=1&simid=1290851123%2C3508583295&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能,无限可能" [ref=f36e311]
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+        - generic [ref=f36e312]:
+          - generic [ref=f36e315]:
+            - link [ref=f36e317] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3196744039%2C4291536199&di=1&fr=click-pic&fromurl=http%253A%252F%252Fmt.sohu.com%252Fa%252F919020865_121870509&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq6.itc.cn%252Fimages01%252F20250730%252F90b7746be8064b85ab25f07bd422b7c1.jpeg&os=2747431229%2C2086833375&pd=image_content&pi=0&pn=12&rn=1&simid=4196628471%2C736566437&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能应用工程技术演进与产业变革" [ref=f36e320]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e325]:
+            - link [ref=f36e327] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2177312446%2C1457162092&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1777563368818018168%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fcopyright.bdstatic.com%252Fvcg%252Fcreative%252Fd8a79236781c8b8356bca453eb6436d8.jpg%2540wm_1%252Ck_cGljX2JqaHdhdGVyLmpwZw%253D%253D&os=3010214391%2C754757046&pd=image_content&pi=0&pn=13&rn=1&simid=3448960452%2C304371342&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "智能科学与技术专业解析:该专业最有实力的20所大学,清华没开设" [ref=f36e330]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e335]:
+            - link [ref=f36e337] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2425683763%2C3471668376&di=1&fr=click-pic&fromurl=http%253A%252F%252Fmbd.baidu.com%252Fnewspage%252Fdata%252Fdtlandingsuper%253Fnid%253Ddt_4464679892876365157&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fb0.bdstatic.com%252Fugc%252FnQKU8pzxR4BE5-GwT9BEXQb46669d481a64708cc28b9b87bd79a87.jpg&os=3495977922%2C1473684149&pd=image_content&pi=0&pn=14&rn=1&simid=4152359383%2C539365965&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "中国内地高校人工智能专业谁最强?" [ref=f36e340]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+          - generic [ref=f36e345]:
+            - link [ref=f36e347] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2150400209%2C2762538850&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.bilibili.com%252Fvideo%252FBV1CJJezKEb6&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fi2.hdslb.com%252Fbfs%252Farchive%252Fa92999d3def19de5984eadab3e817a76f181dec7.jpg&os=3458021454%2C1208597873&pd=image_content&pi=0&pn=15&rn=1&simid=3475440030%2C378677157&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+              - img "人工智能的未来前景" [ref=f36e350]
+            - generic:
+              - generic: 变清晰
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 下载
+        - generic [ref=f36e353]:
+          - link [ref=f36e358] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3078111433%2C2440824858&di=1&fr=click-pic&fromurl=http%253A%252F%252Fweb.toutiao.com%252Farticle%252F7589207459080716809%252F&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fp3-sign.toutiaoimg.com%252Ftos-cn-i-6w9my0ksvp%252Fe317c9d66ad1479d8ed942be71a56ae9~tplv-tt-origin-web%253Agif.jpeg%253F_iz%253D58558%2526from%253Darticle.pc_detail%2526lk3s%253D953192f4%2526x-expires%253D1781152638%2526x-signature%253Dtn51eTUNAFcEB24H6%25252FXjj5iff6I%25253D&os=2137607037%2C1721932650&pd=image_content&pi=0&pn=16&rn=1&simid=4153267292%2C480108723&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e365] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=4044845374%2C2765619023&di=1&fr=click-pic&fromurl=https%253A%252F%252Fquanmin.baidu.com%252Fsv%253Fsource%253Dshare-h5%2526pd%253Dqm_share_search%2526vid%253D1427624898815731852&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic.rmb.bdstatic.com%252Fbjh%252Fother%252F20a4c132ca862216ef609b4b80aa0c1f.png%253Ffor%253Dbg&os=1300623429%2C21302170&pd=image_content&pi=0&pn=17&rn=1&simid=4225504899%2C646664522&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e372] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1979396730%2C4243772830&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1850196982715045629%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpics7.baidu.com%252Ffeed%252Fa71ea8d3fd1f41342def97095fd64cdad3c85ec3.jpeg%2540f_auto%253Ftoken%253D8e475b2f3c675eb0a46fc659d1ce0a58&os=2772321134%2C1027984582&pd=image_content&pi=0&pn=18&rn=1&simid=1979396730%2C4243772830&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e379] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1894527942%2C3166734152&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbusiness.sohu.com%252Fa%252F868667428_122314688&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq7.itc.cn%252Fq_70%252Fimages01%252F20250309%252Ff4d901ef88784760970c8b3beaa313f0.jpeg&os=3034334834%2C3450782420&pd=image_content&pi=0&pn=19&rn=1&simid=3536232393%2C481250938&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - generic [ref=f36e384]:
+            - link "人工智能AI" [ref=f36e385] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/index?tn=baiduimage&fm=result&fr=click-rs&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BDAI&sa=vs_img_resultlooprs_1_1_cocc
+            - link "人工智能配图" [ref=f36e391] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/index?tn=baiduimage&fm=result&fr=click-rs&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&ie=utf-8&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%85%8D%E5%9B%BE&sa=vs_img_resultlooprs_1_2_cocc
+            - link "智能ai" [ref=f36e397] [cursor=pointer]:
+              - /url: https://image.baidu.com/search/index?tn=baiduimage&fm=result&fr=click-rs&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&ie=utf-8&word=%E6%99%BA%E8%83%BDai&sa=vs_img_resultlooprs_1_3_cocc
+            - link "一键生成人工智能" [ref=f36e403] [cursor=pointer]:
+              - /url: https://chat.baidu.com/search?extParamsJson=%7B%22enter_type%22%3A%22c_pic_createImg%22%2C%22fullFeature%22%3Atrue%2C%22searchInfo%22%3A%7B%22search_intent%22%3A13%7D%7D&pd=csaitab&sa=c_pic_createImg&word=%E5%B8%AE%E6%88%91%E7%94%BB%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+          - link [ref=f36e413] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3355523609%2C466168854&di=1&fr=click-pic&fromurl=http%253A%252F%252Fbaijiahao.baidu.com%252Fs%253Fid%253D1828322270130598220%2526wfr%253Dspider%2526for%253Dpc&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpics0.baidu.com%252Ffeed%252Fbf096b63f6246b60ead1718b2115b843530fa274.jpeg%2540f_auto%253Ftoken%253Dfa79b20bedfd4a02ca05dc2f883ae401&os=931321462%2C2085146743&pd=image_content&pi=0&pn=20&rn=1&simid=3355523609%2C466168854&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+        - generic [ref=f36e416]:
+          - link [ref=f36e421] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=4254794268%2C2155252993&di=1&fr=click-pic&fromurl=https%253A%252F%252Fmbd.baidu.com%252Fnewspage%252Fdata%252Fdtlandingsuper%253Fnid%253Ddt_4760076538386044257&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fb0.bdstatic.com%252Ffccbad3eb7dd91430b30883d9ef9a69f.jpeg%2540h_1280&os=1769097579%2C1537737534&pd=image_content&pi=0&pn=21&rn=1&simid=4051017399%2C333229470&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e428] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1811226247%2C1249388293&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.hljsjt.com%252Findex%252Findex%252Fnews.html%253Fcate_id%253D3%2526seccate_id%253D23&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fwww.hljsjt.com%252Fuploads%252F20260306%252Fd4b9f8aae707eb910de6d164a7a6b6c9.jpeg&os=3883840716%2C1152877831&pd=image_content&pi=0&pn=22&rn=1&simid=3415002835%2C352957594&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e435] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1621422977%2C1409214983&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.sohu.com%252Fa%252F878250124_120046696&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq2.itc.cn%252Fq_70%252Fimages03%252F20250401%252F0d91ba9bccb74f479d55cb474c99cc61.jpeg&os=157463604%2C3058746584&pd=image_content&pi=0&pn=23&rn=1&simid=3438344903%2C496996396&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e442] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1749592199%2C1149627032&di=1&fr=click-pic&fromurl=http%253A%252F%252Fit.sohu.com%252Fa%252F902821310_121124773&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fq5.itc.cn%252Fq_70%252Fimages03%252F20250609%252F93a0800133a44f57b6d20334bcc8ea54.jpeg&os=2221844973%2C536971612&pd=image_content&pi=0&pn=24&rn=1&simid=3366655383%2C214281399&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+        - generic [ref=f36e445]:
+          - link [ref=f36e450] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=951893572%2C500478745&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.bilibili.com%252Fread%252Fcv41918363&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fi0.hdslb.com%252Fbfs%252Fnew_dyn%252Fe76970dcb5e8204e3d9d240be48f06ba1530100988.jpg%25401192w.webp&os=994975846%2C874839509&pd=image_content&pi=0&pn=25&rn=1&simid=951893572%2C500478745&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e457] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=3396723963%2C3258408707&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.bilibili.com%252Fvideo%252FBV1Fv8fzbEQt&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fi0.hdslb.com%252Fbfs%252Farchive%252F5ca9badba39d24df587291ab6887aa5c6476c362.jpg&os=3267577270%2C540417819&pd=image_content&pi=0&pn=26&rn=1&simid=4274141179%2C759576386&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e464] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2277717029%2C1883728590&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.zhihu.com%252Fpin%252F1861539703624458242&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic1.zhimg.com%252F100%252Fv2-b4e1d689e9ed05da923a4f84be9a0a6a_r.jpg&os=3867838681%2C3540004766&pd=image_content&pi=0&pn=27&rn=1&simid=2277717029%2C1883728590&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e471] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=2660073287%2C3598605573&di=1&fr=click-pic&fromurl=http%253A%252F%252Fwww.zhihu.com%252Fquestion%252F661606036&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fpic1.zhimg.com%252Fv2-4f6f1323e0b60aed6211a08764803e32_r.jpg%253Fsource%253D1def8aca&os=3064823250%2C937998724&pd=image_content&pi=0&pn=28&rn=1&simid=4288800041%2C728544128&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+          - link [ref=f36e478] [cursor=pointer]:
+            - /url: https://image.baidu.com/search/detail?adpicid=0&b_applid=7209727655638577662&bdtype=0&commodity=&copyright=&cs=1892949700%2C725699731&di=1&fr=click-pic&fromurl=http%253A%252F%252Fmbd.baidu.com%252Fnewspage%252Fdata%252Fdtlandingsuper%253Fnid%253Ddt_4775611318896309397&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=93c0ed53001f010f&lm=&objurl=https%253A%252F%252Fcopyright.bdstatic.com%252Fvcg%252Fcreative%252Faa8821d27cac7a9fcb771ee27b550e5a.jpg%2540wm_1%252Ck_cGljX2JqaHdhdGVyLmpwZw%253D%253D&os=938183206%2C1913598891&pd=image_content&pi=0&pn=29&rn=1&simid=3326861398%2C123529440&tn=baiduimagedetail&width=0&word=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&z=
+      - generic [ref=f36e481]: 正在加载...
+    - generic [ref=f36e486] [cursor=pointer]
