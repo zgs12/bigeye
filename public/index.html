@@ -6982,9 +6982,17 @@ function renderMcpStatus(d) {
   var bodyEl = document.getElementById('settingsBody');
   d = d || {};
   var servers = d.servers || [];
+  var master = d.master !== false;
   var html = '';
+  html += '<div class="sp-section"><h4>总开关</h4>';
+  html += '<div class="sp-toggle-row" style="margin:0;padding:10px 12px;border:1px solid var(--border);border-radius:6px">';
+  html += '<span>启用 MCP</span>';
+  html += '<label class="sp-toggle"><input type="checkbox"'+(master?' checked':'')+' onchange="toggleMcpMaster(this.checked)"><span class="slider"></span></label>';
+  html += '</div>';
+  html += '<div class="cfg-hint" style="margin-top:8px">关掉后所有 MCP 进程停止，对话里不再出现这些工具。单个服务器也可单独关。</div></div>';
   html += '<div class="sp-section"><h4>当前状态</h4><div class="sp-info">';
   html += '已配置 ' + (d.configured_count || 0) + ' 个，运行中 ' + (d.running_count || 0) + ' 个';
+  if (!master) html += '（总开关已关）';
   html += '</div></div>';
   html += '<div class="sp-section"><h4>服务器</h4>';
   if (!servers.length) {
@@ -6992,8 +7000,15 @@ function renderMcpStatus(d) {
   } else {
     for (var i = 0; i < servers.length; i++) {
       var s = servers[i];
+      var on = !!s.enabled;
+      var running = !!s.running;
       var cmd = (s.command || '') + (s.args && s.args.length ? ' ' + s.args.join(' ') : '');
-      html += '<div class="mcp-card"><h5><span class="mcp-dot ' + (s.running ? 'on' : 'off') + '"></span>' + esc(s.name || '') + (s.running ? ' · 运行中' : ' · 未启动') + '</h5>';
+      var statusLabel = running ? '运行中' : (on && master ? '未启动' : '已关闭');
+      html += '<div class="mcp-card">';
+      html += '<div class="sp-toggle-row" style="padding:0 0 8px;border:none;margin:0">';
+      html += '<h5 style="margin:0"><span class="mcp-dot ' + (running ? 'on' : 'off') + '"></span>' + esc(s.name || '') + ' · ' + statusLabel + '</h5>';
+      html += '<label class="sp-toggle"><input type="checkbox"'+(on?' checked':'')+' onchange="toggleMcpServer('+JSON.stringify(s.name)+', this.checked)"><span class="slider"></span></label>';
+      html += '</div>';
       if (cmd) html += '<div style="font-size:11px;color:var(--tdim);word-break:break-all;margin-bottom:6px">' + esc(cmd) + '</div>';
       var tools = s.tools || [];
       if (tools.length) {
@@ -7001,15 +7016,42 @@ function renderMcpStatus(d) {
           html += '<span class="mcp-tool-tag">' + esc(tools[j]) + '</span>';
         }
       } else {
-        html += '<div style="font-size:11px;color:var(--tdim)">' + (s.running ? '未发现工具' : '启动失败或尚未加载') + '</div>';
+        html += '<div style="font-size:11px;color:var(--tdim)">' + (running ? '未发现工具' : (on ? '启动失败或尚未加载' : '已关闭，不占用进程')) + '</div>';
       }
       html += '</div>';
     }
   }
   html += '</div>';
   html += '<div class="sp-section"><button class="sp-btn" id="mcpReloadBtn" onclick="reloadMcpServers()">重新加载</button>';
-  html += '<div class="cfg-hint" style="margin-top:4px">改完 mcp_servers.json 后点这里，不必重启大眼。</div></div>';
+  html += '<div class="cfg-hint" style="margin-top:4px">改完 mcp_servers.json 后点这里，不必重启大眼。开关状态会记住。</div></div>';
   bodyEl.innerHTML = html;
+}
+async function toggleMcpMaster(on) {
+  var bodyEl = document.getElementById('settingsBody');
+  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">正在'+(on?'开启':'关闭')+' MCP…</div>';
+  try {
+    var r = await fetch('/api/mcp/toggle', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({master: !!on})});
+    var d = await r.json();
+    if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    renderMcpStatus(d);
+  } catch(e) {
+    alert('切换失败: ' + (e.message || ''));
+    loadMcpStatus();
+  }
+}
+async function toggleMcpServer(name, on) {
+  var bodyEl = document.getElementById('settingsBody');
+  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">正在'+(on?'启动':'停止')+' '+esc(name)+'…</div>';
+  try {
+    var r = await fetch('/api/mcp/toggle', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name: name, enabled: !!on})});
+    var d = await r.json();
+    if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    if (d.error) alert(d.error);
+    renderMcpStatus(d);
+  } catch(e) {
+    alert('切换失败: ' + (e.message || ''));
+    loadMcpStatus();
+  }
 }
 async function reloadMcpServers() {
   var btn = document.getElementById('mcpReloadBtn');

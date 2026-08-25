@@ -9,10 +9,15 @@
 |--------|------------|--------|
 | filesystem | `mcp_filesystem__` | 按 MCP 协议读写允许的目录 |
 | playwright | `mcp_playwright__` | 操控浏览器：打开页面、点击、输入、快照 |
+| blender | `mcp_blender__` | 操控 Blender：建模、改场景、渲染。Blender 要开着并点 Start MCP Server |
 
 浏览器工具常见名字：`mcp_playwright__browser_navigate`、`mcp_playwright__browser_snapshot`、`mcp_playwright__browser_click`、`mcp_playwright__browser_type`。先 `list_tools` 看完整列表。
 
+**Blender 用法：** 本机 Python 包装在 `.venv-mcp/`（`requirements-mcp.txt`），不要用 `uvx blender-mcp`（和 npx @latest 一样每次可能重下）。每次想让大眼控 3D：先打开 Blender → 按 `N` → **BlenderMCP** → **Start MCP Server**，再说「建一个杯子」。插件可用 `.venv-mcp\Scripts\blender-mcp.exe install-addon` 再装一次。
+
 包缺失时让用户运行一次 `mcp_setup.bat`（或项目根目录 `npm install` + `npm run mcp:install`），然后 `hot_reload` 或重启大眼。
+
+网页设置 → MCP：可关总开关或单个服务器。关掉的不占进程，对话里也不会出现对应工具。
 
 ## 什么是 MCP
 

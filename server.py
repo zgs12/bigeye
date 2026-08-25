@@ -2692,6 +2692,26 @@ class Handler(http.server.BaseHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"error": str(e)})
 
+        # ── MCP 开关：{master:bool} 总闸，或 {name, enabled} 单个服务器 ──
+        elif path == "/api/mcp/toggle":
+            try:
+                from mcp_client import set_mcp_master, set_mcp_server_enabled
+                if "master" in data and "name" not in data:
+                    status = set_mcp_master(bool(data.get("master")))
+                else:
+                    name = (data.get("name") or "").strip()
+                    if not name:
+                        self._json(400, {"error": "name required"})
+                        return
+                    status = set_mcp_server_enabled(name, bool(data.get("enabled")))
+                if status.get("error") and "servers" not in status:
+                    self._json(400, status)
+                    return
+                status["success"] = True
+                self._json(200, status)
+            except Exception as e:
+                self._json(500, {"error": str(e)})
+
         # ── Topic: rename ──
         elif path == "/api/topic/rename":
             try:

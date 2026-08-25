@@ -16,6 +16,7 @@ build/
 # Env
 .env
 .venv
+.venv-mcp/
 
 # Vendor / third-party libs (install via pip)
 vendor/
@@ -89,6 +90,7 @@ ai_downloads/
 knowledge_base/
 CHANGELOG.jsonl
 mcp_servers.json
+mcp_enabled.json
 reminders.json
 rules_result.json
 workspace/

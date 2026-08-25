@@ -23,6 +23,11 @@ Format:
       "command": "node",
       "args": ["node_modules/@playwright/mcp/cli.js"],
       "env": {}
+    },
+    "blender": {
+      "command": ".venv-mcp/Scripts/blender-mcp.exe",
+      "args": [],
+      "env": {}
     }
   }
 }
@@ -36,6 +41,7 @@ import time
 import uuid
 
 SERVER_FILE = "mcp_servers.json"
+ENABLED_FILE = "mcp_enabled.json"
 
 # ── JSON-RPC helpers ──────────────────────────────────
 
@@ -89,6 +95,13 @@ class MCPServer:
                 elif c0 == "node":
                     cmd[0] = "node.exe"
             project_dir = os.path.dirname(os.path.abspath(__file__))
+            # 相对路径命令（如 .venv-mcp/Scripts/python.exe）改成绝对路径
+            if cmd and not os.path.isabs(cmd[0]):
+                cand = os.path.normpath(os.path.join(project_dir, cmd[0]))
+                if os.path.isfile(cand):
+                    cmd[0] = cand
+                elif os.name == "nt" and os.path.isfile(cand + ".exe"):
+                    cmd[0] = cand + ".exe"
             # 本地 node_modules 脚本改成绝对路径；缺文件时提示先装一次
             if len(cmd) > 1 and not os.path.isabs(cmd[1]) and cmd[1].replace("\\", "/").startswith("node_modules/"):
                 cmd[1] = os.path.normpath(os.path.join(project_dir, cmd[1]))
@@ -224,24 +237,99 @@ _mcp_loaded = False
 _mcp_lock = threading.Lock()
 
 
-def _load_config():
-    """Find mcp_servers.json next to this file (project root), then parent, then exe dir."""
+def _config_candidates():
     here = os.path.dirname(os.path.abspath(__file__))
-    candidates = [
+    paths = [
         os.path.join(here, SERVER_FILE),
         os.path.join(os.path.dirname(here), SERVER_FILE),
     ]
     if getattr(sys, 'frozen', False):
-        candidates.append(os.path.join(os.path.dirname(sys.executable), SERVER_FILE))
-    for path in candidates:
+        paths.append(os.path.join(os.path.dirname(sys.executable), SERVER_FILE))
+    return paths
+
+
+def _config_home():
+    """Directory of mcp_servers.json, else this file's directory."""
+    for path in _config_candidates():
+        if os.path.isfile(path):
+            return os.path.dirname(path)
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_config():
+    """Find mcp_servers.json next to this file (project root), then parent, then exe dir."""
+    for path in _config_candidates():
         if os.path.isfile(path):
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
     return {"servers": {}}
 
 
+def _enabled_path():
+    return os.path.join(_config_home(), ENABLED_FILE)
+
+
+def _load_enabled():
+    """UI 开关：master 总闸 + 各服务器默认开。缺文件 = 全开。"""
+    path = _enabled_path()
+    state = {"master": True, "servers": {}}
+    if not os.path.isfile(path):
+        return state
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        if isinstance(raw, dict):
+            if "master" in raw:
+                state["master"] = bool(raw["master"])
+            servers = raw.get("servers")
+            if isinstance(servers, dict):
+                state["servers"] = {str(k): bool(v) for k, v in servers.items()}
+    except Exception:
+        pass
+    return state
+
+
+def _save_enabled(state):
+    path = _enabled_path()
+    payload = {
+        "master": bool(state.get("master", True)),
+        "servers": {str(k): bool(v) for k, v in (state.get("servers") or {}).items()},
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+def is_mcp_server_enabled(name):
+    state = _load_enabled()
+    if not state.get("master", True):
+        return False
+    return bool(state.get("servers", {}).get(name, True))
+
+
+def _stop_named(name):
+    srv = _mcp_servers.pop(name, None)
+    if srv:
+        try:
+            srv.stop()
+        except Exception:
+            pass
+
+
+def _start_named(name, cfg):
+    if name in _mcp_servers:
+        srv = _mcp_servers[name]
+        if srv.process is not None and srv.process.poll() is None:
+            return True
+        _stop_named(name)
+    srv = MCPServer(name, cfg)
+    if srv.start():
+        _mcp_servers[name] = srv
+        return True
+    return False
+
+
 def load_mcp_servers():
-    """Start all configured MCP servers and discover tools. Idempotent."""
+    """Start enabled MCP servers and discover tools. Idempotent."""
     global _mcp_loaded
     with _mcp_lock:
         if _mcp_loaded:
@@ -249,6 +337,9 @@ def load_mcp_servers():
         config = _load_config()
         for name, cfg in config.get("servers", {}).items():
             if name in _mcp_servers:
+                continue
+            if not is_mcp_server_enabled(name):
+                print(f"[mcp] {name}: skipped (disabled)")
                 continue
             srv = MCPServer(name, cfg)
             if srv.start():
@@ -258,7 +349,7 @@ def load_mcp_servers():
 
 
 def reload_mcp_servers():
-    """Stop running MCP servers and start from current mcp_servers.json."""
+    """Stop running MCP servers and start from current mcp_servers.json (respects switches)."""
     global _mcp_loaded
     with _mcp_lock:
         for srv in list(_mcp_servers.values()):
@@ -269,6 +360,42 @@ def reload_mcp_servers():
         _mcp_servers.clear()
         _mcp_loaded = False
     return load_mcp_servers()
+
+
+def set_mcp_master(enabled):
+    """总闸：关则停掉全部；开则只拉起各服务器开关仍为开的。"""
+    state = _load_enabled()
+    state["master"] = bool(enabled)
+    _save_enabled(state)
+    config = _load_config().get("servers", {}) or {}
+    if not enabled:
+        with _mcp_lock:
+            names = list(_mcp_servers.keys())
+        for name in names:
+            _stop_named(name)
+        return get_mcp_status()
+    for name, cfg in config.items():
+        if is_mcp_server_enabled(name):
+            _start_named(name, cfg)
+    return get_mcp_status()
+
+
+def set_mcp_server_enabled(name, enabled):
+    """单个服务器开关。关：停进程、对话里不再出现其工具。开：立刻启动。"""
+    config = _load_config().get("servers", {}) or {}
+    if name not in config:
+        return {"error": f"未配置 MCP 服务器: {name}"}
+    state = _load_enabled()
+    state.setdefault("servers", {})[name] = bool(enabled)
+    _save_enabled(state)
+    if not is_mcp_server_enabled(name):
+        _stop_named(name)
+        return get_mcp_status()
+    ok = _start_named(name, config[name])
+    status = get_mcp_status()
+    if not ok:
+        status["error"] = f"{name} 启动失败，看控制台 [mcp] 日志"
+    return status
 
 
 def get_mcp_tool_defs():
@@ -296,9 +423,12 @@ def execute_mcp_tool(full_name, args):
 
 
 def get_mcp_status():
-    """Status for UI: configured servers + running state + tool names."""
+    """Status for UI: configured servers + running state + tool names + 开关。"""
     config = _load_config()
     configured = config.get("servers", {}) or {}
+    state = _load_enabled()
+    master = bool(state.get("master", True))
+    prefs = state.get("servers") or {}
     servers = []
     seen = set()
     for name, cfg in configured.items():
@@ -311,9 +441,12 @@ def get_mcp_status():
                 if isinstance(t, dict) and t.get("name"):
                     tools.append(t["name"])
         cfg = cfg if isinstance(cfg, dict) else {}
+        pref = bool(prefs.get(name, True))
         servers.append({
             "name": name,
             "running": running,
+            "enabled": pref,
+            "effective": master and pref,
             "tools": tools,
             "tool_count": len(tools),
             "command": cfg.get("command", ""),
@@ -324,9 +457,12 @@ def get_mcp_status():
             continue
         running = bool(srv.process is not None and srv.process.poll() is None)
         tools = [t["name"] for t in srv.tools if isinstance(t, dict) and t.get("name")]
+        pref = bool(prefs.get(name, True))
         servers.append({
             "name": name,
             "running": running,
+            "enabled": pref,
+            "effective": master and pref,
             "tools": tools,
             "tool_count": len(tools),
             "command": srv.command,
@@ -334,6 +470,7 @@ def get_mcp_status():
         })
     return {
         "loaded": _mcp_loaded,
+        "master": master,
         "configured_count": len(configured),
         "running_count": sum(1 for s in servers if s["running"]),
         "servers": servers,
