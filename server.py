@@ -1715,6 +1715,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"error": str(e)})
 
+        elif path == "/api/mcp/marketplace":
+            try:
+                from mcp_client import get_mcp_marketplace
+                self._json(200, get_mcp_marketplace())
+            except Exception as e:
+                self._json(500, {"error": str(e)})
+
         # ── Topics ──
         elif path == "/api/topics":
             try:
@@ -2712,6 +2719,48 @@ class Handler(http.server.BaseHTTPRequestHandler):
             except Exception as e:
                 self._json(500, {"error": str(e)})
 
+        elif path == "/api/mcp/add":
+            try:
+                from mcp_client import add_mcp_from_marketplace, add_mcp_server
+                item_id = (data.get("id") or "").strip()
+                if item_id:
+                    status = add_mcp_from_marketplace(item_id, env=data.get("env"))
+                else:
+                    name = (data.get("name") or "").strip()
+                    server = data.get("server") or {}
+                    if not name:
+                        self._json(400, {"error": "id 或 name 必填"})
+                        return
+                    status = add_mcp_server(
+                        name,
+                        server,
+                        install_type=data.get("install_type"),
+                        packages=data.get("packages"),
+                        post_install=data.get("post_install"),
+                        env=data.get("env"),
+                    )
+                if status.get("error") and not status.get("success"):
+                    self._json(400, status)
+                    return
+                self._json(200, status)
+            except Exception as e:
+                self._json(500, {"error": str(e)})
+
+        elif path == "/api/mcp/remove":
+            try:
+                from mcp_client import remove_mcp_server
+                name = (data.get("name") or "").strip()
+                if not name:
+                    self._json(400, {"error": "name required"})
+                    return
+                status = remove_mcp_server(name)
+                if status.get("error") and not status.get("success"):
+                    self._json(400, status)
+                    return
+                self._json(200, status)
+            except Exception as e:
+                self._json(500, {"error": str(e)})
+
         # ── Topic: rename ──
         elif path == "/api/topic/rename":
             try:
@@ -2952,7 +3001,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     d = dest_dir_req
                     if re.match(r"^[A-Za-z]:$", d):
                         d = d + "\\"
-                    d_abs = os.path.abspath(d)
+                    # 相对路径基于 default_dir(workspace/mission) 解析，与 /api/mission-files 对齐
+                    # 修复：原来 os.path.abspath(d) 基于 server 根目录解析相对路径，导致子目录上传被误判工作区外
+                    d_abs = os.path.abspath(d) if os.path.isabs(d) else os.path.abspath(os.path.join(default_dir, d))
                     allow_outside = (self.db.get_topic_meta(tid, "allow_outside") == "1")
                     mission_dir = os.path.join(ROOT_DIR, "data", "missions", tid)
                     def _in_dir(base, child):

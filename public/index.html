@@ -356,6 +356,19 @@ main::-webkit-scrollbar-thumb:hover{background:var(--tdim)}
 .mcp-dot.off{background:#f85149}
 .mcp-card{border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 12px;margin-bottom:8px}
 .mcp-card h5{font-size:13px;font-weight:600;margin:0 0 6px;color:var(--text)}
+.mcp-market-card{border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px;margin-bottom:10px;background:var(--surface)}
+.mcp-market-card h5{font-size:13px;font-weight:600;margin:0 0 4px;color:var(--text)}
+.mcp-market-cat{font-size:11px;color:var(--accent);margin-bottom:8px;font-weight:600}
+.mcp-market-desc{font-size:12px;color:var(--tdim);margin-bottom:8px;line-height:1.45}
+.mcp-market-env{margin:8px 0}
+.mcp-market-env label{display:block;font-size:11px;color:var(--tdim);margin-bottom:4px}
+.mcp-market-env input{width:100%;box-sizing:border-box;padding:6px 8px;border:1px solid var(--border);border-radius:4px;background:var(--surface2);color:var(--text);font-size:12px}
+.mcp-market-actions{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.mcp-market-actions button{font-size:12px;padding:6px 12px;border-radius:6px;cursor:pointer;border:1px solid var(--border)}
+.mcp-market-actions .mcp-add-btn{background:var(--accent);color:#fff;border-color:var(--accent)}
+.mcp-market-actions .mcp-add-btn:disabled{opacity:.5;cursor:not-allowed}
+.mcp-market-actions .mcp-remove-btn{background:var(--surface2);color:var(--text)}
+.mcp-market-hint{font-size:11px;color:var(--tdim);margin-top:6px}
 .mcp-tool-tag{display:inline-block;font-size:10px;padding:1px 6px;margin:2px 4px 2px 0;border-radius:4px;background:rgba(255,255,255,.06);border:1px solid var(--border);color:var(--tdim)}
 
 
@@ -6034,7 +6047,7 @@ function pushSettingsView(name) {
   var _f=document.getElementById('settingsBody');
   if(_f){ _f.classList.add('nav-fwd'); setTimeout(function(){ _f.classList.remove('nav-fwd'); },300); }
   settingsStack.push(name);
-  document.getElementById('spTitle').textContent = ({versions:'时间机器',system:'系统',model:'模型配置',mcp:'MCP',web:'Web设置',compress:'策略设置',recycle:'回收站',changelog:'变更日志',avatar:'头像设置',theme:'主题',interface:'界面',suggestions:'AI自动建议'})[name]||name;
+  document.getElementById('spTitle').textContent = ({versions:'时间机器',system:'系统',model:'模型配置',mcp:'MCP',mcpMarket:'MCP 市场',web:'Web设置',compress:'策略设置',recycle:'回收站',changelog:'变更日志',avatar:'头像设置',theme:'主题',interface:'界面',suggestions:'AI自动建议'})[name]||name;
   if (name === 'versions') loadVersions();
   else if (name === 'suggestions') loadSuggestionSettings();
   else if (name === 'system') loadSystemInfo();
@@ -6042,6 +6055,7 @@ function pushSettingsView(name) {
   else if (name === 'web') loadWebConfig();
   else if (name === 'compress') loadCompressConfig();
   else if (name === 'mcp') loadMcpStatus();
+  else if (name === 'mcpMarket') loadMcpMarketplace();
   else if (name === 'recycle') loadRecycleBin();
   else if (name === 'changelog') loadChangelog();
   else if (name === 'avatar') loadAvatarSettings();
@@ -6062,7 +6076,7 @@ function settingsBack() {
     renderSettingsMenu();
   } else {
     var name = settingsStack[settingsStack.length-1];
-    document.getElementById('spTitle').textContent = ({versions:'时间机器',system:'系统',model:'模型配置',mcp:'MCP',web:'Web设置',compress:'策略设置',recycle:'回收站',changelog:'变更日志',avatar:'头像设置',theme:'主题',interface:'界面',suggestions:'AI自动建议'})[name]||name;
+    document.getElementById('spTitle').textContent = ({versions:'时间机器',system:'系统',model:'模型配置',mcp:'MCP',mcpMarket:'MCP 市场',web:'Web设置',compress:'策略设置',recycle:'回收站',changelog:'变更日志',avatar:'头像设置',theme:'主题',interface:'界面',suggestions:'AI自动建议'})[name]||name;
     if (name === 'versions') loadVersions();
     else if (name === 'suggestions') loadSuggestionSettings();
     else if (name === 'system') loadSystemInfo();
@@ -6070,6 +6084,7 @@ function settingsBack() {
     else if (name === 'web') loadWebConfig();
     else if (name === 'compress') loadCompressConfig();
     else if (name === 'mcp') loadMcpStatus();
+    else if (name === 'mcpMarket') loadMcpMarketplace();
     else if (name === 'recycle') loadRecycleBin();
     else if (name === 'changelog') loadChangelog();
     else if (name === 'avatar') loadAvatarSettings();
@@ -6996,7 +7011,7 @@ function renderMcpStatus(d) {
   html += '</div></div>';
   html += '<div class="sp-section"><h4>服务器</h4>';
   if (!servers.length) {
-    html += '<div class="sp-info">还没有 MCP。在项目根目录配置 mcp_servers.json 后点重新加载，或先运行 mcp_setup.bat。</div>';
+    html += '<div class="sp-info">还没有 MCP。可点「打开 MCP 市场」一键添加，或运行 mcp_setup.bat。</div>';
   } else {
     for (var i = 0; i < servers.length; i++) {
       var s = servers[i];
@@ -7022,6 +7037,8 @@ function renderMcpStatus(d) {
     }
   }
   html += '</div>';
+  html += '<div class="sp-section"><button class="sp-btn" onclick="pushSettingsView(\'mcpMarket\')">打开 MCP 市场</button>';
+  html += '<div class="cfg-hint" style="margin-top:4px">从精选目录一键安装并写入 mcp_servers.json，无需手改配置。</div></div>';
   html += '<div class="sp-section"><button class="sp-btn" id="mcpReloadBtn" onclick="reloadMcpServers()">重新加载</button>';
   html += '<div class="cfg-hint" style="margin-top:4px">改完 mcp_servers.json 后点这里，不必重启大眼。开关状态会记住。</div></div>';
   bodyEl.innerHTML = html;
@@ -7064,6 +7081,128 @@ async function reloadMcpServers() {
   } catch(e) {
     alert('重新加载失败: ' + (e.message || ''));
     loadMcpStatus();
+  }
+}
+
+async function loadMcpMarketplace() {
+  var bodyEl = document.getElementById('settingsBody');
+  bodyEl.innerHTML = '<div class="center-msg">加载市场…</div>';
+  try {
+    var d = await fetch('/api/mcp/marketplace').then(function(r){ return r.json(); });
+    if (d.error) throw new Error(d.error);
+    renderMcpMarketplace(d);
+  } catch(e) {
+    bodyEl.innerHTML = '<div style="text-align:center;padding:20px;color:#f85149;font-size:12px">加载失败<br><small>' + esc(e.message||'') + '</small></div>';
+  }
+}
+
+function renderMcpMarketplace(d) {
+  var bodyEl = document.getElementById('settingsBody');
+  var items = (d && d.items) || [];
+  var html = '';
+  html += '<div class="sp-section"><div class="cfg-hint">点「添加」会自动 npm/pip 安装到项目目录并写入配置。首次安装可能需几分钟。</div></div>';
+  if (!items.length) {
+    html += '<div class="sp-info">市场目录为空。</div>';
+  } else {
+    var cats = {};
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      var cat = it.category || '其它';
+      if (!cats[cat]) cats[cat] = [];
+      cats[cat].push(it);
+    }
+    var catNames = Object.keys(cats).sort();
+    for (var c = 0; c < catNames.length; c++) {
+      var catName = catNames[c];
+      html += '<div class="sp-section"><div class="mcp-market-cat">' + esc(catName) + '</div>';
+      var list = cats[catName];
+      for (var j = 0; j < list.length; j++) {
+        var item = list[j];
+        var id = item.id || item.name || '';
+        html += '<div class="mcp-market-card" id="mcp-market-' + esc(id) + '">';
+        html += '<h5>' + esc(item.title || item.name || id) + '</h5>';
+        if (item.description) html += '<div class="mcp-market-desc">' + esc(item.description) + '</div>';
+        var envVars = item.env_vars || [];
+        for (var k = 0; k < envVars.length; k++) {
+          var ev = envVars[k];
+          var key = ev.key || '';
+          if (!key) continue;
+          var inputId = 'mcp-env-' + id + '-' + key;
+          html += '<div class="mcp-market-env">';
+          html += '<label for="' + esc(inputId) + '">' + esc(ev.label || key) + (ev.required ? ' *' : '') + '</label>';
+          html += '<input type="password" id="' + esc(inputId) + '" data-env-key="' + esc(key) + '" placeholder="' + esc(ev.label || key) + '">';
+          html += '</div>';
+        }
+        if (item.setup_hint) html += '<div class="mcp-market-hint">' + esc(item.setup_hint) + '</div>';
+        if (item.packages && item.packages.length) {
+          html += '<div class="mcp-market-hint">安装: ' + esc(item.install_type || '') + ' ' + esc(item.packages.join(', ')) + '</div>';
+        }
+        html += '<div class="mcp-market-actions">';
+        if (item.installed) {
+          html += '<button class="mcp-add-btn" disabled>已安装</button>';
+          html += '<button class="mcp-remove-btn" onclick="removeMcpServer(' + JSON.stringify(item.name) + ')">移除配置</button>';
+        } else {
+          html += '<button class="mcp-add-btn" id="mcp-add-' + esc(id) + '" onclick="installMcpMarketItem(' + JSON.stringify(id) + ')">添加</button>';
+        }
+        html += '</div></div>';
+      }
+      html += '</div>';
+    }
+  }
+  bodyEl.innerHTML = html;
+}
+
+function collectMcpMarketEnv(itemId) {
+  var card = document.getElementById('mcp-market-' + itemId);
+  if (!card) return {};
+  var inputs = card.querySelectorAll('input[data-env-key]');
+  var env = {};
+  for (var i = 0; i < inputs.length; i++) {
+    var inp = inputs[i];
+    var key = inp.getAttribute('data-env-key');
+    if (key && inp.value) env[key] = inp.value;
+  }
+  return env;
+}
+
+async function installMcpMarketItem(id) {
+  var btn = document.getElementById('mcp-add-' + id);
+  if (btn) { btn.disabled = true; btn.textContent = '安装中…'; }
+  var bodyEl = document.getElementById('settingsBody');
+  var env = collectMcpMarketEnv(id);
+  try {
+    var r = await fetch('/api/mcp/add', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id: id, env: env})
+    });
+    var d = await r.json();
+    if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    alert((d.message || '添加成功') + '\n\n可在 MCP 页查看运行状态。');
+    loadMcpMarketplace();
+  } catch(e) {
+    alert('添加失败: ' + (e.message || ''));
+    if (btn) { btn.disabled = false; btn.textContent = '添加'; }
+    else loadMcpMarketplace();
+  }
+}
+
+async function removeMcpServer(name) {
+  if (!confirm('确定从 mcp_servers.json 移除「' + name + '」？\n\n不会删除 node_modules，进程会停止。')) return;
+  var bodyEl = document.getElementById('settingsBody');
+  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">移除中…</div>';
+  try {
+    var r = await fetch('/api/mcp/remove', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({name: name})
+    });
+    var d = await r.json();
+    if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    loadMcpMarketplace();
+  } catch(e) {
+    alert('移除失败: ' + (e.message || ''));
+    loadMcpMarketplace();
   }
 }
 

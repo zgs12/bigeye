@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "playwright",
+      "name": "playwright",
+      "title": "浏览器 (Playwright)",
+      "description": "打开网页、点击、输入、截图。比 web_fetch 更像真人操作浏览器。",
+      "category": "浏览器",
+      "install_type": "npm",
+      "packages": ["@playwright/mcp"],
+      "post_install": ["node", "node_modules/playwright/cli.js", "install", "chromium"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@playwright/mcp/cli.js"],
+        "env": {}
+      },
+      "setup_hint": "首次会下载 Chromium（约 300MB）。本地已装 node_modules 后启动不再联网。"
+    },
+    {
+      "id": "filesystem",
+      "name": "filesystem",
+      "title": "文件系统",
+      "description": "按 MCP 协议读写项目目录（与内置 read_file 互补，部分模型更熟这套工具名）。",
+      "category": "文件",
+      "install_type": "npm",
+      "packages": ["@modelcontextprotocol/server-filesystem"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@modelcontextprotocol/server-filesystem/dist/index.js", "."],
+        "env": {}
+      }
+    },
+    {
+      "id": "blender",
+      "name": "blender",
+      "title": "Blender 3D",
+      "description": "用自然语言在 Blender 里建模、改场景、渲染。",
+      "category": "创意",
+      "install_type": "pip",
+      "packages": ["blender-mcp==1.8.7"],
+      "server": {
+        "command": ".venv-mcp/Scripts/blender-mcp.exe",
+        "args": [],
+        "env": {}
+      },
+      "setup_hint": "添加后运行 mcp_setup.bat 装插件；Blender 里 N → BlenderMCP → Start MCP Server。"
+    },
+    {
+      "id": "github",
+      "name": "github",
+      "title": "GitHub",
+      "description": "查仓库、Issue、PR，部分操作需 Token。",
+      "category": "开发",
+      "install_type": "npm",
+      "packages": ["@modelcontextprotocol/server-github"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@modelcontextprotocol/server-github/dist/index.js"],
+        "env": {}
+      },
+      "env_vars": [
+        {"key": "GITHUB_TOKEN", "label": "GitHub Token (PAT)", "required": true}
+      ],
+      "setup_hint": "GitHub → Settings → Developer settings → Personal access tokens"
+    },
+    {
+      "id": "memory",
+      "name": "memory",
+      "title": "MCP 记忆库",
+      "description": "官方示例记忆服务器（与大眼 chat.db 记忆独立，适合实验）。",
+      "category": "记忆",
+      "install_type": "npm",
+      "packages": ["@modelcontextprotocol/server-memory"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@modelcontextprotocol/server-memory/dist/index.js"],
+        "env": {}
+      }
+    },
+    {
+      "id": "brave-search",
+      "name": "brave-search",
+      "title": "Brave 搜索",
+      "description": "联网搜索（需 Brave Search API Key）。",
+      "category": "搜索",
+      "install_type": "npm",
+      "packages": ["@modelcontextprotocol/server-brave-search"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@modelcontextprotocol/server-brave-search/dist/index.js"],
+        "env": {}
+      },
+      "env_vars": [
+        {"key": "BRAVE_API_KEY", "label": "Brave API Key", "required": true}
+      ]
+    },
+    {
+      "id": "postgres",
+      "name": "postgres",
+      "title": "PostgreSQL",
+      "description": "查询 PostgreSQL 数据库。连接串写在 args 里。",
+      "category": "数据",
+      "install_type": "npm",
+      "packages": ["@modelcontextprotocol/server-postgres"],
+      "server": {
+        "command": "node",
+        "args": ["node_modules/@modelcontextprotocol/server-postgres/dist/index.js", "postgresql://localhost/mydb"],
+        "env": {}
+      },
+      "setup_hint": "添加后可在 MCP 页改 mcp_servers.json 里的连接串，再点重新加载。"
+    }
+  ]
+}

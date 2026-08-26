@@ -42,6 +42,7 @@ import uuid
 
 SERVER_FILE = "mcp_servers.json"
 ENABLED_FILE = "mcp_enabled.json"
+MARKETPLACE_FILE = "mcp_marketplace.json"
 
 # ── JSON-RPC helpers ──────────────────────────────────
 
@@ -263,6 +264,249 @@ def _load_config():
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
     return {"servers": {}}
+
+
+def _config_write_path():
+    for path in _config_candidates():
+        if os.path.isfile(path):
+            return path
+    return os.path.join(_config_home(), SERVER_FILE)
+
+
+def _save_config(config):
+    path = _config_write_path()
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(config, f, ensure_ascii=False, indent=2)
+
+
+def _project_dir():
+    return _config_home()
+
+
+def _valid_server_name(name):
+    import re
+    return bool(name) and re.match(r"^[a-zA-Z][a-zA-Z0-9_-]{0,31}$", name)
+
+
+def _run_cmd(cmd, cwd=None, timeout=600):
+    """Run subprocess; return (ok, message)."""
+    try:
+        r = subprocess.run(
+            cmd,
+            cwd=cwd or _project_dir(),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=timeout,
+        )
+        if r.returncode == 0:
+            return True, (r.stdout or "").strip()
+        err = (r.stderr or r.stdout or "").strip()
+        return False, err or f"exit {r.returncode}"
+    except subprocess.TimeoutExpired:
+        return False, "安装超时"
+    except Exception as e:
+        return False, str(e)
+
+
+def _ensure_venv_mcp_python():
+    venv = os.path.join(_project_dir(), ".venv-mcp")
+    if os.name == "nt":
+        py = os.path.join(venv, "Scripts", "python.exe")
+    else:
+        py = os.path.join(venv, "bin", "python")
+    if not os.path.isfile(py):
+        ok, msg = _run_cmd([sys.executable, "-m", "venv", venv], timeout=120)
+        if not ok:
+            return None, f"创建 .venv-mcp 失败: {msg}"
+    if not os.path.isfile(py):
+        return None, "找不到 .venv-mcp 里的 Python"
+    return py, None
+
+
+def _install_npm_packages(packages, post_install=None):
+    if not packages:
+        return True, None
+    npm = "npm.cmd" if os.name == "nt" else "npm"
+    ok, msg = _run_cmd([npm, "install"] + list(packages), timeout=600)
+    if not ok:
+        return False, f"npm install 失败: {msg}"
+    if post_install:
+        ok2, msg2 = _run_cmd(post_install, timeout=600)
+        if not ok2:
+            return False, f"安装后步骤失败: {msg2}"
+    return True, None
+
+
+def _install_pip_packages(packages):
+    if not packages:
+        return True, None
+    py, err = _ensure_venv_mcp_python()
+    if not py:
+        return False, err
+    ok, msg = _run_cmd([py, "-m", "pip", "install", "-U", "pip"], timeout=180)
+    if not ok:
+        return False, f"pip 升级失败: {msg}"
+    ok, msg = _run_cmd([py, "-m", "pip", "install"] + list(packages), timeout=600)
+    if not ok:
+        return False, f"pip install 失败: {msg}"
+    return True, None
+
+
+def _load_marketplace_catalog():
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(here, MARKETPLACE_FILE)
+    if not os.path.isfile(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return list(data.get("items") or [])
+    except Exception:
+        return []
+
+
+def get_mcp_marketplace():
+    """市场目录 + 是否已安装。"""
+    configured = (_load_config().get("servers") or {}).keys()
+    items = []
+    for raw in _load_marketplace_catalog():
+        if not isinstance(raw, dict):
+            continue
+        name = raw.get("name") or raw.get("id") or ""
+        items.append({
+            "id": raw.get("id") or name,
+            "name": name,
+            "title": raw.get("title") or name,
+            "description": raw.get("description", ""),
+            "category": raw.get("category", "其它"),
+            "install_type": raw.get("install_type", ""),
+            "packages": list(raw.get("packages") or []),
+            "env_vars": list(raw.get("env_vars") or []),
+            "setup_hint": raw.get("setup_hint", ""),
+            "installed": name in configured,
+        })
+    return {"items": items}
+
+
+def add_mcp_server(name, server_cfg, install_type=None, packages=None, post_install=None, env=None):
+    """写入 mcp_servers.json，可选安装依赖，然后重载并启用。"""
+    if not _valid_server_name(name):
+        return {"error": "名称须为字母开头，仅含字母数字 _ -"}
+    config = _load_config()
+    servers = config.setdefault("servers", {})
+    if name in servers:
+        return {"error": f"已存在 MCP 服务器: {name}"}
+    if not isinstance(server_cfg, dict):
+        return {"error": "server 配置无效"}
+    entry = {
+        "command": server_cfg.get("command", ""),
+        "args": list(server_cfg.get("args") or []),
+        "env": dict(server_cfg.get("env") or {}),
+    }
+    if env and isinstance(env, dict):
+        for k, v in env.items():
+            if v is not None and str(v).strip():
+                entry["env"][k] = str(v).strip()
+    if not entry["command"]:
+        return {"error": "缺少启动命令 command"}
+
+    cmd = entry["command"]
+    if "blender-mcp.exe" in cmd and os.name != "nt":
+        entry["command"] = ".venv-mcp/bin/blender-mcp"
+
+    if packages:
+        it = (install_type or "").lower()
+        if it == "npm":
+            ok, err = _install_npm_packages(packages, post_install=post_install)
+        elif it == "pip":
+            ok, err = _install_pip_packages(packages)
+        else:
+            return {"error": f"未知安装类型: {install_type}"}
+        if not ok:
+            return {"error": err}
+
+    servers[name] = entry
+    _save_config(config)
+
+    global _mcp_loaded
+    if _mcp_loaded:
+        reload_mcp_servers()
+    else:
+        load_mcp_servers()
+
+    state = _load_enabled()
+    state.setdefault("servers", {})[name] = True
+    _save_enabled(state)
+    if is_mcp_server_enabled(name):
+        _start_named(name, entry)
+
+    status = get_mcp_status()
+    status["success"] = True
+    status["message"] = f"已添加 MCP: {name}"
+    return status
+
+
+def add_mcp_from_marketplace(item_id, env=None):
+    """从市场条目一键添加。"""
+    item_id = (item_id or "").strip()
+    if not item_id:
+        return {"error": "缺少 id"}
+    catalog = _load_marketplace_catalog()
+    item = None
+    for raw in catalog:
+        if raw.get("id") == item_id or raw.get("name") == item_id:
+            item = raw
+            break
+    if not item:
+        return {"error": f"市场里没有: {item_id}"}
+    name = item.get("name") or item.get("id")
+    server = item.get("server") or {}
+    env_vars = item.get("env_vars") or []
+    merged_env = dict(server.get("env") or {})
+    user_env = env or {}
+    for ev in env_vars:
+        key = ev.get("key")
+        if not key:
+            continue
+        val = user_env.get(key) or merged_env.get(key) or ""
+        if ev.get("required") and not str(val).strip():
+            return {"error": f"请填写 {ev.get('label') or key}"}
+        if str(val).strip():
+            merged_env[key] = str(val).strip()
+    server = dict(server)
+    server["env"] = merged_env
+    return add_mcp_server(
+        name,
+        server,
+        install_type=item.get("install_type"),
+        packages=item.get("packages"),
+        post_install=item.get("post_install"),
+        env=merged_env,
+    )
+
+
+def remove_mcp_server(name):
+    """从配置移除并停止进程（不删 node_modules）。"""
+    name = (name or "").strip()
+    config = _load_config()
+    servers = config.get("servers") or {}
+    if name not in servers:
+        return {"error": f"未配置: {name}"}
+    _stop_named(name)
+    del servers[name]
+    config["servers"] = servers
+    _save_config(config)
+    state = _load_enabled()
+    if name in state.get("servers", {}):
+        del state["servers"][name]
+        _save_enabled(state)
+    status = get_mcp_status()
+    status["success"] = True
+    status["message"] = f"已移除 MCP: {name}"
+    return status
 
 
 def _enabled_path():
