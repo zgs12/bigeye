@@ -149,13 +149,10 @@ class MCPServer:
 
     def stop(self):
         if self.process:
-            try:
-                self.process.terminate()
-                self.process.wait(timeout=3)
-            except Exception:
-                self.process.kill()
+            _kill_process_tree(self.process)
             self.process = None
             self._initialized = False
+            self.tools = []
 
     def _send(self, msg):
         if not self.process or self.process.poll() is not None:
@@ -236,6 +233,35 @@ class MCPServer:
 _mcp_servers: dict[str, MCPServer] = {}
 _mcp_loaded = False
 _mcp_lock = threading.Lock()
+
+
+def _kill_process_tree(proc):
+    """终止进程及其子进程（Windows 上 node/playwright 会留 chrome 子进程）。"""
+    if not proc or proc.poll() is not None:
+        return
+    pid = proc.pid
+    if os.name == "nt":
+        try:
+            subprocess.run(
+                ["taskkill", "/F", "/T", "/PID", str(pid)],
+                capture_output=True,
+                text=True,
+                timeout=15,
+            )
+        except Exception:
+            try:
+                proc.kill()
+            except Exception:
+                pass
+    else:
+        try:
+            proc.terminate()
+            proc.wait(timeout=3)
+        except Exception:
+            try:
+                proc.kill()
+            except Exception:
+                pass
 
 
 def _config_candidates():
@@ -326,14 +352,39 @@ def _ensure_venv_mcp_python():
     return py, None
 
 
+def _npm_pkg_installed(pkg):
+    """Check if an npm package exists under node_modules (ignore version suffix)."""
+    name = pkg.split("@")[0] if pkg.startswith("@") is False else pkg
+    # @scope/name@version → @scope/name ; name@version → name
+    if pkg.startswith("@"):
+        parts = pkg.split("@")
+        # ['', 'scope/name'] or ['', 'scope/name', '1.2.3'] — actually split: '', 'scope', 'name' or with version
+        # Better: strip last @version if present after scope
+        if pkg.count("@") >= 2:
+            # @scope/pkg@version
+            name = "@" + pkg[1:].rsplit("@", 1)[0]
+        else:
+            name = pkg
+    else:
+        name = pkg.split("@")[0]
+    path = os.path.join(_project_dir(), "node_modules", *name.split("/"))
+    return os.path.isdir(path)
+
+
 def _install_npm_packages(packages, post_install=None):
     if not packages:
         return True, None
-    npm = "npm.cmd" if os.name == "nt" else "npm"
-    ok, msg = _run_cmd([npm, "install"] + list(packages), timeout=600)
-    if not ok:
-        return False, f"npm install 失败: {msg}"
+    need = [p for p in packages if not _npm_pkg_installed(p)]
+    if not need:
+        print(f"[mcp] npm 包已存在，跳过安装: {packages}")
+    else:
+        npm = "npm.cmd" if os.name == "nt" else "npm"
+        print(f"[mcp] npm install {need} …")
+        ok, msg = _run_cmd([npm, "install", "--save"] + list(need), timeout=600)
+        if not ok:
+            return False, f"npm install 失败: {msg}"
     if post_install:
+        # chromium 等：已装可跳过；失败仍返回错误
         ok2, msg2 = _run_cmd(post_install, timeout=600)
         if not ok2:
             return False, f"安装后步骤失败: {msg2}"
@@ -514,22 +565,25 @@ def _enabled_path():
 
 
 def _load_enabled():
-    """UI 开关：master 总闸 + 各服务器默认开。缺文件 = 全开。"""
+    """UI 开关：master 总闸 + 各服务器默认开。缺文件 / 空文件 / 损坏 = 全开。"""
     path = _enabled_path()
     state = {"master": True, "servers": {}}
     if not os.path.isfile(path):
         return state
     try:
         with open(path, "r", encoding="utf-8") as f:
-            raw = json.load(f)
+            text = f.read().strip()
+        if not text:
+            return state
+        raw = json.loads(text)
         if isinstance(raw, dict):
             if "master" in raw:
                 state["master"] = bool(raw["master"])
             servers = raw.get("servers")
             if isinstance(servers, dict):
                 state["servers"] = {str(k): bool(v) for k, v in servers.items()}
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"[mcp] 读取 {path} 失败，使用默认全开: {e}")
     return state
 
 
@@ -539,8 +593,25 @@ def _save_enabled(state):
         "master": bool(state.get("master", True)),
         "servers": {str(k): bool(v) for k, v in (state.get("servers") or {}).items()},
     }
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+    folder = os.path.dirname(path)
+    if folder:
+        os.makedirs(folder, exist_ok=True)
+    tmp = path + ".tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+        print(f"[mcp] 开关已写入 {path}: master={payload['master']}")
+    except Exception as e:
+        try:
+            if os.path.isfile(tmp):
+                os.remove(tmp)
+        except Exception:
+            pass
+        print(f"[mcp] 写入 {path} 失败: {e}")
+        raise
 
 
 def is_mcp_server_enabled(name):
@@ -551,12 +622,22 @@ def is_mcp_server_enabled(name):
 
 
 def _stop_named(name):
-    srv = _mcp_servers.pop(name, None)
+    with _mcp_lock:
+        srv = _mcp_servers.pop(name, None)
     if srv:
         try:
             srv.stop()
         except Exception:
             pass
+
+
+def _reconcile_mcp_state():
+    """关掉开关仍留在内存里的 MCP 进程。"""
+    with _mcp_lock:
+        names = list(_mcp_servers.keys())
+    for name in names:
+        if not is_mcp_server_enabled(name):
+            _stop_named(name)
 
 
 def _start_named(name, cfg):
@@ -603,20 +684,26 @@ def reload_mcp_servers():
                 pass
         _mcp_servers.clear()
         _mcp_loaded = False
-    return load_mcp_servers()
+    n = load_mcp_servers()
+    _reconcile_mcp_state()
+    return n
 
 
 def set_mcp_master(enabled):
     """总闸：关则停掉全部；开则只拉起各服务器开关仍为开的。"""
     state = _load_enabled()
     state["master"] = bool(enabled)
-    _save_enabled(state)
+    try:
+        _save_enabled(state)
+    except Exception as e:
+        return {"error": f"无法写入 mcp_enabled.json: {e}"}
     config = _load_config().get("servers", {}) or {}
     if not enabled:
         with _mcp_lock:
             names = list(_mcp_servers.keys())
         for name in names:
             _stop_named(name)
+        _reconcile_mcp_state()
         return get_mcp_status()
     for name, cfg in config.items():
         if is_mcp_server_enabled(name):
@@ -631,11 +718,16 @@ def set_mcp_server_enabled(name, enabled):
         return {"error": f"未配置 MCP 服务器: {name}"}
     state = _load_enabled()
     state.setdefault("servers", {})[name] = bool(enabled)
-    _save_enabled(state)
+    try:
+        _save_enabled(state)
+    except Exception as e:
+        return {"error": f"无法写入 mcp_enabled.json: {e}"}
     if not is_mcp_server_enabled(name):
         _stop_named(name)
+        _reconcile_mcp_state()
         return get_mcp_status()
     ok = _start_named(name, config[name])
+    _reconcile_mcp_state()
     status = get_mcp_status()
     if not ok:
         status["error"] = f"{name} 启动失败，看控制台 [mcp] 日志"
@@ -644,8 +736,11 @@ def set_mcp_server_enabled(name, enabled):
 
 def get_mcp_tool_defs():
     """Get flat tool definitions matching register_tool (name/description/parameters)."""
+    _reconcile_mcp_state()
     defs = []
     for name, srv in _mcp_servers.items():
+        if not is_mcp_server_enabled(name):
+            continue
         for tool in srv.tools:
             schema = tool.get("inputSchema", {"type": "object", "properties": {}})
             defs.append({
@@ -658,7 +753,10 @@ def get_mcp_tool_defs():
 
 def execute_mcp_tool(full_name, args):
     """Execute an MCP tool. full_name format: mcp_{server}__{tool}"""
+    _reconcile_mcp_state()
     for sname, srv in _mcp_servers.items():
+        if not is_mcp_server_enabled(sname):
+            continue
         prefix = f"mcp_{sname}__"
         if full_name.startswith(prefix):
             tool_name = full_name[len(prefix):]
@@ -668,6 +766,7 @@ def execute_mcp_tool(full_name, args):
 
 def get_mcp_status():
     """Status for UI: configured servers + running state + tool names + 开关。"""
+    _reconcile_mcp_state()
     config = _load_config()
     configured = config.get("servers", {}) or {}
     state = _load_enabled()
@@ -686,13 +785,14 @@ def get_mcp_status():
                     tools.append(t["name"])
         cfg = cfg if isinstance(cfg, dict) else {}
         pref = bool(prefs.get(name, True))
+        effective = master and pref
         servers.append({
             "name": name,
             "running": running,
             "enabled": pref,
-            "effective": master and pref,
-            "tools": tools,
-            "tool_count": len(tools),
+            "effective": effective,
+            "tools": tools if effective else [],
+            "tool_count": len(tools) if effective else 0,
             "command": cfg.get("command", ""),
             "args": list(cfg.get("args") or []),
         })
@@ -702,13 +802,14 @@ def get_mcp_status():
         running = bool(srv.process is not None and srv.process.poll() is None)
         tools = [t["name"] for t in srv.tools if isinstance(t, dict) and t.get("name")]
         pref = bool(prefs.get(name, True))
+        effective = master and pref
         servers.append({
             "name": name,
             "running": running,
             "enabled": pref,
-            "effective": master and pref,
-            "tools": tools,
-            "tool_count": len(tools),
+            "effective": effective,
+            "tools": tools if effective else [],
+            "tool_count": len(tools) if effective else 0,
             "command": srv.command,
             "args": list(srv.args or []),
         })
@@ -716,7 +817,8 @@ def get_mcp_status():
         "loaded": _mcp_loaded,
         "master": master,
         "configured_count": len(configured),
-        "running_count": sum(1 for s in servers if s["running"]),
+        "running_count": sum(1 for s in servers if s["running"] and s["effective"]),
+        "enabled_path": _enabled_path(),
         "servers": servers,
     }
 

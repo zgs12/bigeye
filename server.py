@@ -2537,7 +2537,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._json(403, {"error": "unauthorized"})
             return
 
-        path = self.path
+        path = self.path.split("?")[0]
         try:
             body = self._read_body().decode("utf-8")
             data = json.loads(body) if body else {}

@@ -6999,15 +6999,17 @@ function renderMcpStatus(d) {
   var servers = d.servers || [];
   var master = d.master !== false;
   var html = '';
+  html += '<div id="mcpToggleHint" style="font-size:12px;color:var(--accent);min-height:18px;margin-bottom:6px"></div>';
   html += '<div class="sp-section"><h4>总开关</h4>';
   html += '<div class="sp-toggle-row" style="margin:0;padding:10px 12px;border:1px solid var(--border);border-radius:6px">';
   html += '<span>启用 MCP</span>';
-  html += '<label class="sp-toggle"><input type="checkbox"'+(master?' checked':'')+' onchange="toggleMcpMaster(this.checked)"><span class="slider"></span></label>';
+  html += '<label class="sp-toggle"><input type="checkbox" data-mcp-master="1"'+(master?' checked':'')+'><span class="slider"></span></label>';
   html += '</div>';
   html += '<div class="cfg-hint" style="margin-top:8px">关掉后所有 MCP 进程停止，对话里不再出现这些工具。单个服务器也可单独关。</div></div>';
   html += '<div class="sp-section"><h4>当前状态</h4><div class="sp-info">';
   html += '已配置 ' + (d.configured_count || 0) + ' 个，运行中 ' + (d.running_count || 0) + ' 个';
   if (!master) html += '（总开关已关）';
+  if (d.enabled_path) html += '<br><span style="font-size:11px;color:var(--tdim)">开关配置：' + esc(d.enabled_path) + '</span>';
   html += '</div></div>';
   html += '<div class="sp-section"><h4>服务器</h4>';
   if (!servers.length) {
@@ -7017,12 +7019,13 @@ function renderMcpStatus(d) {
       var s = servers[i];
       var on = !!s.enabled;
       var running = !!s.running;
+      var effective = s.effective !== false;
       var cmd = (s.command || '') + (s.args && s.args.length ? ' ' + s.args.join(' ') : '');
-      var statusLabel = running ? '运行中' : (on && master ? '未启动' : '已关闭');
+      var statusLabel = effective && running ? '运行中' : (effective ? '未启动' : '已关闭');
       html += '<div class="mcp-card">';
       html += '<div class="sp-toggle-row" style="padding:0 0 8px;border:none;margin:0">';
-      html += '<h5 style="margin:0"><span class="mcp-dot ' + (running ? 'on' : 'off') + '"></span>' + esc(s.name || '') + ' · ' + statusLabel + '</h5>';
-      html += '<label class="sp-toggle"><input type="checkbox"'+(on?' checked':'')+' onchange="toggleMcpServer('+JSON.stringify(s.name)+', this.checked)"><span class="slider"></span></label>';
+      html += '<h5 style="margin:0"><span class="mcp-dot ' + (effective && running ? 'on' : 'off') + '"></span>' + esc(s.name || '') + ' · ' + statusLabel + '</h5>';
+      html += '<label class="sp-toggle"><input type="checkbox" data-mcp-server="'+esc(s.name||'')+'"'+(on?' checked':'')+'><span class="slider"></span></label>';
       html += '</div>';
       if (cmd) html += '<div style="font-size:11px;color:var(--tdim);word-break:break-all;margin-bottom:6px">' + esc(cmd) + '</div>';
       var tools = s.tools || [];
@@ -7031,7 +7034,7 @@ function renderMcpStatus(d) {
           html += '<span class="mcp-tool-tag">' + esc(tools[j]) + '</span>';
         }
       } else {
-        html += '<div style="font-size:11px;color:var(--tdim)">' + (running ? '未发现工具' : (on ? '启动失败或尚未加载' : '已关闭，不占用进程')) + '</div>';
+        html += '<div style="font-size:11px;color:var(--tdim)">' + (effective && running ? '未发现工具' : (effective ? '启动失败或尚未加载' : '已关闭，不占用进程')) + '</div>';
       }
       html += '</div>';
     }
@@ -7043,33 +7046,56 @@ function renderMcpStatus(d) {
   html += '<div class="cfg-hint" style="margin-top:4px">改完 mcp_servers.json 后点这里，不必重启大眼。开关状态会记住。</div></div>';
   bodyEl.innerHTML = html;
 }
+function _mcpHint(msg, isErr) {
+  var el = document.getElementById('mcpToggleHint');
+  if (!el) return;
+  el.textContent = msg || '';
+  el.style.color = isErr ? 'var(--danger)' : 'var(--accent)';
+}
 async function toggleMcpMaster(on) {
-  var bodyEl = document.getElementById('settingsBody');
-  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">正在'+(on?'开启':'关闭')+' MCP…</div>';
+  _mcpHint('正在' + (on ? '开启' : '关闭') + ' MCP…');
+  var inputs = document.querySelectorAll('[data-mcp-master]');
+  for (var i = 0; i < inputs.length; i++) inputs[i].disabled = true;
   try {
     var r = await fetch('/api/mcp/toggle', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({master: !!on})});
     var d = await r.json();
     if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    _mcpHint(on ? 'MCP 总开关已开启' : 'MCP 总开关已关闭');
     renderMcpStatus(d);
   } catch(e) {
+    _mcpHint('切换失败: ' + (e.message || ''), true);
     alert('切换失败: ' + (e.message || ''));
     loadMcpStatus();
   }
 }
 async function toggleMcpServer(name, on) {
-  var bodyEl = document.getElementById('settingsBody');
-  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">正在'+(on?'启动':'停止')+' '+esc(name)+'…</div>';
+  _mcpHint('正在' + (on ? '启动' : '停止') + ' ' + name + '…');
+  var inputs = document.querySelectorAll('[data-mcp-server="'+name+'"]');
+  for (var i = 0; i < inputs.length; i++) inputs[i].disabled = true;
   try {
     var r = await fetch('/api/mcp/toggle', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name: name, enabled: !!on})});
     var d = await r.json();
     if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
     if (d.error) alert(d.error);
+    _mcpHint(name + ' 已' + (on ? '开启' : '关闭'));
     renderMcpStatus(d);
   } catch(e) {
+    _mcpHint('切换失败: ' + (e.message || ''), true);
     alert('切换失败: ' + (e.message || ''));
     loadMcpStatus();
   }
 }
+window.toggleMcpMaster = toggleMcpMaster;
+window.toggleMcpServer = toggleMcpServer;
+document.addEventListener('change', function(e) {
+  var t = e.target;
+  if (!t || !t.closest || !t.closest('#settingsBody')) return;
+  if (t.hasAttribute('data-mcp-master')) {
+    toggleMcpMaster(!!t.checked);
+  } else if (t.hasAttribute('data-mcp-server')) {
+    toggleMcpServer(t.getAttribute('data-mcp-server'), !!t.checked);
+  }
+}, true);
 async function reloadMcpServers() {
   var btn = document.getElementById('mcpReloadBtn');
   if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
@@ -7100,7 +7126,8 @@ function renderMcpMarketplace(d) {
   var bodyEl = document.getElementById('settingsBody');
   var items = (d && d.items) || [];
   var html = '';
-  html += '<div class="sp-section"><div class="cfg-hint">点「添加」会自动 npm/pip 安装到项目目录并写入配置。首次安装可能需几分钟。</div></div>';
+  html += '<div id="mcpMarketHint" style="font-size:12px;color:var(--accent);min-height:18px;margin-bottom:6px"></div>';
+  html += '<div class="sp-section"><div class="cfg-hint">点「添加」会自动 npm/pip 安装到项目目录并写入配置。首次安装可能需几分钟，请等顶部提示。</div></div>';
   if (!items.length) {
     html += '<div class="sp-info">市场目录为空。</div>';
   } else {
@@ -7140,9 +7167,9 @@ function renderMcpMarketplace(d) {
         html += '<div class="mcp-market-actions">';
         if (item.installed) {
           html += '<button class="mcp-add-btn" disabled>已安装</button>';
-          html += '<button class="mcp-remove-btn" onclick="removeMcpServer(' + JSON.stringify(item.name) + ')">移除配置</button>';
+          html += '<button type="button" class="mcp-remove-btn" data-mcp-remove="' + esc(item.name || id) + '">移除配置</button>';
         } else {
-          html += '<button class="mcp-add-btn" id="mcp-add-' + esc(id) + '" onclick="installMcpMarketItem(' + JSON.stringify(id) + ')">添加</button>';
+          html += '<button type="button" class="mcp-add-btn" data-mcp-add="' + esc(id) + '">添加</button>';
         }
         html += '</div></div>';
       }
@@ -7150,6 +7177,13 @@ function renderMcpMarketplace(d) {
     }
   }
   bodyEl.innerHTML = html;
+}
+
+function _mcpMarketHint(msg, isErr) {
+  var el = document.getElementById('mcpMarketHint');
+  if (!el) return;
+  el.textContent = msg || '';
+  el.style.color = isErr ? 'var(--danger)' : 'var(--accent)';
 }
 
 function collectMcpMarketEnv(itemId) {
@@ -7166,9 +7200,10 @@ function collectMcpMarketEnv(itemId) {
 }
 
 async function installMcpMarketItem(id) {
-  var btn = document.getElementById('mcp-add-' + id);
+  if (!id) return;
+  var btn = document.querySelector('[data-mcp-add="' + id + '"]');
   if (btn) { btn.disabled = true; btn.textContent = '安装中…'; }
-  var bodyEl = document.getElementById('settingsBody');
+  _mcpMarketHint('正在添加「' + id + '」… 首次 npm/pip 可能要一两分钟，请勿关闭');
   var env = collectMcpMarketEnv(id);
   try {
     var r = await fetch('/api/mcp/add', {
@@ -7176,11 +7211,13 @@ async function installMcpMarketItem(id) {
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({id: id, env: env})
     });
-    var d = await r.json();
+    var d = await r.json().catch(function(){ return {}; });
     if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+    _mcpMarketHint(d.message || ('已添加 ' + id));
     alert((d.message || '添加成功') + '\n\n可在 MCP 页查看运行状态。');
     loadMcpMarketplace();
   } catch(e) {
+    _mcpMarketHint('添加失败: ' + (e.message || ''), true);
     alert('添加失败: ' + (e.message || ''));
     if (btn) { btn.disabled = false; btn.textContent = '添加'; }
     else loadMcpMarketplace();
@@ -7189,15 +7226,14 @@ async function installMcpMarketItem(id) {
 
 async function removeMcpServer(name) {
   if (!confirm('确定从 mcp_servers.json 移除「' + name + '」？\n\n不会删除 node_modules，进程会停止。')) return;
-  var bodyEl = document.getElementById('settingsBody');
-  if (bodyEl) bodyEl.innerHTML = '<div class="center-msg">移除中…</div>';
+  _mcpMarketHint('正在移除 ' + name + '…');
   try {
     var r = await fetch('/api/mcp/remove', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({name: name})
     });
-    var d = await r.json();
+    var d = await r.json().catch(function(){ return {}; });
     if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
     loadMcpMarketplace();
   } catch(e) {
@@ -7205,6 +7241,23 @@ async function removeMcpServer(name) {
     loadMcpMarketplace();
   }
 }
+window.installMcpMarketItem = installMcpMarketItem;
+window.removeMcpServer = removeMcpServer;
+document.addEventListener('click', function(e) {
+  var t = e.target;
+  if (!t || !t.closest) return;
+  var addBtn = t.closest('[data-mcp-add]');
+  if (addBtn && addBtn.closest('#settingsBody')) {
+    e.preventDefault();
+    installMcpMarketItem(addBtn.getAttribute('data-mcp-add'));
+    return;
+  }
+  var rmBtn = t.closest('[data-mcp-remove]');
+  if (rmBtn && rmBtn.closest('#settingsBody')) {
+    e.preventDefault();
+    removeMcpServer(rmBtn.getAttribute('data-mcp-remove'));
+  }
+}, true);
 
 async function loadSystemInfo() {
   var bodyEl = document.getElementById('settingsBody');
