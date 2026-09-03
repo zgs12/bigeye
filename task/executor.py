@@ -279,6 +279,33 @@ class TaskExecutor:
             return True
         return False
 
+    def _backfill_split_results(self):
+        """split 节点的子链全部 done 后，聚合子节点结果回写父节点 result（内容聚合）。
+
+        修复 split 断链的最后一环：父节点 split 后 result 为空，且状态机锁死
+        (SPLIT 无出口) 无法再通过 set_status 写入。子链全部跑完后，把各子节点
+        result 拼成聚合摘要回填父节点，使 UI 树 / get_execution_trace / 模板沉淀
+        能拿到 split 节点的完整产出。父节点保持 split 终态不变。
+        """
+        try:
+            for sn in self.dag.get_nodes(status="split"):
+                children = self.dag.get_children(sn["id"])
+                if not children:
+                    continue
+                if all(ch.get("status") == "done" for ch in children):
+                    parts = []
+                    for ch in children:
+                        r = (ch.get("result") or "").strip()
+                        if r:
+                            parts.append(f"【{ch['task']}】\n{r}")
+                        else:
+                            parts.append(f"【{ch['task']}】(无结果)")
+                    agg = "\n\n".join(parts)
+                    if agg and (sn.get("result") or "") != agg:
+                        self.dag.update_node_result(sn["id"], agg)
+        except Exception:
+            pass
+
     def _check_uncertain_timeout(self):
         """Promote long-standing uncertains to blockers."""
         uncertains = self.wm.get_uncertains()
@@ -443,6 +470,7 @@ class TaskExecutor:
 
         while not self.is_complete() and step < max_steps:
             step += 1
+            self._backfill_split_results()  # 每轮先回填：split 子链全 done → 聚合结果写回父节点
             self._check_uncertain_timeout()
 
             # ③ 拆解: 检查是否有failed节点需要反思改图
@@ -520,10 +548,43 @@ class TaskExecutor:
                     pass
                 from .planner import dynamic_split
                 split_result = dynamic_split(node, sub_tasks, llm_prompt_fn)
+                # ── FIX(split断链): 子节点以 planner 预定 id 真实落库 + 串行依赖链 ──
+                # 旧代码用 insert_node(自生成uuid)导致 planner 的 {父id}_sub_{n} 变幻影id，
+                # 且子节点间无依赖(全并行)、edges 悬空；现改用 create_node(node_id=cid) 落库，
+                # 并建 父→子1→子2→… 串行链，让调度器(读dependencies)能按序执行。
+                child_ids = []
+                prev_cid = None
                 for child_node in split_result.get("nodes", []):
-                    self.dag.insert_node(parent_id=node["id"], task_text=child_node["task"])
-                for edge in split_result.get("edges", []):
-                    self.dag.create_edge(edge["source"], edge["target"], edge.get("edge_type", "flow"))
+                    real = self.dag.create_node(
+                        child_node["task"], parent_id=node["id"], node_id=child_node["id"]
+                    )
+                    child_ids.append(real["id"])
+                    if prev_cid:
+                        self.dag.create_edge(prev_cid, real["id"], "flow")
+                        self.dag.update_dependencies(real["id"], [prev_cid])
+                    else:
+                        self.dag.create_edge(node["id"], real["id"], "flow")  # 父→首子
+                    prev_cid = real["id"]
+                # ── FIX(split断链): 下游依赖改挂到子链链尾，避免下游抢跑读空结果 ──
+                # 父节点 split 后 result 为空，若下游仍依赖父id会被 get_runnable_nodes
+                # 的 (DONE,SPLIT) 放行逻辑提前解锁；改依赖链尾后，须等整条子链跑完才解锁。
+                if child_ids:
+                    tail = child_ids[-1]
+                    for e in self.dag.get_edges():
+                        src, tgt = e.get("source"), e.get("target")
+                        if src == node["id"] and tgt not in child_ids:
+                            down = self.dag.get_node(tgt)
+                            if down:
+                                deps = json.loads(down.get("dependencies") or "[]")
+                                if node["id"] in deps:
+                                    deps = [tail if d == node["id"] else d for d in deps]
+                                elif tail not in deps:
+                                    # FIX(e2e): 依赖仅存在于边(edges)时 dependencies 为空，
+                                    # 仅替换会静默跳过 → 下游无约束抢跑。追加链尾兜底。
+                                    deps = deps + [tail]
+                                self.dag.update_dependencies(tgt, deps)
+                            self.dag.remove_edge(e["id"])
+                            self.dag.create_edge(tail, tgt, e.get("edge_type", "flow"))
                 trace.append({"step": step, "action": "split", "node": node["id"], "children": len(sub_tasks)})
 
             # 更新节点状态
@@ -549,6 +610,7 @@ class TaskExecutor:
             })
 
         # ⑥ 沉淀记忆
+        self._backfill_split_results()  # 收尾前最后回填一次，保证终态下 split 父节点也有聚合结果
         final_status = "done" if self.is_complete() else "partial"
         if final_status == "done":
             self.dag.update_task_status("done", finished_at=time.time())

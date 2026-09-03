@@ -175,6 +175,40 @@ def slide_in(dag, wm, node_id, memory_store, attention):
             block_1_parts.append(f"  {k}: {v}")
     if node.get("result"):
         block_1_parts.append(f"已有结果: {node['result'][:300]}")
+
+    # ── 依赖节点产出注入（split 闭环：下游执行时能看到上游结果）──
+    # 遍历本节点 dependencies：直接注入每个依赖节点的 result；
+    # 若依赖节点是 split 父（聚合结果在父，_backfill_split_results 回填），
+    # 则沿 parent 链向上把 split 父的聚合 result 一并注入，最多回溯 2 层。
+    try:
+        dep_ids = json.loads(node.get("dependencies") or "[]")
+    except (json.JSONDecodeError, TypeError):
+        dep_ids = []
+    if dep_ids:
+        dep_block = []
+        seen = set()
+        for did in dep_ids:
+            cur = dag.get_node(did)
+            hops = 0
+            while cur and hops < 3 and cur["id"] not in seen:
+                seen.add(cur["id"])
+                st = cur.get("status")
+                res = (cur.get("result") or "").strip()
+                label = "🔀 拆分聚合产出" if st == "split" else "⬆ 依赖产出"
+                if res:
+                    dep_block.append(f"  {label} [{cur['id'][:8]}] {(cur.get('task') or '')[:60]}:\n{res[:600]}")
+                else:
+                    dep_block.append(f"  ⬆ 依赖 [{cur['id'][:8]}] {(cur.get('task') or '')[:60]}: (暂无结果, status={st})")
+                # 向上找 split 聚合父（子链尾是 done，父才是 split 持有聚合结果），最多回溯 2 层
+                parent = dag.get_node(cur.get("parent_id")) if cur.get("parent_id") else None
+                if parent and parent.get("status") == "split" and parent["id"] not in seen:
+                    cur = parent
+                    hops += 1
+                else:
+                    break
+        if dep_block:
+            block_1_parts.append("依赖节点产出:")
+            block_1_parts.extend(dep_block)
     block_1 = "\n".join(block_1_parts)
 
     # Block 2: Question queue for this node (≤5)

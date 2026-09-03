@@ -120,7 +120,7 @@ main{flex:1;overflow-y:auto;overflow-x:hidden;padding:16px 14px;display:flex;fle
 .row.you .av{background:var(--ub)}.row.ai .av{background:linear-gradient(135deg,#333a4d,#252b3a);border:1px solid var(--border)}
 .av img{width:100%;height:100%;border-radius:50%;object-fit:cover}
 .bubble{padding:10px 14px;border-radius:var(--radius-md);font-size:13.5px;line-height:1.6;word-break:break-word;overflow-wrap:anywhere;overflow:hidden;min-width:0}
-.row.you .bubble{background:var(--ub);color:#052823;border-bottom-right-radius:4px;white-space:pre-wrap;box-shadow:0 3px 14px rgba(var(--accent-rgb),.22)}
+.row.you .bubble{background:var(--ub);color:#052823;border-bottom-right-radius:4px;box-shadow:0 3px 14px rgba(var(--accent-rgb),.22)}
 .row.ai .bubble{background:var(--ab);border:1px solid var(--border);border-bottom-left-radius:4px;box-shadow:var(--shadow-sm)}
 .meta{font-size:10.5px;color:var(--tdim);margin-top:4px;opacity:.85}.row.you .meta{text-align:right}
 .msg-copy{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;margin:-9px 0 -9px 4px;border:none;background:transparent;color:var(--tdim);cursor:pointer;opacity:0;border-radius:7px;vertical-align:middle;transition:opacity .15s,color .15s,background .15s}
@@ -1840,7 +1840,8 @@ function render(){
       var displayText = m.original_text || m.text;
       // 后端为让 AI 看到附件清单注入的 [附件: xxx] 行,展示时去掉(附件块已显示文件名)
       if(m.role==='you'&&m.attachments&&m.attachments.length){ displayText=displayText.replace(/\n?\[附件: [^\]]*\]\s*$/,''); }
-      var bubbleHTML=(m.working||m.log)?m.text:fmt(displayText);
+      // 用户消息走纯文本(esc+br),不走 marked: pre-wrap+marked 尾部 \n 会在气泡里多出一行空白
+      var bubbleHTML=(m.working||m.log)?m.text:(m.role==='you'?esc(displayText).replace(/\n/g,'<br>'):fmt(displayText));
       var attHTML='';
       if(m.attachments&&m.attachments.length){
         attHTML='<div style="margin-top:4px">';

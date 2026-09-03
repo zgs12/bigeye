@@ -735,6 +735,31 @@ class DAG:
             finally:
                 c.close()
 
+    def update_node_result(self, node_id, result):
+        """补写节点 result（不校验状态迁移，专为 split 等终态节点回填聚合结果）。
+
+        与 set_status 不同：set_status(result=) 受状态机约束（如 SPLIT 无出口，
+        split→done 抛 ValueError），本方法绕过迁移校验直接落库 result，
+        供"子链全部 done 后聚合回写父 split 节点"使用。
+        父节点保持 split 终态不变，仅 result 被补全。
+        """
+        node = self.get_node(node_id)
+        if not node:
+            return {"error": f"node {node_id} not found"}
+        with self._lock:
+            c = self._conn()
+            try:
+                now = time.time()
+                c.execute(
+                    "UPDATE task_nodes SET result=?, updated_at=? WHERE id=?",
+                    (result, now, node_id)
+                )
+                c.commit()
+                row = c.execute("SELECT * FROM task_nodes WHERE id=?", (node_id,)).fetchone()
+                return dict(row) if row else {"error": "node lost after update"}
+            finally:
+                c.close()
+
     def get_execution_trace(self):
         """Get execution trace for all nodes — for review/rework (step ⑤).
 
