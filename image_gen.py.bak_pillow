@@ -1,9 +1,9 @@
 """
-大眼画图器 — AI 绘图优先，Pillow 兜底。
-已接入智谱 CogView / GLM-Image（真 AI），无 key 或失败时退回抽象几何图。
+大眼画图器 — 用 Pillow 从文字生成抽象艺术作品。
+等 API key 配好了可以升级成真 AI 绘图。
 """
 
-import io, os, json, random, math, colorsys, requests
+import io, os, json, random, math, colorsys
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImagePath
 
@@ -45,98 +45,10 @@ def _match_theme(prompt: str) -> list:
     return DEFAULT_THEME
 
 
-def _load_image_config() -> dict:
-    """Read image gen config (key/model/size) from model_config.json + env."""
-    cfg = {"api_key": "", "model": "cogview-3-flash", "size": "1024x1024"}
-    try:
-        base = os.path.dirname(os.path.abspath(__file__))
-        with open(os.path.join(base, "model_config.json"), encoding="utf-8") as f:
-            conf = json.load(f)
-        # 1) top-level image_* fields
-        cfg["api_key"] = conf.get("image_api_key") or ""
-        cfg["model"] = conf.get("image_model") or cfg["model"]
-        cfg["size"] = conf.get("image_size") or cfg["size"]
-        if not cfg["api_key"]:
-            # 2) fallback_chain 里的 zhipu 条目
-            for item in conf.get("fallback_chain", []):
-                if isinstance(item, dict) and item.get("provider") in ("zhipu", "bigmodel") and item.get("api_key"):
-                    cfg["api_key"] = item["api_key"]
-                    break
-    except Exception:
-        pass
-    # 3) 环境变量覆盖
-    cfg["api_key"] = cfg["api_key"] or os.environ.get("ZHIPU_API_KEY") or os.environ.get("BIGMODEL_API_KEY") or ""
-    return cfg
-
-
-def _load_api_key() -> str:
-    """Read zhipu image api key from model_config.json or env."""
-    return _load_image_config()["api_key"]
-
-
-def _cogview_size(width: int, height: int) -> str:
-    """Map arbitrary w/h to a CogView-supported size string.
-    cogview-3-flash supports square 1024x1024; glm-image supports more.
-    Uses configured image_size when set; else prefers square for flash.
-    """
-    size = _load_image_config()["size"]
-    return size or "1024x1024"
-
-
-def generate_with_ai(prompt: str, width: int = 1024, height: int = 768, output_dir: str = None, model: str = None) -> str:
-    """Try real AI image generation via Zhipu CogView / GLM-Image.
-    Returns saved image path (filename if output_dir given, else /generated/... url), or "" on failure.
-    """
-    imcfg = _load_image_config()
-    key = imcfg["api_key"]
-    if not key:
-        return ""
-    try:
-        url = "https://open.bigmodel.cn/api/paas/v4/images/generations"
-        headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
-        payload = {
-            "model": model or imcfg["model"],
-            "prompt": prompt,
-            "size": _cogview_size(width, height),
-        }
-        resp = requests.post(url, headers=headers, json=payload, timeout=120)
-        if resp.status_code != 200:
-            print(f"[image_gen] CogView API error {resp.status_code}: {resp.text[:200]}")
-            return ""
-        data = resp.json()
-        img_url = data["data"][0]["url"]
-        img_resp = requests.get(img_url, timeout=120)
-        if img_resp.status_code != 200:
-            print(f"[image_gen] download error {img_resp.status_code}")
-            return ""
-        img_bytes = img_resp.content
-        # 保存
-        filename = f"ai_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{random.randint(1000,9999)}.png"
-        if output_dir:
-            os.makedirs(output_dir, exist_ok=True)
-            filepath = os.path.join(output_dir, filename)
-            with open(filepath, "wb") as f:
-                f.write(img_bytes)
-            return filename
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-        filepath = os.path.join(OUTPUT_DIR, filename)
-        with open(filepath, "wb") as f:
-            f.write(img_bytes)
-        return f"/generated/{filename}"
-    except Exception as e:
-        print(f"[image_gen] AI generate failed: {e}")
-        return ""
-
-
 def generate(prompt: str, width: int = 1024, height: int = 768, output_dir: str = None) -> str:
     """Generate an image from text prompt, return URL path.
     When output_dir is given, save there instead of OUTPUT_DIR.
-    First tries real AI (CogView); falls back to procedural art.
     """
-    # 优先真 AI 绘图（配置了 zhipu key 时）
-    ai_path = generate_with_ai(prompt, width, height, output_dir)
-    if ai_path:
-        return ai_path
     palette = _match_theme(prompt)
     img = Image.new("RGB", (width, height), palette[0])
     draw = ImageDraw.Draw(img)

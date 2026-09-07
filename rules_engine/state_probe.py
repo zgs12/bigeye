@@ -33,7 +33,7 @@ def probe(base, topic_id=None):
     snap = {"_probe_time": None}
 
     # 系统信息
-    sysinfo = fetch_json(base, "/api/system_status")
+    sysinfo = fetch_json(base, "/")
     snap["system"] = sysinfo if not sysinfo.get("_error") else None
 
     # 话题列表（任务名/时间）

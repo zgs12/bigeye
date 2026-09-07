@@ -15,7 +15,7 @@ def set_workspace(path):
 
 @register_tool(
     name="generate_image",
-    description="根据文字描述生成图片，返回图片文件名。支持各种主题风格。",
+    description="根据文字描述生成图片（AI 绘图，智谱 CogView），返回图片文件名。支持各种主题风格。",
     parameters={
         "type": "object",
         "properties": {
@@ -38,7 +38,7 @@ def set_workspace(path):
     }
 )
 def generate_image(prompt: str, width: int = 1024, height: int = 768):
-    """Generate an abstract image from text prompt using procedural art."""
+    """Generate an image from text prompt via AI (CogView), fallback to procedural art."""
     try:
         sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
         from image_gen import generate

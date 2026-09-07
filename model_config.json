@@ -4,6 +4,11 @@
     "base_url": "https://api.deepseek.com",
     "api_key": "sk-25f870217dfb466fa178b522cbf6d223",
     "max_tokens": 8192,
+    "image_api_key": "d20a48cd00da4d38b8d4d2bed22caf20.DpdMsWqL05PNRnc3",
+    "image_model": "cogview-4-250304",
+    "image_size": "1024x1024",
+    "video_api_key": "",
+    "video_model": "cogvideox-3",
     "fallback_chain": [
         {
             "provider": "deepseek",
